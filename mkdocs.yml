@@ -1,0 +1,4 @@
+site_name: Open Computing Facility Documentation
+site_url: https://docs.ocf.berkeley.edu
+theme:
+  name: material
