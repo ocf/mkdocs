@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Welcome!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+yayyy
 
-## Commands
+If you're a regular OCF user, you should check out the user docs.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+If you're a current or prospective OCF staff member, you should check out the staff docs.
 
-## Project layout
+To see 
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+This website was made with [Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/).
