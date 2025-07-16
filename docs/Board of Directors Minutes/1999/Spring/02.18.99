@@ -1,0 +1,120 @@
+
+		OCF Board of Directors Meeting
+			18 February 1999
+
+Board members present:
+	Elaine Chao (chaos)
+	Richard Dunn (dunnthat) (gm)
+	Jim Lee (jimclee)
+	Luns Tee (tee)
+	Katrina Templeton (katster) (sm)
+	Jennifer Tsoi (jentsoi)
+
+Other members present:
+	Alan Coopersmith (alanc)
+	Jennifer Coopersmith (jenni)
+	Nathan Kruger (asucrla)
+	Akop Pogoslan (akopps)
+
+The meeting was opened at 5:15pm.
+
+Agenda:
+	I.   Welcome
+	II.  Reports
+		General Manager
+		Site Manager
+	III. Old Business
+		IMAP server
+	IV.  New Business
+		Virtual Hosting (asucrla)
+		Budget approval
+		ASUC Elections
+		Purchases
+
+II. Reports
+
+	General Manager
+
+	The GM put together a budget proposal for ASUC funding.  (See New
+	Business)
+
+	Site Manager
+
+	The SM reports that this past week has been a slow week.  Jenni
+	reported that she brought 8 machines and 8 SCSI cables to the OCF,
+	some with hard drives and some with RAM.  There is a possibility of
+	the OCF obtaining approximately 20 Sparc 2s, IPXs, and Classics and
+	also 2 or 3 monitors.  Physically moving the machines may require
+	some expenditure for truck rental.
+
+III.  Old Business
+
+	IMAP
+
+	Richard asked Kat if she had looked into whether the IMAP server
+	were up or down.  She had not.
+
+IV.  New Business
+	
+	Virtual Hosting
+
+	Nathan Kruger from the Renter's Legal Assistance wishes to get a
+	new domain, rentersassistance.org, and would like to have it point
+	to their OCF web site.  Jenni pointed out that the RLA would have 
+	to pass such a request to IS&T to clear it before we could set it
+	up.
+
+	The Board discussed virtual hosting on general principle and also
+	discussed various options for virtual hosting, whether we should
+	perform it transparently, only have URL redirection, or whether
+	to just require a banner.  The BoD discussed technical implementation
+	and whether it were possible to give out *.ocf.berkeley.edu domains.
+
+	The Board drafted the following policy:
+
+	"The OCF will perform virtual hosting for OCF group accounts.  The
+	 group account must A) pay any and all fees and/or obtain the
+	 permission involved in obtaining and maintaining a domain name,
+	 B) apply to IS&T for a *.berkeley.edu domain, and/or C) apply to
+	 OCF Board of Directors for a *.ocf.berkeley.edu domain.  The web
+	 page will contain the OCF banner, which may not be removed.  In the
+	 case of removal, OCF reserves the right to terminate virtual hosting
+	 services with one warning.  The OCF reserves the right to terminate
+	 services with one week Email notice."
+	
+	Elaine made a motion to approve, Kat seconded.  6-0-0, motion passed.
+
+	Budget
+
+	The GM brought in a draft that requested $12,000 from the ASUC.  After
+	some discussion, it was decided to request $15,000.  Richard motioned
+	to approve a budget based on the same numbers as last year's budget 
+	request.  The motion passed, 6-0-0.
+
+	ASUC Elections
+
+	Jenni asked if anyone had talked to the ASUC regarding the upcoming
+	ASUC elections.  Richard volunteered to look for the name of the 
+	Elections Chair.  Elaine volunteered to talk to the Elections Chair
+	if it were one of her classmates.
+
+	Purchases
+
+	Richard reports that we have a little over $9,000 left in the budget,
+	and started reading off a list of possible purchases, which included
+	a hub, answering machine, UPS, power strips, files, lockdown kits,
+	fire extinguishers, a tape autoloader, disks, hard drives, and CD-RW.
+	Jenni had looked into prices for some of the equipment, so the Board
+	prioritized the list and came up with a list of what to get firm
+	price quotes.
+
+	Consensus was reached to get quotes for the DDS autoloader, the
+	multipack hard drive, a UPS, an answering machine, and a CD-RW.  All
+	approximate prices included generous amounts for shipping.  Any 
+	leftover funds can be used to buy file folders, power strips, and
+	lockdown kits.  Jenni requested that Richard ask Lavonia Wade in the
+	Student Affairs office if extinguishers could be supplied by the 
+	university.
+	
+The meeting was closed at 6:30pm.
+

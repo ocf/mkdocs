@@ -1,0 +1,142 @@
+Open Computing Facility
+Board of Directors Meeting
+
+26 February 2004
+
+--------------------
+
+BoD for Tonight:
+eleen - present
+jkit - present
+elliot - present
+adrian - present
+yehfang - present
+rahat - present
+joydip - 2nd absence
+hkim - present
+akamike - present
+phlee - 1st absence
+kaisenl - present
+shivab - 2nd absence
+
+# members total: 12
+# members required for quorum: 8
+# members present: 9/12
+
+Quorum Achieved!
+
+Present but not on BoD for Tonight:
+geo
+cpfeyh
+
+Present Total: 11
+
+BoD for Next Meeting:
+ 1 eleen
+ 2 jkit
+ 3 elliot
+ 4 adrian
+ 5 yehfang
+ 6 rahat
+ 7 hkim
+ 8 akamike
+ 9 phlee - 1 absence
+10 kaisenl
+
+# members total: 10
+# member required for quorum: 7
+
+------
+
+GM MESSAGE
+- Short power outage yesterday 10:40pm
+- Printer wasn't working
+  - Derek was working on it, rebooted it this morning
+  - Working fine now.
+  - If printer stops working again, call Eleen, or Jimmy.
+- If doors are locked, call building ops.
+  - 
+SM MESSAGE
+- Someone donated an old Gateway
+  - No USB, AT Keyboard (not PS/2)
+  - No network card
+  - Oren: Should we do anything with this computer?
+    - Jimmy: I'll call Devin and see what's up.
+
+NEW BUSINESS
+- Eleen, Jimmy to have meeting with CSUA
+  - Attempt to set up mutual agreement with CSUA
+    - Such that, in the case of service outage
+      - OCF can write about OCF downages on the CSUA webspace
+      - CSUA can write about CSUA downages on the OCF webspace.
+      - We could maybe also have redirects, such that in the case
+        of an outage, browsers will be automatically redirected
+	to alternate site (at CSUA for OCF, at OCF for CSUA).
+
+- Classes that want usernames with numbers
+  - Devin has asked if we can set up some class accounts
+    - This is ordinarily fine.
+    - However, these class accounts want numbers in the user name.
+      - Numbers in the user name are not ordinarily allowed.
+      - The account is otherwise completely normal.
+      - They want mcb100 and chem130
+  - Yeh: Don't the classes already get their own space from
+    the official Berkeley servers?
+    - Kaisen: The sites capabilities they get are really bad.
+    - Jimmy: The departments have had miscommunication issues with
+      the official Berkeley people who provide webspace.
+  - Eleen: Why should they get this exception?  Could we just modify
+    the general rule?
+  - Eleen: How much harder is it to make an exception?
+    - Jimmy: An extra 5 minutes.
+  - Eleen: Do they know the other options?
+    - Jimmy: Devin was talking with them, he most likely told them about
+      the other options.
+  - Jimmy: The exception is a violation of our policy.
+  - VOTE FOR ALLOWING CLASSES TO HAVE NUMBERS IN NAME:
+    - Fails unanimously.
+
+- Acrobat Reader
+  - User requested Acrobat Reader installed on Heller Lab
+
+- OpenOffice
+  - Discussed installing OpenOffice on Windows machines.
+  - Our PowerPoint reader installations are not-full featured.
+    - OpenOffice may somewhat fix this?
+
+- Budget Request
+  - Eleen has to submit a budget request to ASUC
+    - OCF asks them for an amount of money that would cover everything
+      we could possibly want.
+    - ASUC gets back to us regarding the amount they're willing
+      to give us.
+  - Devin sends suggestions:
+    - More RAM for Dells
+    - Buying more systems
+    - New printer
+    - Projector
+      - Devin doesn't want to give us his
+    - Software
+    - Webcam
+      - Patrick: Why a webcam if the lab is only open 5 hours per day?
+    - A BIG LIST OF STUFF, FILL THIS IN!
+  - Possibility of paying CSOs
+    - People who sit in the OCF during normal hours and after hours
+      to monitor the lab's security.
+    - Could cost up to $7000/semester?andidates' platforms
+      - Contact Daily Cal to publicize our situation.
+  - Heller Lab vs. The Lounge -- ultimate combat
+    - we have put a lot of work into this lounge, we don't want to see
+      it locked away and unusable while ASUC figures out what they want
+      to do with Heller Lounge.
+
+- Random Interlude:
+  - Adrian goes off to help Oren fix things.
+
+- Adrian Motions to Close Meeting
+- Kaisen Seconds
+
+MEETING ENDS!
+
+
+Go home!
