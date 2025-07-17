@@ -13,6 +13,7 @@ ocf mkdocs real?
 1. `rm -rf docs/'Board of Directors Minutes'` so it builds faster lol
 
 ## TODO
+- move h1 out of md-content container
 - remove meta titles
 - fix officers.md
 - fix relative links
