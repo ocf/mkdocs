@@ -1,22 +1,54 @@
-site_name: Open Computing Facility Documentation
+site_name: Open Computing Facility
 site_url: https://docs.ocf.berkeley.edu
 theme:
   name: material
+  logo: images/penguin.svg
+  favicon: images/favicon.ico
+  features: 
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.share
+  font:
+    text: Roboto
+    code: Meslo
   palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default
+      scheme: ocf-light
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+      scheme: ocf-dark
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
 extra_css:
   - stylesheets/extra.css
+plugins:
+  - search
+  - blog:
+      blog_dir: news
 extra:
   generator: false
+
+nav:
+  - 'Home':
+    - index.md
+  - 'Staff Documentation':
+    - Staff Documentation/index.md
+  - 'User Documentation':
+    - User Documentation/index.md
+  - News:
+    - news/index.md
