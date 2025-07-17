@@ -15,6 +15,7 @@
         packages = [
 	  pkgs.python313Packages.mkdocs-material
         ];
+	shellHook = "mkdocs serve";
       };
       formatter.${system} = pkgs.nixpkgs-fmt;
     };
