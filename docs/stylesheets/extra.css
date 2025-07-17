@@ -1,2 +1,9 @@
-:root  > * {
+[data-md-color-scheme="ocf-light"] {
+  --md-primary-fg-color: #FFFFFF;
+  --md-primary-bg-color: #000000;
+  --md-default-bg-color: #f5f5f5;
+}
+[data-md-color-scheme="ocf-dark"] {
+  /* TODO: dark color palette */
+  --md-primary-fg-color: #928478;
 }
