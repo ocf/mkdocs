@@ -16,6 +16,7 @@
 	  pkgs.python313Packages.mkdocs-material
 	  pkgs.python313Packages.mkdocs-rss-plugin
         ];
+	shellHook = "mkdocs serve";
       };
       formatter.${system} = pkgs.nixpkgs-fmt;
     };
