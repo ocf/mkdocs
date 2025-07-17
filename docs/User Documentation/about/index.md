@@ -1,5 +1,4 @@
-[[!meta title="About us"]]
-
+# About Us
 
 ## The mission
 

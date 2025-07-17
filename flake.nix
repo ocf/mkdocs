@@ -14,6 +14,7 @@
       devShells.${system}.default = pkgs.mkShell {
         packages = [
 	  pkgs.python313Packages.mkdocs-material
+	  pkgs.python313Packages.mkdocs-rss-plugin
         ];
       };
       formatter.${system} = pkgs.nixpkgs-fmt;

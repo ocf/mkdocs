@@ -46,9 +46,175 @@ extra:
 nav:
   - 'Home':
     - index.md
-  - 'Staff Documentation':
-    - Staff Documentation/index.md
   - 'User Documentation':
     - User Documentation/index.md
+    - About Us: 
+      - User Documentation/about/index.md
+      - Officers: User Documentation/about/officers.md
+      - Where Alumni Have Gone: User Documentation/about/formerstaff.md
+    - Communications:
+      - User Documentation/communications/index.md
+      - OCF Communication, 19 June 2020: User Documentation/communications/blm.md
+      - Upcoming Student Technology Fund Renewal Vote: stf-renewal.md
+    - Contact Us:
+      - User Documentation/contact/index.md
+      - Internet Relay Chat (IRC): User Documentation/contact/irc.md 
+      - Slack: User Documentation/contact/slack.md 
+    - Frequently Asked Questions: User Documentation/faq.md
+    - Joining the OCF:
+      - User Documentation/membership/index.md
+      - Banning policy: User Documentation/membership/banning.md
+      - Eligibility: User Documentation/membership/eligibility.md
+    - Official Documents:
+      - User Documentation/docs/index.md
+      - Archived Documents:
+        - User Documentation/docs/archive/index.md
+        - Old Constitution (1989-2016): User Documentation/docs/archive/constitution.md
+      - Charter: User Documentation/docs/charter.md
+      - Operating Rules:
+        - User Documentation/docs/operatingrules/index.md
+        - Bylaws: User Documentation/docs/operatingrules/bylaws.md
+        - Constitution: User Documentation/docs/operatingrules/constitution.md
+      - Policies: User Documentation/docs/policies.md
+    - Privacy Policy: User Documentation/privacy.md
+    - Services:
+        - User Documentation/services/index.md
+        - Account:
+          - User Documentation/services/account/index.md
+        - Computer Lab:
+          - Lab reservation policy: User Documentation/services/lab/lab-reservation-policy.md
+          - Printing: User Documentation/services/lab/printing.md
+        - Database (MySQL):
+          - User Documentation/services/mysql.md
+        - Email:
+          - User Documentation/services/mail.md
+        - High Performance Computing:
+          - User Documentation/services/hpc/index.md
+          - User Documentation/services/hpc/index.md
+        - Mastodon:
+          - User Documentation/services/mastodon.md
+        - Remote Shell and File Transfer (SSH/SFTP):
+          - User Documentation/services/shell.md
+        - Software Mirrors:
+          - User Documentation/services/mirrors.md
+        - Virtual Hosting (group.studentorg.berkeley.edu):
+          - User Documentation/services/vhost/index.md
+          - Hosting Badges: User Documentation/services/vhost/badges.md
+          - Mail Virtual Hosting For Student Groups: 
+            - User Documentation/services/vhost/mail/index.md
+            - Using Gmail with Mail Virtual Hosting: 
+              - User Documentation/services/vhost/mail/gmail.md
+          - Subdomain Migration FAQ: User Documentation/services/vhost/subdomain-migration.md
+        - Web Application Hosting:
+          - User Documentation/services/webapps/index.md
+          - Node.js: User Documentation/services/webapps/nodejs.md
+          - Python (Django, Flask, etc.): User Documentation/services/webapps/python.md
+          - Ruby on Rails: User Documentation/services/webapps/rails.md
+        - Web Hosting:
+          - User Documentation/services/web/index.md
+          - Backups/Archiving: User Documentation/services/web/backups.md
+          - Django: User Documentation/services/web/django.md
+          - Flask: User Documentation/services/web/flask.md
+          - Jekyll: User Documentation/services/web/jekyll.md
+          - PHP: User Documentation/services/web/php.md
+          - Ruby on Rails: User Documentation/services/web/rails.md
+          - WordPress: User Documentation/services/web/wordpress.md
+        - XMPP:
+          - User Documentation/services/xmpp.md
+  - 'Staff Documentation':
+    - Staff Documentation/index.md
+    - Additional documentation: private.md
+    - Getting Involved: Staff Documentation/getinvolved.md
+    - Infrastructure:
+      - Staff Documentation/infrastructure/index.md
+      - Backups: Staff Documentation/infrastructure/backups.md
+      - External Firewall: Staff Documentation/infrastructure/firewall.md
+      - Git: Staff Documentation/infrastructure/git.md
+      - Internal Firewalls: Staff Documentation/infrastructure/internal-firewalls.md
+      - Jenkins: Staff Documentation/infrastructure/jenkins.md
+      - KVM/Libvirt: Staff Documentation/infrastructure/libvirt.md
+      - Kerberos: Staff Documentation/infrastructure/kerberos.md
+      - LDAP: Staff Documentation/infrastructure/ldap.md
+      - Mail:
+        - Staff Documentation/infrastructure/mail/index.md
+        - Virtual Hosted Mail: Staff Documentation/infrastructure/mail/vhost.md
+      - Managed Switches: Staff Documentation/infrastructure/switch.md
+      - Munin: Staff Documentation/infrastructure/munin.md
+      - Printhost: Staff Documentation/infrastructure/printhost.md
+      - Prometheus: Staff Documentation/infrastructure/prometheus.md
+      - Puppet: Staff Documentation/infrastructure/puppet.md
+      - Request Tracker: Staff Documentation/infrastructure/rt.md
+    - Procedures:
+      - Staff Documentation/procedures/index.md
+      - Accounts:
+        - Staff Documentation/procedures/accounts/index.md
+        - Alumni account reset: Staff Documentation/procedures/accounts/alumni-reset.md
+        - LDAP assocation: Staff Documentation/procedures/accounts/association.md
+        - Rename an account: Staff Documentation/procedures/accounts/renaming.md
+      - Adding users to the HPC cluster: Staff Documentation/procedures/hpc.md
+      - Backporting Debian packages: Staff Documentation/procedures/backporting-packages.md
+      - Configuring Virtual Hosting: Staff Documentation/procedures/vhost.md
+      - Creating new hosts (servers, desktops): Staff Documentation/procedures/new-host.md
+      - DMCA: Staff Documentation/procedures/dmca.md
+      - Editing docs: Staff Documentation/procedures/editing-docs.md
+      - Granting staff privileges: Staff Documentation/procedures/granting-privileges.md
+      - Installing updates with apt-dater: Staff Documentation/procedures/installing-updates.md
+      - Live disk resizing: Staff Documentation/procedures/live-resize.md
+      - Making OCF Google Apps Accounts: Staff Documentation/procedures/gapps.md
+      - Manually creating XMPP Accounts: Staff Documentation/procedures/xmpp.md
+      - Printing Maintenance: Staff Documentation/procedures/printing.md
+      - Process Accounting: Staff Documentation/procedures/process-accounting.md
+      - Restarting Services: Staff Documentation/procedures/restarting-services.md
+      - SSHing into Supernova: Staff Documentation/procedures/ssh-supernova.md
+      - SSL Certificates: Staff Documentation/procedures/ssl.md
+      - Setting Up Bridging and Link Aggregation: Staff Documentation/procedures/setting-up-lacp.md
+      - Setting up Mdraid on Servers: Staff Documentation/procedures/setting-up-mdraid.md
+      - User disk quotas: Staff Documentation/procedures/user-quotes.md
+    - Rebuild:
+      - Staff Documentation/rebuild/index.md
+      - Request Tracker:
+        - Staff Documentation/rebuild/rt.md
+    - Scripts:
+      - Staff Documentation/scripts/index.md
+      - approve — record an OCF group account request: Staff Documentation/scripts/approve.md
+      - check — get details about an OCF user: Staff Documentation/scripts/check.md
+      - checkacct — find accounts by full name: Staff Documentation/scripts/checkacct.md
+      - chpass — reset a user's password: Staff Documentation/scripts/chpass.md
+      - economode — turn economode on/off on the printers: Staff Documentation/scripts/economode.md
+      - how — view the source of a script: Staff Documentation/scripts/how.md
+      - lab-wakeup — wake up suspended desktops: Staff Documentation/scripts/lab-wakeup.md
+      - migrate-vm — migrate VMs between hosts: Staff Documentation/scripts/migrate-vm.md
+      - note — add notes to a user account: Staff Documentation/scripts/note.md
+      - ocf-tv — connect to the tv or modify the volume: Staff Documentation/scripts/ocf-tv.md
+      - paper — view and modify print quotas: Staff Documentation/scripts/paper.md
+      - pdf-open — unf*&^ bad PDFs if they won't print right: Staff Documentation/scripts/pdf-open.md
+      - signat — check signatory status: Staff Documentation/scripts/signat.md
+      - sorry — disable an OCF account: Staff Documentation/scripts/sorry.md
+      - ssh-list — run command via SSH on many hosts simultaneously: Staff Documentation/scripts/ssh-list.md
+      - unsorry — re-enable a sorried account: Staff Documentation/scripts/unsorry.md
+    - Staff mailing lists: Staff Documentation/mailing-list.md
+    - Staff policies:
+      - Staff Documentation/policies/index.md
+      - Keycard policy: Staff Documentation/policies/keycard.md
+      - Lab reservation policy (staff expectations): Staff Documentation/policies/lab-reservation-policy.md
+      - Staff policy: Staff Documentation/policies/staff-policy.md
+    - Staff privileges: Staff Documentation/powers.md
+    - Starter Tasks:
+      - Staff Documentation/startertasks/index.md
+      - PR Completion Record: Staff Documentation/startertasks/completed.md
+    - Tech Talks: Staff Documentation/techtalks.md
+    - Tips and tricks:
+      - Staff Documentation/tips/index.md
+      - .desktoprc: Staff Documentation/tips/desktoprc.md
+      - Email Templates: Staff Documentation/tips/templates.md
+      - On your staff VM:
+        - Staff Documentation/tips/staffvm/index.md
+        - Installing and running ZNC: Staff Documentation/tips/staffvm/index.md
+        - Running ocfweb: Staff Documentation/tips/staffvm/ocfweb.md
+      - ShortURL guide: Staff Documentation/tips/shorturls.md
+      - Test accounts: Staff Documentation/testaccts.md
+      - Using Twitch and OBS: Staff Documentation/twitch.md
+    - i3wm: Staff Documentation/i3wm.md
+      
   - News:
     - news/index.md
