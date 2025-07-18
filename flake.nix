@@ -12,11 +12,12 @@
     in
     {
       devShells.${system}.default = pkgs.mkShell {
-        packages = [
-	  pkgs.python313Packages.mkdocs-material
-	  pkgs.python313Packages.mkdocs-rss-plugin
+        packages = with pkgs.python313Packages; [
+	  mkdocs-material
+	  mkdocs-rss-plugin
+	  mkdocs-git-revision-date-localized-plugin
         ];
-	shellHook = "mkdocs serve --config-file " + self + "/mkdocs.yml";
+	shellHook = "mkdocs serve";
       };
       formatter.${system} = pkgs.nixpkgs-fmt;
     };
