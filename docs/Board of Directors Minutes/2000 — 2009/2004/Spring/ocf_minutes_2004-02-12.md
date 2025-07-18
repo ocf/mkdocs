@@ -1,0 +1,182 @@
+OCF Board of Directors Meeting
+Thursday, 12 February 2004
+
+BoD For Tonight:
+eleen - present
+jkit - present
+laotzu - absent
+elliot - present
+adrian - present
+shenliu - absent
+yehfang - present
+rahat - present
+joydip - present
+hkim - absent
+akamike - present
+phlee - present
+
+Present 9/12
+
+Present:
+Mike (akamike) 
+Shiva (shivab)
+Elliot (elliot)
+Oren (rahat)
+Kaisen (kaisenl)
+Adrian (adrian)
+Yeh (yehfang)
+Joydip (joydip)
+Patrick (phlee)
+Eleen (eleen)
+Jimmy (jkit)
+
+Present: 10
+Present and on BoD: 9
+Quorum Achieved
+
+BoD For Next Meeting
+eleen
+jkit
+laotzu - one absence
+elliot
+adrian
+shenliu - one absence
+yehfang
+rahat
+joydip
+hkim - one absence
+akamike
+phlee
+kaisenl
+shivab
+
+-------------
+
+Quorum achieved, meeting starts
+
+Eleen opens the meeting
+GM Message
+ - Nothing much is up, except e-mail
+ - Eleen brought in new toner that she bought, it's next to the old toner
+ - The building's open now
+ - Staff hours are commenced.  If you write your name on the page, it's a commitment; please follow through, or if you can't, edit the staff_hours file and note your upcoming absense
+
+SM Message
+ - Yesterday jkit and jones updated quotas
+ - New Quotas are twice as large as old ones:
+ - Home: 200mb
+- Web 120mb
+ - The person who was going to donate a computer failed to do so, but said would come back next weekend.
+- We should be getting two new computers.
+- Devin wants to put some Linux on the new systems and give the systems to student groups who don't have resources.
+- Eleen suggests a raffle of them
+- Adrian: There's a nonprofit in Berkeley that is selling 10 systems via Craigslist
+- Oren: there is one Dell sitting in the server room, Devin says it has a purpose.  There are four Dells in Eschleman
+
+Old Business?
+- None reported
+
+New Business:
+- Cal Retirement Center Network
+ - Requests that OCF supplies accounts for their users
+ - Their users are retired staff or faculty.
+ - They get UCLINK, some student discounts, etc.
+- They can be identified by their IDs
+- Quick review of policy changes from spring general meeting.
+- We don't know how many potential new users this includes.  What kinds of resources is this?
+- Where do you draw the line between alumni staff/faculty, and student alumni?
+- If we do it for this alumni organization, how can we say to other alumni organizations?
+- Would the center create the accounts themselves?  Or would they asks us to create thousands of accounts?  Our approval system isn't automated.
+- Oren: There should be at least minimal barrier to entrance; it should take at least some effort to get an account. 
+- This organization is making money off their services...services that we would be contributing to for free.
+- Mailing list:
+- Brian Carver supports the idea because of cases like professors who have given a lot of work and years of their live to the school and just want some webspace.
+- Joydip: It's difficult to try to differentiate worthy alumni from unworthy alumni; for example, we don't discriminate for/against certain categories of *current* student/faculty/staff
+- Eleen: we've talked of different account types; could this make accomodating more people easier?
+- Oren: Our technical support abilities are also very taxed.
+- Eleen: authentication issues:  we always need to do password changes and such in person.  If they're retired and distant it is difficult.
+
+Unknown Staff Stuff
+- Does anyone not know how to do stuff?
+- Not really
+- Read your staff e-mail for lots of good stuff!
+
+Projects
+
+- WEBSITE REDESIGN
+- The website design!  It needs to be redesigned and prettier.
+- Devin made a new design and sent it out over break
+- People were working on it
+- Shiva: What needs to be on the website?
+- Eleen: Everything that needs to be on a new site is already on the old site; base your new design off the old site.
+- There's a webdesign user group.  It may need updating.
+- If you have website ideas you can send them to jkit or eleen
+- Shiva: People can submit general ideas for websites and then we can break up the project and distribute it.
+- Jimmy: An important component of that is figuring out logical places tosubdivide  up the project.
+
+- DOCUMENTATION
+- the wiki!  "a customizable webspace"
+- already filling in
+- put your knowledge in it,
+- look for knowledge there!
+- send out link to wiki:
+- http://www.ocf.berkeley.edu/[tilde]elliot/cgi-bin/wiki.pl
+
+- CLEAN UP THE SERVERS
+- Jimmy: It'd be nice if the servers had an organized structure.  LDAP would be cool.  People should get into this stuff..and ideally do it for me.
+- Patrick: The campus uses LDAP too
+
+- Joydip: the iLamp there's no flashing question mark (the usual mark of harddrive failure).  
+- Jimmy: sometimes ifyou're really lucky you'll get the flashing question mark
+- Patrick: the CD-ROM drive won't open up
+- Joydip: The firmware reports only one ATA device, the CD-ROM drive.  We should stick a new hard drive in there.
+- Patrick: I know how to do that!  I just need screwdriver, etc.
+- Oren: We're out of IPs, which is why the Macs aren't on the network.
+- Eleen: So what's the plan?
+- Patrick: I'll see if the harddrive is salvagable.
+[Patrick becomes endowed with responsibility]
+
+Our Mac People:
+phlee, joydip
+
+SOCIAL IDEAS
+age/b-day
+
+eleen 02/16/83
+jkit 05/06/83
+phlee 11/26/82
+joydip 9/28/82
+yehfang 8/28/82
+adrian 7/10/82
+rahat - pass
+kaisenl - 9/24/84
+akamike - 1/6/82
+elliot - 11/04/83
+shivab - 10/05/80
+
+SOCIAL IDEAS
+- food
+- games
+- watching movies
+- anime
+- rent a projector
+- pool hall
+- LAN party
+- Jimmy: We should play charades *right now*
+
+- Oren: We have Warcraft 3 installed on multiple Gateway machines.  Did you guys know this?!
+
+- Online games?
+- Games that don't require CDs
+- TyperA
+- Jimmy: "We should play 'clean the lab', or 'who can clean the lab fastest?' or 'whoever loses the next game cleans the lab!'"
+
+- Potluck?
+
+ANYONE WANT TO JOIN BOD?
+- Kaisen and Shiva join BoD by majority
+
+- Adrian motions to close
+- Seconded by Mike and Patrick
+
+Meeting Closes!

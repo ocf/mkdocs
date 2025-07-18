@@ -1,0 +1,19 @@
+RewriteEngine On
+# a simple dark mode - minos
+IndexHeadInsert "<style> 				\
+		a {					\
+			color: inherit;			\
+		}					\
+		@media (prefers-color-scheme: dark) {	\
+		body {					\
+			background-color: #282828;	\
+			color: #EEEEEE;			\
+		}					\
+		}					\
+		</style>"
+
+# for when php forgets the s
+RewriteRule agenda(/.*)?$ https://ocf.io/s/bod/agenda$1 [R=302,L]
+
+# FIXME: set text/plain ;-;
+AddDefaultCharset utf-8
