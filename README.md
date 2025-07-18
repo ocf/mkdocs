@@ -13,12 +13,11 @@ ocf mkdocs real?
 1. `rm -rf docs/'Board of Directors Minutes'` so it builds faster lol
 
 ## TODO
-- move h1 out of md-content container
 - remove meta titles
+- add socials in footer
 - fix officers.md
 - fix relative links
 - add hosting badges page!
-- remove redundancy in nav order in mkdocs.yml
 - decide on dark color palette
 
 - look into setting the page status (deprecated in particular)
