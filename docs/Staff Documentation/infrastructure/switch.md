@@ -1,4 +1,6 @@
-[[!meta title="Managed switches"]]
+---
+title: Managed Switches
+---
 
 We use an [Arista 7050SX-64][primary-switch] 10GbE switch as a primary switch
 for our servers, and two [Arista 7048T-A][secondary-switch] 1GbE switches for

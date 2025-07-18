@@ -2,7 +2,6 @@
   --md-primary-fg-color: #FFFFFF;
   --md-primary-bg-color: #000000;
   --md-default-bg-color: #f5f5f5;
-  --
 }
 [data-md-color-scheme="ocf-dark"] {
   /* TODO: dark color palette */
@@ -11,10 +10,22 @@
 /* :md-content > * {
   background-color: #ff0000;
 } */
+
+.md-tabs {
+  width: unset;
+}
+
 .md-content {
   background-color: var(--md-primary-fg-color);
 }
-.md-content h1 {
+
+.md-content__inner {
+  padding: unset;
+}
+
+.top-title {
+  margin: 0;
+  padding: 16px;
   font-size: 36px;
   font-weight: bold;
   line-height: 1.1;

@@ -1,4 +1,6 @@
-[[!meta title="Jenkins"]]
+---
+title: Jenkins
+---
 
 [Jenkins](https://jenkins.ocf.berkeley.edu/) is the tool we use for continuous
 integration and continuous delivery (TM) at OCF. All that means is that when

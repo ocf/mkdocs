@@ -1,4 +1,6 @@
-[[!meta title="Internal firewalls"]]
+---
+title: Internal Firewalls
+---
 
 While the [[external firewall|doc staff/backend/firewall]] regulates network
 traffic to the OCF from outside the OCF network, internal firewalls are

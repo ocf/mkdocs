@@ -1,5 +1,6 @@
-[[!meta title="Git"]]
-
+---
+title: Git
+---
 
 Git is a distributed revision control system used by the OCF. Other version
 control systems include Mercurial (also distributed) and Subversion (not

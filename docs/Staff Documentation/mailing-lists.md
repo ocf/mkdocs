@@ -1,6 +1,6 @@
-[[!meta title="Staff mailing lists"]]
-
-## Mailing lists
+---
+title: Staff mailing lists
+---
 
 There are several mailing lists used internally by staff. Append
 `@ocf.berkeley.edu` to the end of each mailing list.

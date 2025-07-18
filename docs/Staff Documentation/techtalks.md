@@ -1,4 +1,6 @@
-[[!meta title="Tech talks"]]
+---
+title: Tech Talks
+---
 
 The OCF regularly hosts tech talks where volunteer staff members share their knowledge,
 and try and teach others how the OCF works, and how to contribute to it.
