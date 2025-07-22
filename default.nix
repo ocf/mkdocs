@@ -9,6 +9,7 @@ stdenvNoCC.mkDerivation {
     mkdocs-material
     mkdocs-rss-plugin
     mkdocs-git-revision-date-localized-plugin
+    mkdocs-awesome-nav
   ];
 
   buildPhase = ''
