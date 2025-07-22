@@ -24,5 +24,15 @@
       });
 
       formatter = forAllSystems (pkgs: pkgs.nixpkgs-fmt);
+      devShells.${system}.default = pkgs.mkShell {
+        packages = with pkgs.python313Packages; [
+	  mkdocs-material
+	  mkdocs-rss-plugin
+	  mkdocs-git-revision-date-localized-plugin
+	  mkdocs-awesome-nav
+        ];
+	shellHook = "mkdocs serve";
+      };
+      formatter.${system} = pkgs.nixpkgs-fmt;
     };
 }
