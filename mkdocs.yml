@@ -47,5 +47,6 @@ plugins:
       match_path: news/posts/.* 
       date_from_meta:
         as_creation: date
+  - awesome-nav
 extra:
   generator: false

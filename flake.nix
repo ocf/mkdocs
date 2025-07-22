@@ -16,6 +16,7 @@
 	  mkdocs-material
 	  mkdocs-rss-plugin
 	  mkdocs-git-revision-date-localized-plugin
+	  mkdocs-awesome-nav
         ];
 	shellHook = "mkdocs serve";
       };
