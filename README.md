@@ -1,9 +1,6 @@
 # mkdocs
 ocf mkdocs real?
 
-## how to add docs page
-1. create markdown file
-
 ## Development
 1. clone the repo
 1. `nix develop`
@@ -12,7 +9,11 @@ ocf mkdocs real?
 1. `rm -rf docs/'Board of Directors Minutes'` so it builds faster lol
 
 ## TODO
-- remove meta titles
+
+- overhaul userdocs content
+- overhaul staffdocs content
+- BoD notetaking procedure
+
 - add socials in footer
 - fix officers.md
 - fix relative links
