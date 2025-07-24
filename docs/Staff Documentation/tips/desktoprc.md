@@ -1,4 +1,6 @@
-[[!meta title=".desktoprc"]]
+---
+title: .desktoprc
+---
 
 The file `~/remote/.desktoprc` is automatically sourced when you log into any
 of the desktops. Since `~/remote` is actually `sshfs`'d to your home folder on

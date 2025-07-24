@@ -1,4 +1,6 @@
-[[!meta title="Upcoming Student Technology Fund Renewal Vote"]]
+---
+title: Upcoming Student Technology Fund Renewal Vote
+---
 
 ### The Student Technology Fund
 The [Student Technology Fund (STF)](https://techfund.berkeley.edu/) equitably and transparently stewards use of student fees in support of technology initiatives that advance undergraduate, graduate, and professional school students’ academic and co-curricular experiences at UC Berkeley.

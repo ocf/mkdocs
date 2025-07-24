@@ -1,4 +1,6 @@
-[[!meta title="Joining the OCF"]]
+---
+title: Joining the OCF
+---
 
 ## Before you begin
 

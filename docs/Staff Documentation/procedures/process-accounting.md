@@ -1,4 +1,6 @@
-[[!meta title="Process accounting"]]
+---
+title: Process Accounting
+---
 
 Sometimes we want to figure out how resources on a server have been used
 recently. For example, we might want to find which user was using tons of CPU

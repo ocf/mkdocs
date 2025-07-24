@@ -1,4 +1,6 @@
-# TODO
+---
+title: TODO
+---
 
 Things we probably should get to at some point. If you're adding things to this
 list and especially the starter tasks try to link to the relevant host config

@@ -1,4 +1,6 @@
-[[!meta title="Staff policy"]]
+---
+title: Staff Policy
+---
 
 Staff members shall be chosen by the OCF Decision Making Process. _[per OCF
 Board decision on 4/13/89]_

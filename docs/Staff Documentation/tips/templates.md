@@ -1,4 +1,6 @@
-[[!meta title="Email Templates"]]
+---
+title: Email Templates
+---
 
 General email response templates can be found at
 [templates.ocf.berkeley.edu](https://templates.ocf.berkeley.edu)

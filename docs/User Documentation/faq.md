@@ -1,5 +1,6 @@
-[[!meta title="Frequently asked questions"]]
-
+---
+title: Frequently asked questions
+---
 
 #### Why might I want an OCF account? What do I get? How do I use OCF services?
 

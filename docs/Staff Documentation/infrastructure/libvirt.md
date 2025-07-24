@@ -1,4 +1,6 @@
-[[!meta title="KVM/Libvirt"]]
+---
+title: KVM/Libvirt
+---
 
 Most of the OCF's hosts are virtual machines. Our virtual machines are all
 powered by [QEMU][qemu]/[KVM][kvm] and managed by [libvirt][libvirt] on the

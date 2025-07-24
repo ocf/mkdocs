@@ -1,4 +1,6 @@
-[[!meta title="Starter Tasks"]]
+---
+title: Starter Tasks
+---
 
 Want to dive into learning about technical infrastructure at the OCF, but not
 sure where to start? Here are some self-paced tasks you can do on your own. Feel

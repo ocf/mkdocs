@@ -1,4 +1,6 @@
-[[!meta title="PR Completion Record"]]
+---
+title: PR Completion Record
+---
 
 The following staffers have successfully made a pull request to
 [ocfweb](https://github.com/ocf/ocfweb):

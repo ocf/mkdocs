@@ -1,3 +1,7 @@
+---
+title: Officers
+---
+
  Here you can find contact info for the OCF's current officers as well as a listing of past officers by election term.
 Current Officers (Spring 2025)
 Faculty Advisor

@@ -1,6 +1,6 @@
-[[!meta title="Slurm"]]
-
-## Slurm
+---
+title: Slurm
+---
 
 In order to use the resources of our HPC computng nodes, you must submit your
 computing tasks through [Slurm][slurm], which will ensure that your task, or

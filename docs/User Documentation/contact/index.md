@@ -1,4 +1,6 @@
-[[!meta title="Contact us"]]
+---
+title: Contact us
+---
 
 > ## Before contacting us
 > Please conserve our valuable volunteer manpower by **making sure your

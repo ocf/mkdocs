@@ -1,4 +1,6 @@
-[[!meta title="Kerberos"]]
+---
+title: Kerberos
+---
 
 ## Introduction
 

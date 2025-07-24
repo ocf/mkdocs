@@ -1,5 +1,6 @@
-[[!meta title="Web hosting"]]
-
+---
+title: Web Hosting
+---
 
 All accounts include hosting with a web address at:
 

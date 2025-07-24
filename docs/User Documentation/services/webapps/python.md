@@ -1,4 +1,6 @@
-[[!meta title="Python (Django, Flask, etc.)"]]
+---
+title: Python (Django, Flask, etc.)
+---
 
 **Note: This document only applies to student groups with virtual hosts who
 have applied for apphosting. For normal user accounts or for groups without

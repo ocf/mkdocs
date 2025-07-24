@@ -1,3 +1,8 @@
+---
+title: Subdomain Migration FAQ
+---
+
+
 [[!meta title="Subdomain migration FAQ"]]
 
 All student organizations that currently have berkeley.edu subdomains (e.g. myclub.berkeley.edu) will have them transitioned to be under studentorg.berkeley.edu (e.g. myclub.studentorg.berkeley.edu) by the end of the 2023-24 academic year. There are different timelines and instructions depending on the type of website that you have, so please review the details for the option that best matches your group. We have additional instructions at the bottom for groups that have email addresses at their domain as well.

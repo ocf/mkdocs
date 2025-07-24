@@ -1,4 +1,6 @@
-[[!meta title="Virtual hosted mail"]]
+---
+title: Virtual Hosted Mail
+---
 
 **Note: This page is designed for OCF staffers and is a technical description
 of the service. For information or help using it, see [[our page about it|doc

@@ -1,4 +1,6 @@
-[[!meta title="Remote shell and file transfer (SSH/SFTP)"]]
+---
+title: Remote shell and file transfer (SSH/SFTP)
+---
 
 A shell account refers to a text-mode interface where commands can be run
 interactively. All OCF accounts include shell account access. You can access

@@ -1,4 +1,6 @@
-[[!meta title="PHP"]]
+---
+title: PHP
+---
 
 `death`, the OCF webserver, currently runs PHP 7.0 with the following
 non-standard packages installed:

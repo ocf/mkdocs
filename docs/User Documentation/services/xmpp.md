@@ -1,4 +1,6 @@
-[[!meta title="XMPP"]]
+---
+title: XMPP
+---
 
 XMPP (formerly Jabber) is a federated chat protocol. All OCF members can get an
 XMPP account with JID `username@ocf.berkeley.edu`. Our server supports most

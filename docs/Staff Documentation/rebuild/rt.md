@@ -1,4 +1,6 @@
-[[!meta title="Request Tracker"]]
+---
+title: Request Tracker
+---
 
 **Note:** RT is now deployed as a Kubernetes service running in Docker, so
 these instructions aren't super useful for OCF staff. This page is kept as a

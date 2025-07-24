@@ -1,4 +1,6 @@
-[[!meta title="Mastodon"]]
+---
+title: Mastodon
+---
 
 Mastodon is a federated microblogging platform and social network. See the
 [official project homepage](https://joinmastodon.org/) for more information.

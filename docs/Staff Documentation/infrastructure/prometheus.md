@@ -1,4 +1,6 @@
-[[!meta title="Prometheus"]]
+---
+title: Prometheus
+---
 
 We use Prometheus to provide real-time monitoring of our [[hardware|doc staff/backend]]. The master is [[dementors|doc staff/backend/servers]] which
 uses the Node Exporter to collect data from other servers.

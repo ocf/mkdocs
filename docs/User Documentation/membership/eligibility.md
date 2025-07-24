@@ -1,4 +1,6 @@
-[[!meta title="Eligibility"]]
+---
+title: Eligibility
+---
 
 _As amended by the Board of Directors on April 17, 2017._
 

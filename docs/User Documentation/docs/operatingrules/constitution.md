@@ -1,4 +1,6 @@
-[[!meta title="Constitution"]]
+---
+title: Constitution
+---
 
 This document records the **Constitution of the Open Computing Facility**, as
 established on November 14, 2016 and amended on:

@@ -1,4 +1,6 @@
-[[!meta title="Kubernetes"]]
+---
+title: Kubernetes
+---
 
 At the OCF we have fully migrated all services from Mesos/Marathon to
 [Kubernetes][kubernetes]. In this document we will explain the design of our

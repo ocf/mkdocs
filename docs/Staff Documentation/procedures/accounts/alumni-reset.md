@@ -1,4 +1,6 @@
-[[!meta title="Alumni account reset"]]
+---
+title: Alumni Account Reset
+---
 
 Occasionally former OCF members want to re-enable their accounts after
 they've been disabled for various reasons, including weak passwords,

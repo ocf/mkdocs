@@ -1,4 +1,6 @@
-[[!meta title="WordPress"]]
+---
+title: WordPress
+---
 
 WordPress is a popular CMS (content management system) on the Web.
 

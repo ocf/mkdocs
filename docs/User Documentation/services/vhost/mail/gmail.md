@@ -1,4 +1,6 @@
-[[!meta title="Using Gmail with mail virtual hosting"]]
+---
+title: Using Gmail with Mail Virtual Hosting
+---
 
 **Note:** Your berkeley.edu address is really just a branded Gmail account, so
 these steps also work using your Berkeley email. You can use either a personal

@@ -1,4 +1,6 @@
-[[!meta title="note: add notes to a user account"]]
+---
+title: note: add notes to a user account
+---
 
 ## Introduction
 

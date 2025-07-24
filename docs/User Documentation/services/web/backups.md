@@ -1,4 +1,6 @@
-[[!meta title="Backups/Archiving"]]
+---
+title: Backups/Archiving
+---
 
 Keeping backups on hand is crucial to maintaining any website. While your data
 is protected from hardware failure by the OCF's backup infrastructure, you will

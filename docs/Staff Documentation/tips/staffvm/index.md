@@ -1,3 +1,7 @@
+---
+title: On Your Staff VM
+---
+
 [[!meta title="On your staff VM"]]
 
 ## Essentials

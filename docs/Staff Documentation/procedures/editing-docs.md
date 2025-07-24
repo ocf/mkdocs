@@ -1,3 +1,8 @@
+---
+title: Editing Docs
+---
+
+
 [[!meta title="Editing docs"]]
 
 The OCF's documentation (formerly known as "the wiki") is a part of the OCF

@@ -1,4 +1,6 @@
-[[!meta title="OCF Communication, 19 June 2020"]]
+---
+title: OCF Communication, 19 June 2020
+---
 
 The OCF believes in freedom: we support free software and a free society. We believe that everyone deserves favorable opportunities and to that end are committed to providing free computational resources for Berkeley students and staff. When certain groups are targeted by structural violence, it hurts everyone, and we must speak up.
 

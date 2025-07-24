@@ -1,4 +1,6 @@
-[[!meta title="Using Twitch and OBS"]]
+---
+title: Using Twitch and OBS
+---
 
 ## Preparing Your Stream
 

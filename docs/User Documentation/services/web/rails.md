@@ -1,4 +1,6 @@
-[[!meta title="Ruby on Rails"]]
+---
+title: Ruby on Rails
+---
 
 **Note: These instructions are primarily intended for individual user accounts.
 If you are using a group account, you may wish to consider

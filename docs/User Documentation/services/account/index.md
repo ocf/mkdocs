@@ -1,5 +1,6 @@
-[[!meta title="Account"]]
-
+---
+title: Account
+---
 
 ## Introduction
 

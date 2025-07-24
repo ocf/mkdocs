@@ -1,4 +1,6 @@
-[[!meta title="Staff policies"]]
+---
+title: Staff Policies
+---
 
 In this section are policies specially applying to staff. All staffers should
 read and be aware of these policies.

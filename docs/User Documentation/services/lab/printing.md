@@ -1,4 +1,6 @@
-[[!meta title="Printing"]]
+---
+title: Printing
+---
 
 The OCF offers a certain amount of printing to individual members. You don't
 have to request a new account each semester - the quota is refreshed at the

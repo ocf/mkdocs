@@ -1,4 +1,6 @@
-[[!meta title="Flask"]]
+---
+title: Flask
+---
 
 **Note: These instructions are primarily intended for individual user accounts.
 If you are using a group account, you may wish to consider

@@ -1,4 +1,6 @@
-[[!meta title="Munin"]]
+---
+title: Munin
+---
 
 **NOTE:** We are currently in the process of migrating many of our monitoring services to Prometheus. For more information, visit the documentation page for Prometheus [[here|doc staff/backend/prometheus]].
 

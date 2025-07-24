@@ -1,4 +1,6 @@
-[[!meta title="Privacy Policy"]]
+---
+title: Privacy Policy
+---
 
 The Open Computing Facility (OCF) is committed to protecting the privacy of your personal information subject to various provisions of state and federal law.
 

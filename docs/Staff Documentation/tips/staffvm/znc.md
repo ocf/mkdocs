@@ -1,4 +1,6 @@
-[[!meta title="Installing and running ZNC"]]
+---
+title: Installing and Running ZNC
+---
 
 Installing and running ZNC on your staff VM is easy and highly recommended.
 

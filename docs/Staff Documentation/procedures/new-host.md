@@ -1,4 +1,6 @@
-[[!meta title="Creating new hosts (servers, desktops)"]]
+---
+title: Creating New Hosts (Servers, Desktops)
+---
 
 Bringing up new hosts is pretty easy, but has a few easy-to-miss steps. This
 process requires both root and a `/admin` principal.

@@ -1,4 +1,6 @@
-[[!meta title="LDAP association"]]
+---
+title: LDAP Association
+---
 
 New individual accounts have a `calnetUid` attribute in
 [[LDAP|doc staff/backend/ldap]] which is used for

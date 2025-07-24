@@ -1,4 +1,6 @@
-[[!meta title="ShortURL guide"]]
+---
+title: ShortURL Guide
+---
 
 We use `ocf.io` as a URL shortener.
 

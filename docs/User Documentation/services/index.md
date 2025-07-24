@@ -1,4 +1,6 @@
-[[!meta title="Services"]]
+---
+title: Services
+---
 
 The OCF offers many services, free of charge, to the campus community.
 

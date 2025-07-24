@@ -1,4 +1,6 @@
-[[!meta title="Making OCF Google Apps accounts"]]
+---
+title: Making OCF Google Apps Accounts
+---
 
 The OCF has its own Google Apps deployment, which we mainly use for GDrive and
 GMail. While it's possible to use Calnet accounts for these (ocf.berkeley.edu

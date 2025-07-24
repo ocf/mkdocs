@@ -1,4 +1,6 @@
-[[!meta title="Mail"]]
+---
+title: Mail
+---
 
 **anthrax** is our mail server. It is used for sending and receiving all OCF
 mail, excluding staff use of Google Apps. Mail sent by users, websites, virtual

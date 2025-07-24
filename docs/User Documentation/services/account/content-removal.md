@@ -1,4 +1,6 @@
-[[!meta title="Content removal policy"]]
+---
+title: Content Removal Policy
+---
 
 _As promulgated by the SMs on April 10, 2017._
 

@@ -1,4 +1,6 @@
-[[!meta title="SSHing into Supernova"]]
+---
+title: SSHing into Supernova
+---
 
 When contributing to the OCF codebase, you will need some way of running and
 testing your code. Most of our applications cannot be run on a personal

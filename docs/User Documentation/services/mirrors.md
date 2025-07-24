@@ -1,4 +1,6 @@
-[[!meta title="Software Mirrors"]]
+---
+title: Software Mirrors
+---
 
 The OCF provides public mirrors of free and open-source software projects for
 anyone to use. These mirrors are available using any of the following protocols:

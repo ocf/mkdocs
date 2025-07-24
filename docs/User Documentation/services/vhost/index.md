@@ -1,5 +1,6 @@
-[[!meta title="Virtual hosting (group.studentorg.berkeley.edu)"]]
-
+---
+title: Virtual Hosting (group.studentorg.berkeley.edu)
+---
 
 Virtual hosting allows group accounts to have their website available on a
 different domain, typically under berkeley.edu. For example, a group's site can

@@ -1,4 +1,6 @@
-[[!meta title="Database (MySQL)"]]
+---
+title: Database (MySQL)
+---
 
 The OCF provides each user with a MySQL database. Read the following sections
 for information about performing common MySQL tasks, and our rules and policies

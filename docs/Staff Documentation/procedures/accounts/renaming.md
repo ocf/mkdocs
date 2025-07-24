@@ -1,4 +1,6 @@
-[[!meta title="Rename an account"]]
+---
+title: Rename an Account
+---
 
 We should sparingly rename a user account, and only do so when it is
 necessary (e.g. typo in the username or update of their lived name).
