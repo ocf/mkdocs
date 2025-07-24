@@ -7,6 +7,7 @@ ocf mkdocs real?
 ## Development
 1. clone the repo
 1. `nix develop`
+    - ensure flakes and nix-command features are enabled
 1. `mkdocs serve`
 1. `rm -rf docs/'Board of Directors Minutes'` so it builds faster lol
 
