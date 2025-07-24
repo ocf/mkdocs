@@ -22,6 +22,7 @@
   .top-title {
     color: #222;
   }
+  --md-footer-bg-color: #FFF;
 }
 /* :md-content > * {
   background-color: #ff0000;
