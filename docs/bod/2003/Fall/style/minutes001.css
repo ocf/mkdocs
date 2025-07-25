@@ -1,0 +1,13 @@
+body {
+        width: 39em;
+        padding: 2em;
+}
+
+body, td {
+	font-family: Verdana, Trebuchet MS, sans-serif;
+	font-size: small;
+}
+
+pre {
+	font-size: medium;
+}

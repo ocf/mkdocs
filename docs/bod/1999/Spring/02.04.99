@@ -1,0 +1,51 @@
+
+Minutes for the OCF General Meeting
+February 4, 1999
+
+The meeting was called to order at 5:10 PM.
+
+In attendance:
+
+Katrina Templeton (katster), Luns Tee (tee),
+Jennifer Tsoi (jentsoi), Paul Huang (pbhuang),
+Jim Lee (jimclee), Richard Dunn (dunnthat),
+Elaine Chao (chaos)
+
+
+
+REPORTS
+
+GM:  Promised to speak with the press about the SM's report.
+
+SM:  We had a cracker break OCF security over the weekend.
+     Apparently a hole in one of the Solaris file allowed
+     him to gain root level access at least two times before
+     a sniffer process was caught.  After reloading the
+     OS, security was again breached, but after a second
+     OS reinstall, the hole was fixed, and there have been
+     no further break-ins.  Approximately 200 accounts were
+     sorried as a result of the sniffer.
+
+
+ELECTIONS
+
+dunnthat was nominated for the position of GM and was elected
+with a vote of 5-0-2.  After some discussion, katster was
+nominated for SM, and was elected 6-0-1.  tee and jentsoi
+promised to fill various roles under the SM.
+
+
+OLD BUSINESS
+
+No old business.
+
+
+NEW BUSINESS
+
+No new business.
+
+
+The meeting was closed at 5:50 PM.
+
+Minutes prepared by Richard Dunn (dunnthat)
+
