@@ -22,11 +22,8 @@
   .top-title {
     color: #222;
   }
-  --md-footer-bg-color: #FFF;
+  --md-footer-bg-color: #286090;
 }
-/* :md-content > * {
-  background-color: #ff0000;
-} */
 
 .md-tabs {
   width: unset;
