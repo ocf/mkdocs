@@ -2,8 +2,6 @@
 title: On Your Staff VM
 ---
 
-[[!meta title="On your staff VM"]]
-
 ## Essentials
 
 Your vm's environment is determined by the ldap entry for the machine.

@@ -25,6 +25,18 @@
   --md-footer-bg-color: #286090;
 }
 
+.md-typeset {
+	font-size: .7rem;
+}
+
+.md-typeset h2 {
+  margin: 0.64em 0 0.64em;
+}
+
+.md-typeset h3 {
+  margin: .8em 0 0.8em;
+}
+
 .md-tabs {
   width: unset;
 }

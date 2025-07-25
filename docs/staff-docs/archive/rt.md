@@ -1,5 +1,5 @@
 ---
-title: Request Tracker
+title: Request Tracker (bare metal)
 ---
 
 **Note:** RT is now deployed as a Kubernetes service running in Docker, so

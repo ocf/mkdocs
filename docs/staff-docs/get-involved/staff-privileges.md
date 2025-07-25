@@ -49,9 +49,8 @@ staff hours. It is now given out as needed.
 The most technical and "on-call" staff members are given sudo access (root
 privileges) on all servers and the ability to modify LDAP/Kerberos directly.
 
-The Site Manager(s) and Deputy Site Manager(s) are always Technical Managers.
-Other Deputy Managers and the General Manager(s) often happen to be Technical
-Managers as well.
+Site Managers are always Technical Managers.
+General Managers and other veteran staff often happen to be Technical Managers as well.
 
 ### `ocfroot` group
 
@@ -76,7 +75,7 @@ Technical Managers also have the following privileges:
 * Access to the RT admin interface
 * Admin privileges to the OCF status blog
 
-Some Technical Managers, particularly the DSMs and SMs, may additionally have
+Some Technical Managers, particularly the SMs, may additionally have
 the following:
 
 * Being an Owner of the GitHub OCF org

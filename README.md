@@ -12,8 +12,11 @@ ocf mkdocs real?
 
 - overhaul userdocs content
 - overhaul staffdocs content
-- BoD notetaking procedure
+- fix constitution links
+- lab hours page
 
+- migrate https://decal.ocf.io/resources to startertasks.md and remove from decal-web
+- BoD notetaking procedure
 - add socials in footer
 - fix officers.md
 - fix relative links

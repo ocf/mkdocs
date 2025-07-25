@@ -1,4 +1,7 @@
 nav:
+  - index.md
+  - Getting Involved: get-involved
+  - Request Tracker (RT): rt
   - "*"
-  - Starter Tasks: startertasks
-  - Tips: tips
+  - Staff Virtual Machines: staffvm
+  - archive

@@ -6,4 +6,4 @@ The documentation in this section is for current and prospective OCF staff to le
 
 Feel free to attend our meetings, visit us during staff hours, or contact us by email.
 
-Regular OCF users looking for help should go to the user docs instead.
+Regular OCF users looking for help should go to the [user docs](../user-docs) instead.

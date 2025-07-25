@@ -1,4 +1,6 @@
-[[!meta title="Request Tracker"]]
+---
+title: Request Tracker (RT)
+---
 
 [**Request Tracker**](https://rt.ocf.berkeley.edu/) is the ticketing system
 used by the OCF. It is the main way of keeping track of OCF-related activity.

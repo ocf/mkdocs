@@ -32,6 +32,7 @@ Some of the places OCF staffers have gone on to work at:
 
 ### Elsewhere
 
+* 7M Consulting
 * [Adobe](https://www.adobe.com)
 * [The Aerospace Corporation](https://www.aerospace.org)
 * [Amazon](https://www.amazon.com)
@@ -68,6 +69,7 @@ Some of the places OCF staffers have gone on to work at:
 * [Infer](https://www.infer.com)
 * Inktomi (acquired by [Yahoo!](https://www.yahoo.com))
 * Interactive Development Environments
+* [Jane Street](https://www.janestreet.com/)
 * Legato
 * [LinkedIn](https://www.linkedin.com)
 * [Lookout Mobile Security](https://www.lookout.com)
@@ -89,7 +91,7 @@ Some of the places OCF staffers have gone on to work at:
 * [Palantir](https://www.palantir.com)
 * [Patreon](https://www.patreon.com/)
 * [Rackspace](https://www.rackspace.com/)
-* 7M Consulting
+* [Salesforce](https://en.wikipedia.org/wiki/Salesforce)
 * SiByte, Inc (acquired by [Broadcom](https://www.broadcom.com/))
 * Silicon Graphics (SGI)
 * [Snapfish](https://www.snapfish.com/home)
@@ -122,6 +124,7 @@ gained as OCF staff:
 
 * ASUConline
 * [CalLUG - the UCB Linux User's Group](https://www.ocf.berkeley.edu/~linux/)
+* [Committee on Student Fees](https://csf.berkeley.edu/)
 * [Computer Science Undergrad Assoc.](https://www.csua.berkeley.edu/)
 * [Eta Kappa Nu](https://hkn.eecs.berkeley.edu/) (EECS Honor Society)
 * [Experimental Computing Facility](https://callink.berkeley.edu/organization/xcf)

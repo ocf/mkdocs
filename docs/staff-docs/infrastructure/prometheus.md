@@ -2,8 +2,7 @@
 title: Prometheus
 ---
 
-We use Prometheus to provide real-time monitoring of our [[hardware|doc staff/backend]]. The master is [[dementors|doc staff/backend/servers]] which
-uses the Node Exporter to collect data from other servers.
+We use Prometheus to provide real-time monitoring of our [infrastructure](index.md). The master is [dementors](https://www.ocf.berkeley.edu/docs/staff/backend/servers/) which uses the Node Exporter to collect data from other servers.
 
 We monitor servers, desktops, and staff VMs, but not the hozer boxes.
 Additionally, we don't receive email alerts for staff VMs. Monitoring for the networking switch, blackhole, is currently under development.
@@ -59,6 +58,7 @@ Queries are best used in conjunction with Grafana, as to produce more readable r
 ## Grafana
 
 The frontend for Prometheus is [Grafana][grafana], which displays statistics collected by Prometheus in a user-friendly manner. Some of the more useful dashboards available are:
+
  - **[Servers](https://ocf.io/serverstats):** Displays usage information for the physical servers and hypervisors (fallingrocks, riptide, etc).
  - **[Desktops](https://ocf.io/desktopstats):** Displays usage information for lab computers (cyclone, acid, etc).
  - **[Printers](https://ocf.io/printerstats):** Displays printer usage and resource information.

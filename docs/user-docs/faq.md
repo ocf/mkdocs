@@ -1,12 +1,12 @@
 ---
-title: Frequently asked questions
+title: Frequently Asked Questions
 ---
 
 #### Why might I want an OCF account? What do I get? How do I use OCF services?
 
 Access to computing by the students for the students!
 
-More specifically, we have a [[list of services|doc services]].
+More specifically, we have a [list of services](/user-docs/services).
 
 #### Who are you?
 

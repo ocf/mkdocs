@@ -23,17 +23,17 @@ Technical Managers are required to join them:
     * ocflib sends emails whenever an uncaught exception is thrown in ocfweb,
       create, enforcer, and several other background tasks
     * Miscellaneous other emails are sent here
+  * `alumni`: On graduation, if you would like to receive information such as alumni event invites, you can add your preferred non-ocf email here.
 
-   This mailing list gets a median of ~10 messages every day, although on some
-   days it can get a lot more.
+   The mailing lists below can get many emails per day.
+
  * `puppet`: Error messages from puppet runs go here. This list tends to be
    very noisy.
  * `mon`: Monitoring alerts are sent here:
     * [Rackspace Cloud Monitoring][rackspace] emails us alerts when our
       important services are inaccessible from outside the OCF network.
-    * [Munin][munin] sends mail whenever some munin measurement (e.g. disk
+    * [Prometheus][prometheus] sends mail whenever some measurement (e.g. disk
       usage, RAM usage, etc.) is outside the normal range.
-    * [Prometheus][prometheus] sends mail for alerts, similar to Munin.
  * `extcomm`: A compilation of technical mailing lists for upstream projects
    and projects we mirror.
 
@@ -59,5 +59,4 @@ There are also some special purpose mailing lists:
 [announce]: https://ocf.io/announce
 [jenkins]: https://jenkins.ocf.berkeley.edu/
 [rackspace]: https://intelligence.rackspace.com/login
-[munin]: https://munin.ocf.berkeley.edu/
 [prometheus]: https://prometheus.ocf.berkeley.edu/

@@ -1,0 +1,5 @@
+nav:
+  - "*"
+  - Web Hosting: web
+  - Web Application Hosting: webapps
+  - High Performance Computing (HPC): hpc

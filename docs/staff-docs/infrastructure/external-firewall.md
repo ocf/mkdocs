@@ -1,5 +1,5 @@
 ---
-title: External firewall
+title: External Firewall
 ---
 
 We use a Palo Alto Networks (PAN) firewall provided by IST. We have one network

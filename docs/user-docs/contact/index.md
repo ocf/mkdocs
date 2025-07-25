@@ -1,5 +1,5 @@
 ---
-title: Contact us
+title: Contact Us
 ---
 
 > ## Before contacting us

@@ -12,7 +12,7 @@ important differences between the two, though MariaDB does contain [some
 improvements](https://mariadb.com/kb/en/mariadb/mariadb-vs-mysql-features/).
 
 
-## Policies  {policies}
+## Policies
 
 We limit users to 1 database, and this database has the same name as your
 username. As a user of shared database server we ask you to respect the
@@ -30,27 +30,13 @@ If you are looking for a familiar phpMyAdmin interface, visit
 
 ## Creating a MySQL database
 
-We have two options to create a database using the terminal or our web
-management tool.
-
-
-### Web-based tool
-
-[[Click here|commands]] and type in your username and password. Select the
-option: `makemysql — reset your MySQL database password, or create a new MySQL
-database` and run the command. Note your password in a safe place.
-
-
-### SSH Terminal
-
-Log into the OCF via [[SSH|doc services/shell]], at the terminal prompt enter
+Log into the OCF via [SSH](shell), at the terminal prompt enter
 the command `makemysql`. Hit yes to confirm the operation. Note your password
 in a safe place.
 
-
 ## Reset Password
 
-To reset a MySQL password simply follow the directions above for creating a
+To reset a MySQL password, simply follow the directions above for creating a
 MySQL database. This program WILL NOT DELETE an existing database.
 
 
@@ -73,7 +59,6 @@ To connect to the OCF's MySQL server using the MySQL client on an OCF machine,
 simply run the command: `mysql`
 
 This command will prompt you for your MySQL database password.
-
 
 ## Backing up a MySQL database
 

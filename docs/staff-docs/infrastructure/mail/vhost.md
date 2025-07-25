@@ -3,8 +3,7 @@ title: Virtual Hosted Mail
 ---
 
 **Note: This page is designed for OCF staffers and is a technical description
-of the service. For information or help using it, see [[our page about it|doc
-services/vhost/mail]].**
+of the service. For information or help using it, see [our user docs page about it](../../../user-docs/services/vhost/mail).**
 
 Virtual hosting mail allows groups to receive mail at `@group.b.e` addresses,
 and send from those same addresses. It complements our web hosting nicely.
@@ -49,3 +48,4 @@ clients to send as a vhost address. (See `/etc/pam.d/smtp` and
 ## How do I add mail hosting to a group?
 
 See [[here|doc staff/procedures/vhost#mail]].
+

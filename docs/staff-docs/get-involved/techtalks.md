@@ -2,10 +2,11 @@
 title: Tech Talks
 ---
 
-The OCF regularly hosts tech talks where volunteer staff members share their knowledge,
-and try and teach others how the OCF works, and how to contribute to it.
+The OCF occasionally hosts tech talks where volunteer staff members share their knowledge, teach others how the OCF works, and explain how to contribute to it. If you're a current member of OCF staff or an alumni and are interested in giving a tech talk, please bring it up at our next Board of Directors meeting!
 
-We will be recording these talks and make them available publicly, along with slides.
+We record these talks and make them available publicly, along with slides.
+
+We haven't done one in some time, but several lectures from archived semesters of the [OCF DeCal](https://decal.ocf.berkeley.edu/archive/) contain similar content.
 
 | Date                | Title                         | Staff Member | Video                  | Slides                   |
 |---------------------|-------------------------------|--------------|------------------------|--------------------------|
