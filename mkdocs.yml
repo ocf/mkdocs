@@ -2,8 +2,8 @@ site_name: Open Computing Facility
 site_url: https://docs.ocf.berkeley.edu
 theme:
   name: material
-  logo: images/penguin.svg
-  favicon: images/favicon.ico
+  logo: assets/penguin.svg
+  favicon: assets/favicon.ico
   custom_dir: overrides
   features: 
     - navigation.instant
