@@ -1,5 +1,5 @@
 nav:
-  - Welcome!: index.md
+  - Home: index.md
   - News: news
   - User Documentation: user-docs
   - Staff Documentation: staff-docs

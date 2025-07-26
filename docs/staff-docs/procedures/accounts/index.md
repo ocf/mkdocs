@@ -1,5 +1,5 @@
 ---
-title: Accounts
+title: OCF Accounts
 ---
 
-Create pages under this directory to document account procedures.
+Create pages under this directory to document OCF account procedures.

@@ -1,5 +1,5 @@
 ---
-title: signat: check signatory status
+title: 'signat: check signatory status'
 ---
 
 ## Introduction

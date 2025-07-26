@@ -1,5 +1,5 @@
 ---
-title: lab-wakeup: wake up suspended desktops
+title: 'lab-wakeup: wake up suspended desktops'
 ---
 
 ## Introduction

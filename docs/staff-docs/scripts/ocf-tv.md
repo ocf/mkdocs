@@ -1,5 +1,5 @@
 ---
-title: ocf-tv: connect to the tv or modify the volume
+title: 'ocf-tv: connect to the tv or modify the volume'
 ---
 
 The usage of `ocf-tv` looks like:

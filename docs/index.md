@@ -1,5 +1,14 @@
 ---
-title: Welcome!
+title: 'Welcome!'
+hide:
+    - navigation
+    - toc
+---
+
+The Open Computing Facility (OCF) is an all-volunteer student organization dedicated to free computing for all University of California, Berkeley students, faculty, and staff.
+
+We're passionate about open source and free software.
+
 ---
 
 If you're a regular OCF user, you should check out [the user docs](user-docs).

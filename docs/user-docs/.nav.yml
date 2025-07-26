@@ -1,6 +1,8 @@
 nav:
   - about.md
+  - contact
   - officers.md
+  - "Official Documents": docs
   - Frequently Asked Questions: faq.md
   - '*'
   - privacy.md

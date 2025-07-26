@@ -1,5 +1,5 @@
 ---
-title: sorry: disable an OCF account
+title: 'sorry: disable an OCF account'
 ---
 
 ## Introduction

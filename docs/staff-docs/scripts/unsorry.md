@@ -1,5 +1,5 @@
 ---
-title: unsorry: re-enable a sorried account
+title: 'unsorry: re-enable a sorried account'
 ---
 
 ## Introduction

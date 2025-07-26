@@ -1,5 +1,5 @@
 ---
-title: pdf-open: unf*&^ bad PDFs if they won't print right
+title: "pdf-open: unf*&^ bad PDFs if they won't print right"
 ---
 
 ## Introduction

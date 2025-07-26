@@ -1,5 +1,5 @@
 ---
-title: chpass: reset a user's password
+title: "chpass: reset a user's password"
 ---
 
 The preferred way of changing passwords is to [[do it online|change_password]].

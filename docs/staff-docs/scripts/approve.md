@@ -1,5 +1,5 @@
 ---
-title: approve: record an OCF group account request
+title: 'approve: record an OCF group account request'
 ---
 
 This page explains the OCF account approval procedure and the usage of the

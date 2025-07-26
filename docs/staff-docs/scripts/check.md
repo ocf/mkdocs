@@ -1,5 +1,5 @@
 ---
-title: check: get details about an OCF user
+title: 'check: get details about an OCF user'
 ---
 
 ## Introduction
