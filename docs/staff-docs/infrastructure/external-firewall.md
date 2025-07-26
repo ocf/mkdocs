@@ -55,3 +55,16 @@ and push button to do it in one step) located in the top right.
 When we switched over to the new PAN firewall, syslog was set up to send
 messages to `syslog.ocf.berkeley.edu`, however it is only configured to send
 logs there over TLS, so currently it is failing.
+
+### Fail2Ban
+
+We use Fail2Ban as part of our effort to prevent brute-force attacks or other malicious activities. Mainly, it blocks IP addresses with too many access attempts and add them to “jail“ for set amount of time.
+
+Fail2Ban runs on death.ocf.berkeley.edu, where our main web proxy runs.
+
+To whitelist IPs, add IPs to `ignoreip` in `/etc/fail2ban/jail.conf`. Example:
+
+```
+# Whitelist '52.55.30.145' and '52.20.183.91'
+ignoreip = 52.55.30.145 52.20.183.91
+```

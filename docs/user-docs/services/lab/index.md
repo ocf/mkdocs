@@ -8,7 +8,7 @@ The computer lab contains 3 scanners, 3 standing desks, and a Blu-ray/DVD/CD rea
 
 OCF computers include free and open-source software such as LibreOffice (similar to Microsoft Office), GIMP (similar to Adobe Photoshop), and more.
 
-For details about printing in the lab, see Printing.
+for details about printing in the lab, see Printing.
 
 ## Current Hours
 

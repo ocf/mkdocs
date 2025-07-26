@@ -18,6 +18,7 @@
   --md-primary-bg-color: #FFFFFF;
   --md-typeset-color: #FFFFFF;
   --md-default-fg-color--light: #FFFFFF;
+  --md-default-fg-color--lightest: #FFFFFF;
   --md-accent-fg-color: #286090;
   .top-title {
     color: #222;
@@ -26,7 +27,7 @@
 }
 
 .md-typeset {
-	font-size: .7rem;
+  font-size: .7rem;
 }
 
 .md-typeset h2 {
