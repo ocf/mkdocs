@@ -34,5 +34,5 @@ jobs:
           chmod 400 known_hosts
 
       - name: Deploy with rsync
-        run: nix develop .#deploy -c rsync -e "ssh -o UserKnownHostsFile=known_hosts -i id_ed25519" --verbose --compress --partial --checksum --progress --human-readable --archive --delete result/ deploy-bestdocs@amethyst.ocf.berkeley.edu:/var/www/bestdocs
+        run: nix develop .#deploy -c rsync -e "ssh -v -o UserKnownHostsFile=known_hosts -i id_ed25519" --verbose --compress --partial --checksum --progress --human-readable --archive --delete result/ deploy-bestdocs@amethyst.ocf.berkeley.edu:/var/www/bestdocs
 
