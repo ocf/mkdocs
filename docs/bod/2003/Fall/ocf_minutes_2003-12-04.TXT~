@@ -1,0 +1,244 @@
+<html>
+
+	<head>
+		<title>Open Computing Facility BOD Minutes 12-4-2003</title>
+	</head>
+	<body>	
+		<h1>OCF BoD 4 Dec. 2003</h1>
+
+		<h2>Toner</h2>
+		<ul>
+			<li>Devin put in new toner yesterday</li>
+			<li>New toner on the way, should arrive tomorow</li>
+			<li>Bought two cartridges from somewhere online</li>
+		</ul>
+		<h2>Money</h2>
+		<ul>
+			<li>Eleen got some money.</li>
+			<li>Eleen ran into Tina</li>
+			<li>Eleen the bill, went to Lavonia</li>
+			<li>Lavonia said OCF got back the percentage that [Lavonia's organization] cut from student groups</li>
+			<li>OCF should get about $1000 for next semester.</li>
+			<li>Lavonia needs to talk with Fullmer.</li>
+		</ul>
+		<h2>T-Shirts Idea</h2>
+		<ul>
+			<li>&lt;ocfstaff&gt; on the front and &lt;/staff&gt;
+			  on the back</li>
+			<li>Black shirt white text</li>
+			<li>Optional: login name on the sleeve</li>
+		</ul>
+
+		<h2>Marking Ourselvs in the Lab</h2>
+		<ul>
+			<li>Suggestions:
+			<ul>
+				<li>Neon sign that points to
+				  corner computer</li>
+				<ul>
+					<li>Problem: Staff doesn't always
+					  sit in corner.</li>
+				</ul>
+				<li>Lanyards and badges</li>
+				<li>Letter holders with a sign,
+				  set it on the monitor</li>
+				<li>Cowboy hats</li>
+			</ul>
+		</ul>
+		<h2>Luns</h2>
+		<ul>
+			<li>Luns had some issues but there aren't 
+			  enough people to talk about it, it's a long
+			  conversation.</li>
+		</ul>
+		<h2>Rereg</h2>
+		<ul>
+			<li>It's against university policy that we 
+			don't run rereg <em><b>vs.</b></em> it's a gray
+			area and long conversation.</li>
+		</ul>
+		<h2>Informing Users of their Responsibilites/Privileges</h2>
+		<ul>
+			<li>Users used to get handouts with their
+			  responsibilites and privileges when they got
+			  their acccouts approved.</li>
+		</ul>
+		<h2>Account Forms</h2>
+		<ul>
+			<li>Should we modify the account form so that
+		  	  there are multiple forms in one file?</li>
+			<li>Right now there is one form per print job, 
+			  which allows users to slip their print jobs in
+			  between account forms that are printing.</li>
+			<li>If we modify the account form file so that
+			  there is more than one form per print job, users
+			  can't slip their jobs in, but it saves printer
+			  memory and makes the printing go faster, etc.</li>
+		</ul>
+		<h2>Rewrite approve script</h2>
+		<ul>
+			<li>Minimize binary portion</li>
+			<li>Make it more secure</li>
+			<li>Mimize the amount of code that runs as the
+			  high level user</li>
+		</ul>
+		<h2>Alumni Accounts</h2>
+		<ul>
+			<li>Devin thinks it's not against policy to
+			  retain accounts of graduated people, because:</li>
+			<ol>
+				<li>We're on the ASUC network--recognized
+				  as used by ppl not affiliated by campus</li>
+				<li>Helps maintain continuity
+ 				  as an organization</li>
+				<ul>
+					<li>Institutional memory is nice</li>
+				</ul>
+				<li>Level of resources used is minmal</li>
+				<ul>
+					<li>What it does use is voluntary
+					  on the part of the OCF</li>
+				</ul>
+			</ol>
+		</ul>
+		<h2>No SM Message</h2>
+Devin hasn't worked on ASUC cluster for a week ro two
+
+Tenative plan is to buy a switch or two and then run and then 
+
+give one switch to Fullmer to run that floor on DHCP -- asuc executives, senators -- they get dynamic IPs
+
+We use the static IPs
+
+If they gave us more money we could do VPN and things.
+
+That printer we're giving them may or may not work.
+- Duplexer was jamming paper?
+- Check on removal of duplexer
+
+Eleen: Feedback: How do you feel the semester has gone?
+
+Coming back, what to be involved in?
+
+--
+
+Eleen: could have gotten  more done, like fundraising.  Aim at beginning was to just sustain it: money, things running correctly.  Hopefuly next semester will have more ambitious goals.  Improving website.  Being GM was cool, wouldn't mind doing it again.  Eleen will be back.
+
+jkit: was overcommitted this semester.  Lots of things could have done: more documentation.  Definitely wanted to make the staff more of a community, maybe wanted to start teaching classes?  To educate users on using Sun machines.  jkit really really wants to know the purpose of the OCF.  jkit will be back next semester, and semsters to come.
+
+Devin: thinks semester's been really good, jkit and eleen have been good GMs.  Devin would like to get more involved in the super-technicaly side.  Is fairly involved but hasn't had enough time to get fully involved.  Has been spending time getting new staffers involved.  Doesn't think he's been particularly more ffective, might spend time better just focusing on being more technical and less communal.  Feels like there are major roadbumps that nobody else cares about him?  Feels like running NIS+ affects even intemrediate staff's ability to make changes.  Nobody understands NIS+.  Devin will be here next semester.  Wouldn't mind being ro not being SM.  Would like to see more commitmment but realizes people are mainly into school.  Not necessarily important to most ipeople.  Would love to see the website be good.  Only things preventing Devin from stamping with boot:  No time, and having a project that lots of people can work on gives people a sense of ownership.
+
+Patrick:  Wants to work on website.  Movable type tutorial specifically for OCF?  Wants to learn how to upgrade Gaim.  
+
+elliot: 
+
+Jun: thought it was a good semester, b/c got invovled more.  Didn't have time to do anything.  Sort of wants to mess around with the website, but doesn't know when will be able to do it because got involved in a web project for CS Department.  Wants to learn more about weird server issues.  Apache, htaccess, setting up mysql.  Wants to learn better how that stuff works.
+
+jkit: more structure and organization, in terms of everything
+
+staff hierarchy, roles?  
+
+jun: certain group of people
+certain kinds of problems?
+Deliniate roles, insetead of everyone knowing everything.
+
+Staff training would be good.
+
+Eleen: current approach is to try to make information available to everyone
+
+LDAP: We can set up an LDAP server.  We just need to sit down and do it.
+
+Eleen: kinda goalless this semester.
+
+Community vs. techncial
+
+Role of GM: more communal?
+
+Eleen: got involved for technical, but feels like should do more 
+
+Devin:
+Specialization and depth of knowledge has to be a personal choice
+
+Some things people can't teach you, or it would be time prohibitive
+
+It's great to have people that are knowledgable
+
+It's hard to actually assign people to roles
+
+What happens is you get people who know things about stuff, in general
+
+Jkit and jun: want to learn
+
+phlee: ex. printing quota
+
+changing passwords is scripted.
+
+modular design, so more people can do more stuff.
+
+-----
+
+What is the OCF?
+
+Increasing people's knoweldge on how to use computers?
+- Difficult.
+
+Printing, web
+A good webspace
+
+More linux machines?
+
+Devin: printing account separate from regular account?
+
+LDAP, separate web interface
+
+Logging of paper
+
+Censor this:
+Devin: cracked 700 passwords in 2 minutes on his 2.8ghz comp at work.
+
+Information sessions?
+
+Update staff profiles!
+
+Give users help points, and if you help a user you get help points.
+
+Original purpose in constitution was to provide computer srevices to people who need it.
+
+Mike:
+Only almost 24hr lab
+
+News on 2am virus person?  None?
+
+---
+
+A technically able webpsace
+Free printing
+A 24hour computer lab
+Potential for staff community
+Spare e-mail
+
+Should we survey people?
+
+Training grounds for sysadmins?
+
+Devin: ALmost doesn't feel like it's more to train people in IT because most of those jobs wiill go overseas
+
+You're either going to be doing it as a career or not have to worry about it
+
+We shouldn't force people to do it
+
+Community who actually want to do it would be cool, because those ppl would be hardcore in 2 or 3 years.
+
+Perks?
+A lot of resources
+bandwidth 
+free printing
+hacking?
+
+We generate ideas
+
+Encourage cross-disciplinary people?
+
+
+</body>
+</html>

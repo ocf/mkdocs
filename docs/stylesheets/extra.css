@@ -1,0 +1,66 @@
+:root {
+  --md-typeset-a-color: #337ab7;
+}
+
+[data-md-color-scheme="ocf-light"] {
+  --md-primary-fg-color: #FFFFFF;
+  --md-primary-bg-color: #000000;
+  --md-default-bg-color: #f5f5f5;
+  --md-accent-fg-color: #286090;
+  .top-title {
+    color: #333;
+  }
+}
+[data-md-color-scheme="ocf-dark"] {
+  /* TODO: dark color palette */
+  --md-primary-fg-color: #333;
+  --md-default-bg-color: #222;
+  --md-primary-bg-color: #FFFFFF;
+  --md-typeset-color: #FFFFFF;
+  --md-default-fg-color--light: #FFFFFF;
+  --md-default-fg-color--lightest: #FFFFFF;
+  --md-accent-fg-color: #286090;
+  .top-title {
+    color: #222;
+  }
+  --md-footer-bg-color: #286090;
+}
+
+.md-typeset {
+  font-size: .7rem;
+}
+
+.md-typeset h2 {
+  margin: 0.64em 0 0.64em;
+}
+
+.md-typeset h3 {
+  margin: .8em 0 0.8em;
+}
+
+.md-tabs {
+  width: unset;
+}
+
+.md-content {
+  color: var(--md-primary-bg-color);
+  background-color: var(--md-primary-fg-color);
+}
+
+.md-content__inner {
+  padding: unset;
+}
+
+.top-title {
+  margin: 0;
+  padding: 16px;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.1;
+  background-color: #de9;
+  letter-spacing: inherit
+}
+
+a:hover {
+  text-decoration: underline;
+}

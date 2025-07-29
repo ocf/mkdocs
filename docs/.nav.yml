@@ -1,0 +1,6 @@
+nav:
+  - Home: index.md
+  - News: news
+  - User Documentation: user-docs
+  - Staff Documentation: staff-docs
+  - Board of Directors: bod

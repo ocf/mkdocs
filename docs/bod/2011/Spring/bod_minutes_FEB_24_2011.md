@@ -1,0 +1,298 @@
+Sexy BitchesofDoom Minutes February 24
+
+Sanjay isn't here, but magical notes have appeared:
+
+
+******* TL;DR************************
+
+"Group work in the OCF days."
+
+
+Friday 2-25 10pm. Be there! Rawr!
+
+***************************************
+
+
+In attendance:
+
+(Key: * means on BoD)
+
+
+ben benortiz *
+
+felix waf *
+
+sherry sherryg *
+
+aaron amloessb
+
+adam anriser *
+
+james rcsa
+
+michael mwilliams *
+
+dara daradib *
+
+tirumari tirumari
+
+han hanwei *
+
+samantha doves
+
+kenny kedo *
+
+kevin kfang *
+
+
+Agenda:
+
+
+0. RCSA + dealing with security vulnerabilities
+
+1. buying a new printer
+
+2. Printing Quotas Issue
+
+3. Network Switches
+
+4. Tabling on Sproul
+
+5. Reinstituting Patch Days
+
+6. Kevin G (appleorchard sysadmin) tech-talk
+
+7. changing meeting time
+
+8. aaron awesomeness
+
+9. Mysterious Donor
+
+10. Felix on BoD
+
+11. Keys
+
+
+0. There's a Nice RCSA guy here.
+
+
+On the account RCSA, there was an html file on the older portion of the
+website that had the password in the html part of a php file from oct 2009
+that had ended up in the public file. It was clear from observing the
+commands they ran that it was real human attackers. Through the compromised
+RCSA account they used DOS attacks on the campus itself. We disabled their
+account in the middle of a session and retrieved their bash history. Thank
+god for Sanjay, because the scripts they ran were exactly the things Sanjay
+had run, hacked into the OCF with, and then promptly fixed.
+
+
+john kim (campus rep) says:
+
+"sorry for late notice but familiy obligation came up and i cant attend
+meeting. please give us an update on your conclusion. we believe this
+instance may be part of ongoing attack against foreign governments. "
+
+
+moving forward: look over with campus the files-- see what we can determine
+about attack and see if we can do anything about it. limited to one
+account-- not a security breach. solution: create and approve a new account.
+RCSA will have to rewrite their site from scratch. We will run a check to
+ensure same password is not set up.
+
+There weren't any actual softwarevulnerabilities-- we looked for this.
+
+
+Should we make bash historys append only or read only so that it cannot be
+deleted by its user? Ethical dillemma. Should we have a policy for their
+history?
+
+Group decision:  no-- it's the user's private information.
+
+
+Felix has created for James a new RCSA account.
+
+
+1. printer
+
+
+First off, we're printing postscript directly from the printer now. (Before
+we were printing pcl from the windows machines, passing onto supernova,
+which is then passed on. That process of creating and going to pcl takes a
+long time.)
+
+
+Poll. Do we need a new printer?
+
+
+We have 3 backup printers. On the other hand, HPnzerox is hard to deal with.
+However, we just switched the system we're using and want to see how it
+works.
+
+Solution: table this issue and check in next BoD.
+
+
+Options:  Same one as last time: HP Printer. Cost: $2,821.11
+
+
+2. Printing Quotas Issue
+
+
+CUBS segfaulted over the weekend and all users' quotas were reverted to last
+semester december, i.e. they were overwritten. (They were restored from
+Anthrax.)
+
+Note: let's not store all quotas locally next time.
+
+Dara: We could do it on a case by case basis, since quotas are arbitrary, we
+could give people 200 pages.
+
+Debate:  250? 200? none? 175?
+
+Stats: sofar, we've spent 1900 on paper and toners.
+
+Solution: manually set everyone's printer quota to 175.
+
+
+Sherry: motion to grant 175 pages of quote to every user.
+
+Kevin: Seconded.
+
+
+But how?
+
+
+Dara: motion to clear out current database so no one's in our system. when
+they start printing, their quota will become 175. we will make a blog post
+and make it MoD.
+
+Kevin and Adam: Seconded.
+
+Ben abstains.
+
+8 BoD members are in favor.
+
+Motion passes.
+
+Dara has agreed to take this on. Implementation method:
+
+
+3. Netsplit1 ..fiberoptic.. gigabit switch.. ... ... context words are
+contexty.
+
+One of our machines/switches seems to be having problems-- it happens to be
+the one that all of ocf depends on. it's the one connected to the gateway,
+and all machines go through it to get to the gateway. Yet another single
+point of failure has failed.
+
+
+current version: catalyst 3550 cisco.
+
+
+a new 10 port switch board is about $550.
+
+
+Han:  can we buy a backup for future?
+
+*crickets*
+
+
+Dara: motion to allocate $550 in sofar unused funds for a new
+gigabitwhatevershit.
+
+Sherry and Kevin Second this.
+
+Unanimous approval.
+
+
+4. Tabling on Sproul
+
+
+The purpose is to increase awareness about the ocf. Also, more users means
+we can ask ASUC for more money.
+
+
+*crickets chirp*
+
+cricket.
+
+cricket.
+
+
+5. Implementing Patch Day
+
+
+"Group work in the OCF days."
+
+
+Friday 2-25 10pm. Be there! Rawr!
+
+This is the first of many.
+
+
+6. Kevin M. Coming to Speak
+
+
+Are we interested in this?
+
+SysAdmin for AppleOrchard aka Sutarja Dai.
+
+ Talk about how he runs his stuff? More specific?
+
+
+Let's do lunch. or dinner. linner.
+
+
+7.  Changing meeting time
+
+
+Han: motion to start a doodle
+
+Adam: seconded.
+
+
+Sherry will send out a doodle.
+
+
+8. aaron is awesome at writing wikis and tutorials. yay! welcome!
+
+if you have anything you want to write up, just write notes down, send it
+over to aaron, and he will translate it into sheer awesomeness. He moderates
+and also does notifications.
+
+
+9. Mysterious Donor AKA Crazy Russian Guy
+
+firewalls... Dara is in email contact with this dude. (his name is Nick.)
+
+
+10. Felix
+
+
+Sherry: motion to add felix on BoD without laptop.
+
+Everyone: seconded.
+
+
+11. Keys
+
+
+Situation. (lawlz read your emailz!) Jk-- I will tell you here.
+
+
+Currently Sanjay, Felix, Sherry, and Jordan have keys. There's a backlog of
+key assignments-- if you wanted keys now, you probably wouldn't get them
+until may. We're going to install a lockbox-- but someone will have to
+donate their keys.
+
+
+We ought to reorganize bureaucracy of who gets keys. Whoever goes in the
+server room should be up to date on emails.
+
+
+Since Jordan isn't here, we're picking on him. Jordan's keys are going in
+the lockbox. He has keycard access, and will have the code to the lockbox.
+Therefore, he will always have access, with the added benefit  of not being
+able to lose them while walking or leave them at home.
+
+
+Meeting adjourned at 8:19pm.
