@@ -1,5 +1,5 @@
 {
-  description = "A very basic flake";
+  description = "Mkdocs configuration for the Open Computing Facility";
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
     systems.url = "github:nix-systems/default";
