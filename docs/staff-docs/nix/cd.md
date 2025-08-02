@@ -87,4 +87,6 @@ steps:
    - if it fails, check github actions and keep debugging...
 
 ## finale
+1. to deploy these changes to the host, run `colmena apply --on hostname`
+
 5. check github actions tab of project repo and hopefully it all works!
