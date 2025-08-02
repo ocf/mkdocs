@@ -13,6 +13,7 @@ ocf mkdocs real?
 - overhaul userdocs content
 - overhaul staffdocs content
 - fix constitution links
+- fix mobile navigation menus turning white on dark theme
 
 - migrate https://decal.ocf.io/resources to startertasks.md and remove from decal-web
 - BoD notetaking procedure
