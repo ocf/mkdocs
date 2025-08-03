@@ -44,14 +44,14 @@ The key's randomart image is:
 3. upload SSH_PUBLIC_KEY of workflow to host
 - in /nix/hosts/.../hostname.nix:
 ```
-  users.users = {
-    "deploy-bestdocs" = {
-      group = "nginx";
-      openssh.authorizedKeys.keys = [
-        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPFUy5jvotIFajdAbwnqYAcMZMlwAxTZ3wPq44fmZ4v2"
-      ];
-    };
-  };
+...
+    websites = [
+      {
+        enable = true;
+        name = "bestdocs";
+        githubActionsPubkey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGfbHPz52unvWwGAEVenVycOIQqIoZEj5OYi8vzJ1mJS";
+      }
+...
 ```
 
 ### server (amethyst) to client (workflow)
