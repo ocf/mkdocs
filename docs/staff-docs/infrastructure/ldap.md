@@ -155,3 +155,15 @@ Finally run `ldapadd`:
     $ ldapadd < user_file
 
 This also works on lists of entries to add separated by empty newlines.
+
+### `ldapdelete`
+
+`ldapdelete` is a utility to remove entries from the LDAP directory, which like `ldapadd` requires you to possess an `/admin` principal.
+
+It's important to delete hosts from the LDAP directory once we no longer use them. To do this, first find the host's dn with `ldapsearch`.
+
+`ldapsearch -x cn=bermudatriangle`
+
+Then, use `ldapdelete` to remove the entry.
+
+`ldapdelete "cn=bermudatriangle,ou=Hosts,dc=OCF,dc=Berkeley,dc=EDU"`
