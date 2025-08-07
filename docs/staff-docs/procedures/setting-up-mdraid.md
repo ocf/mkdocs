@@ -2,9 +2,6 @@
 title: Setting Up mdraid on Servers
 ---
 
-
-[[!meta title="Setting up mdraid on servers"]]
-
 Setting up a new server involves putting in all its new drives, turning off
 MegaRAID, setting up mdraid (Linux software RAID) on them, and then installing
 the operating system.  It requires quite a few tricky steps.

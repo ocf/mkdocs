@@ -10,16 +10,15 @@ ocf mkdocs real?
 
 ## TODO
 
-- overhaul userdocs content
-- overhaul staffdocs content
 - fix constitution links
 - fix mobile navigation menus turning white on dark theme
+- make private docs more accessible
 
 - migrate https://decal.ocf.io/resources to startertasks.md and remove from decal-web
 - BoD notetaking procedure
 - fix officers.md
 - fix relative links
-- add hosting badges page!
+- add hosting badges images
 
 - look into setting the page status (deprecated in particular)
 - hide toc/navigation on pages with little content

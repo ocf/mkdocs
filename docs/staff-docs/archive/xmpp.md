@@ -2,8 +2,6 @@
 title: Manually Creating XMPP Accounts
 ---
 
-[[!meta title="Manually creating XMPP accounts"]]
-
 Currently, users must request XMPP accounts since registration is disabled. To
 create an account for someone, you must have root privileges.
 
