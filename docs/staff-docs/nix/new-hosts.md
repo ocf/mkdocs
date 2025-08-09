@@ -51,7 +51,8 @@ docs need to be updated talk to a root staffer (the current SMs will be a good p
 ### OS
 
 - If you're going to be using a network PXE boot (TODO: set one up this would be real nice), select "Do not use any media".
-Otherwise select the storage where you uploaded / downloaded the ISO and the ISO image you want to boot from.
+Otherwise select the storage where you uploaded / downloaded the ISO and the ISO image you want to boot from. Note on PXE boot:
+this seemingly requires a VirtIO RNG device to be added, due to a change requiring a source of entropy. 
 - Leave the Type and Version as their default values (Linux / xxx Kernel)
 
 ### System
