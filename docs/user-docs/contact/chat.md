@@ -2,8 +2,6 @@
 title: OCF Chat
 ---
 
-TODO: write instructions for matrix, discord
-
 OCF staff often use our bridged chat server to communicate. If you have questions, feel free to
 drop by &mdash; it's often faster than emailing us, especially for
 discussion-type questions.
@@ -13,7 +11,23 @@ mostly for non-OCF-related discussion.
 
 Use whichever chat service you prefer, but keep in mind that IRC and Matrix are the coolest.
 
-## 1. Internet Relay Chat (IRC)
+## 1. Matrix
+
+With an OCF account, you'll be able to join our server!
+
+1. Go to [chat.ocf.io](https://chat.ocf.io).
+
+2. Click "Sign In"
+
+3. Click "Continue with OCF"
+
+4. Enter your OCF username and password. Do not use your Berkeley email. 
+
+5. Enjoy!
+
+You can set your username and profile picture in the settings of OCF Chat. 
+
+## 2. Internet Relay Chat (IRC)
 
 You have a couple of options for chatting over IRC:
 
@@ -57,54 +71,31 @@ your email. To see if you are registered properly, try running `/msg NickServ
 info`. You should see your email address, and where you are logged in from,
 among other results.
 
-## 2. Matrix
+## 3. Discord
 
-## 3. Slack
+If you want to NOT use open source software, you can use Discord :/
 
-1. [Create an OCF account][join] if you don't yet have one.
-
-2. Go to the [OCF Slack workspace][slack] and click the "If you have an
-   [[@ocf.berkeley.edu email address|doc services/mail]], you can create an
-   account." button.
-
-3. Enter your OCF username in the box, this should send an email to your Berkeley
-   email. If you don't recieve an email, please contact a staff member for
-   assistance.
-
-4. Click the link in your Berkeley email and follow the instructions to complete
-   setup. We *strongly* recommend setting your display name to your OCF username for
-   consistency.
-
-5. Join some channels!
-
-[join]: https://ocf.io/join
-[slack]: https://fco.slack.com
-
-## 4. Discord
+The url is: [ocf.io/discord](https://ocf.io/discord)
 
 ## Other important info
 
 ### Everything is public
 
-When using Slack, please keep in mind that the channels are connected to our
-[[IRC server|doc contact/irc]], which is open to the whole world. Anyone could
-be keeping a log of what is said, so please don't say anything that you wouldn't
+When chatting, please keep in mind that the channels are open to the whole world. 
+
+Anyone could be keeping a log of what is said, so please don't say anything that you wouldn't
 want to be public!
 
 ### I can't log in!
 
-When logging in, don't use your `@berkeley.edu` email. Instead, use [[your OCF
-email address|doc services/mail]], which is `<OCF username>@ocf.berkeley.edu`.
+When logging in to Matrix or IRC, use your OCF username. Do not use your `@berkeley.edu` email. 
+
 If you're still having trouble, you can always reset your password.
 
 ### List of Major OCF Channels
 
 *#announcements*: Low volume announcements channel. Turn on notifications for
-messages in this channel (instructions for [desktop][desktop-notifications] and
-[mobile][mobile-notifications])!
-
-[desktop-notifications]: https://slack.com/help/articles/201355156-Guide-to-desktop-notifications#channel-specific-group-dm-notifications
-[mobile-notifications]: https://slack.com/help/articles/360025446073-Guide-to-mobile-notifications#channel-specific-group-dm-notifications
+messages in this channel!
 
 *#rebuild*: Technical discussion
 
@@ -128,25 +119,3 @@ _#\*-comm_: Channels for committee discussion
 *#cs162-fa19*, *cs170-fa19*, and others: Per-class discussions
 
 *#xcf*: XCF discussion
-
-### Optional: Using wee-slack
-
-Note: This section is targeted at IRC users who would like to access Slack
-using the `weechat` IRC client.
-
-While our IRC network is bridged with Slack, some users prefer to use `weechat`
-to connect directly to Slack. We already have `weechat` installed on `tsunami`,
-so simply follow the instructions [provided by the wee-slack team][wee-slack].
-Just make sure you are in a python virtual environment before running the
-command:
-
-```bash
-python pip install websocket-client
-```
-
-We describe setting up a virtual environment [[here|doc
-services/webapps/python]].  As a general recommendation, you'll probably want
-to leave `wee-slack` running in a detached [tmux session][tmux].
-
-[wee-slack]: https://github.com/wee-slack/wee-slack
-[tmux]: https://linux.die.net/man/1/tmux
