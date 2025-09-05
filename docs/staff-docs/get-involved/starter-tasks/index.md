@@ -13,25 +13,11 @@ staffer know you’re working on starter tasks and we will add you.
 
 These tasks don’t have to be completed in order.
 
-## Connect to the OCF IRC network
-Internet Relay Chat (IRC) is a chat protocol invented in the 80s, an early
-precursor to Slack. The OCF runs an IRC server (since 2002!), which is bridged
-to our Slack network. Many staffers prefer IRC to Slack due to its wide breadth
-of customizable clients, as opposed to Slack, which requires using their
-application.
+## Connect to OCF Chat
 
-For this task, pick an IRC client, install it on your computer, and use it to
-connect to the OCF IRC network (details at https://ocf.io/irc). Some popular
-clients are:
+OCF Chat is our where we hang out. 
 
-* Irssi (Mac/Linux, console)
-* Weechat (Max/Linux, console)
-* Hexchat (Windows/Linux, graphical)
-* Colloquy (Mac, graphical)
-
-See http://www.irchelp.org/clients/ for more recommendations.
-
-Once you’ve joined IRC, pick any channel (#rebuild, #henlo, etc) and say hi!
+See [OCF Chat](../../../user-docs/contact/chat.md) to get started. 
 
 ## Get familiar with the command line
 All of [[our servers|doc staff/backend/servers]] run Linux, and we interact with
@@ -52,7 +38,7 @@ Our chat bot is named `create` and its source code can be found at
 https://github.com/ocf/ircbot. Before testing the IRC bot right away, make sure
 you know how to use it:
 
-1. Using your IRC client (or Slack), join the #test channel.
+1. Using your IRC client, join the #test channel.
 2. Trigger some bot commands. See https://ircbot.ocf.berkeley.edu/ for a list of
    commands. For example, saying `create: thanks` will trigger a response!
 3. Find the source code for a particular command to learn how it works.
