@@ -152,9 +152,6 @@ suggestions on this page are useful for getting started. You can always stay act
 [puppet/issues]: https://github.com/ocf/puppet/issues
 [puppet]: https://github.com/ocf/puppet
 [rt]: https://rt.ocf.berkeley.edu/
-[slack]: https://ocf.io/slack
-[slackbridge/issues]: https://github.com/ocf/slackbridge/issues
-[slackbridge]: https://github.com/ocf/slackbridge
 [sourcegraph-todo]: https://sourcegraph.ocf.berkeley.edu/search?q=TODO+case:yes
 [staffhours]: https://ocf.io/staffhours
 [utils-acct]: https://github.com/ocf/utils/tree/master/acct
