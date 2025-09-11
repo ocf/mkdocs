@@ -1,58 +1,84 @@
-# Desktop Customization
-
-:::info
-This is still a work in progress - the KDE plasma docs aren't the best and most things here have been figured out through trial and error. You should be able to configure basic things with the instructions provided here but I'll eventually document the more interesting things you can do. If you want to just look at random cool things that I've discovered feel free to poke through my [current desktoprc](https://github.com/laksith19/ocf-desktoprc/)!
-
-:::
-
-When you login to an OCF desktop `~/remote/.desktoprc` is automatically [sourced](/doc/sourced-WqYnEn3HjV). As `~/remote` is an sshfs mount from tsunami. To get started with your own custom configuration you can run `$ kate ~/remote/.desktoprc`. This will open up a text editor with a new file, paste / type in a config that you want to use and save the file. This file will now be run every time you login to one of the desktops. 
+---
+title: Desktop Customization
+---
 
 
-## Sample Config:
 
-Here's a template to get you started:
+## .desktoprc
 
-```bash
-# Sample desktoprc for OCF desktops
-echo "Starting desktop config..."
+To begin customizing your desktop, you need to create a file named `.desktoprc`
+in your remote directory. This is a bash script which will be sourced each time
+you log into any OCF desktop.
 
-# Personally I like setting these flags in scripts as they avoid weird issues
-# You can read more about these options here - http://redsymbol.net/articles/unofficial-bash-strict-mode/
-# Feel free to comment it out, they don't really do much for this sample script
-set -euo pipefail
+>`~/remote` is an sshfs mount from `tsunami`, the OCF's public login server
 
-# Uncomment this line if you want to print every command run to logs
-# set -x
+To create a `.desktoprc` file, open a text editor of your choice and create a new file at `~/remote/.desktoprc`.
 
-# open up a terminal type plasma- and press tab a couple times, the autocomplete should give you a list of different
-# commands available to customize the desktop enviornment. You can then run those commands with --help to learn how to
-# use them! Try running a command in the terminal, if you like what it did to your desktop copy paste it into your desktoprc!
+For example, here's how to do it with the Konsole terminal and Kate text editor:
 
-# Set dark theme
-plasma-apply-lookandfeel -a org.kde.breezedark.desktop
+1. Press Ctrl+Alt+T
+2. Run `$ kate ~/remote/.desktoprc`
+3. 
+4. Ctrl+S to save
 
-# Set wallpaper
-plasma-apply-wallpaperimage ~/remote/.config/desktop/wallpaper.jpg
+## Home Manager Flake
 
-# Set cursor theme
-plasma-apply-cursortheme "Adwaita"
+Now, we're going to create a directory on `~/remote` that will set up NixOS
+Home Manager via a Nix Flake.
 
-# Remove all desktop icons :) - cause I personally hate them loll
-rm -rf ~/Desktop/*
+`mkdir ~/remote/home-manager`
 
-# Install custom packages - in this case lsd and intellij (just as an example).
-# These packages are not limited to terminal utilities but can install full custom desktop applications for you!
-# You can search the list of available packages at - https://search.nixos.org/packages?channel=unstable
-# Note: You'll have to use the nixpkgs#<package> format for any package you find through the package search. 
-nix profile install nixpkgs#lsd nixpkgs#jetbrains.idea-community-bin 
+`kate ~/remote/home-manager/flake.nix`
 
-# Don't put much beyond this as it'll take a while to finish getting and installing custom packages 
-# Unless you need package for some command you want to run.
+Paste the following default configuration into the empty `flake.nix` file, replacing `USER` with your ocf username:
 
-echo "Completed, running desktoprc!"
+```
+{
+  description = "Default OCF Home Manager Configuration"
+
+  inputs = {
+    # Specify the source of Home Manager and Nixpkgs.
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    home-manager = {
+      url = "github:nix-community/home-manager";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+  };
+
+  outputs = { nixpkgs, home-manager, ...}:
+  let
+    system = "x86_64-linux";
+    pkgs = nixpkgs.legacyPackages.${system};
+  in
+  {
+    homeConfigurations."USER" = home-manager.lib.homeManagerConfiguration {
+      inherit pkgs;
+
+      # Specify your home configuration modules here, for example,
+      # the path to your home.nix.
+      modules = [ ./home.nix ];
+
+      # Optionally use extraSpecialArgs
+      # to pass through arguments to home.nix
+    };
+    formatter.${system} = pkgs.nixpkgs-fmt;
+  };
+}
 ```
 
+Now, we're going to create a basic `home.nix` file, where the majority of our customization will later take place.
+
+More resources:
+
+[Home Manager Manual - Nix Flakes](https://nix-community.github.io/home-manager/index.xhtml#ch-nix-flakes)
 
 ## Debugging and monitoring:
 
 You can look at the logs and outputs from your desktoprc by running `$ systemctl —user status desktoprc.service` or `$ journalctl —user desktoprc.service`.
+
+## Tracking with Git & Github
+
+## Sample Configs from OCF Staff
+- laksith: [.desktoprc](https://github.com/laksith19/ocf-desktoprc/), [home manager flake](https://github.com/laksith19/ocf-home-manager)
+
+- jaysa: [.desktoprc](), [home manager flake]()
