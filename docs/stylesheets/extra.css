@@ -64,3 +64,21 @@
 a:hover {
   text-decoration: underline;
 }
+
+
+.md-header__source {
+  /* hide repo button */
+  display: none;
+}
+
+.md-content__button {
+  opacity: 0.7;
+}
+
+.md-content__button svg {
+  fill: var(--md-accent-fg-color);
+}
+
+.md-content__button:hover {
+  opacity: 1;
+}
