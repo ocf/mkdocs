@@ -26,3 +26,7 @@ If you have something you want to talk about at BoD, you should note it down on 
 4. `git add --all`
 5. `git commit -m "update bod notes"`
 6. `git push`
+
+## My branch is out-of-sync with the main branch
+
+Do steps 1-2 of the CLI guide, then run `git pull`, `git rebase origin/main`, and `git push --force`.
