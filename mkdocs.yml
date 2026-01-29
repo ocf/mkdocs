@@ -1,4 +1,4 @@
-site_name: Open Computing Facility
+site_name: OCF Documentation
 site_url: https://docs.ocf.berkeley.edu
 
 repo_url: https://github.com/ocf/mkdocs
@@ -69,3 +69,4 @@ plugins:
   - awesome-nav
 extra:
   generator: false
+  homepage: https://ocf.io
