@@ -10,28 +10,6 @@ OCF computers include free and open-source software such as LibreOffice (similar
 
 for details about printing in the lab, see Printing.
 
-## Current Hours
-
-Please note that our hours are all Berkeley Time, as the front desk staff are student employees and may have classes before opening times.
-
-| Day | Hours |
-| --- | ----------- |
-| Sunday | Closed All Day (Summer Break) |
-| Monday | Closed All Day (Summer Break) |
-| Tuesday | Closed All Day (Summer Break) |
-| Wednesday | Closed All Day (Summer Break) |
-| Thursday | Closed All Day (Summer Break) |
-| Friday | Closed All Day (Summer Break) |
-| Saturday | Closed All Day (Summer Break) |
-
-### Holidays
-
-Current and future holidays are listed below. Note that holiday hours may change, so you should check back closer to the holiday.
-
-| Date | Hours |
-| --- | ----------- |
-| May 17, 2025 - Aug 26, 2025 | Closed All Day (Summer Break) |
-
 ## Location
 
 The OCF computer lab is located in 171 MLK Student Union. It can be accessed through the main MLK building or via the tunnel by the stairs between Upper and Lower Sproul.

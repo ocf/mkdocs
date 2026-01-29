@@ -17,8 +17,7 @@ assume that development is happening in a single branch.
 work if you have permission and change the author appropriately (e.g.,
 `--author="Guest User <guser@ocf.berkeley.edu>"`). When committing, `git config
 user.name` should be your name and `git config user.email` should be your OCF
-email address -- this should be taken care of by [[LDAP|doc
-staff/backend/ldap]] and `/etc/mailname` on OCF machines.
+email address -- this should be taken care of by [LDAP](/staff-docs/infrastructure/ldap/) and `/etc/mailname` on OCF machines.
 
 ### To "update"
 

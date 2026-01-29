@@ -6,7 +6,7 @@ title: LDAP
 
 The Lightweight Directory Access Protocol accesses a directory service over a
 network. We currently use OpenLDAP to store information about accounts (except
-password hashes which are in [[Kerberos|doc staff/backend/kerberos]]).
+password hashes which are in [Kerberos](/staff-docs/infrastructure/kerberos/)).
 
 
 ## Definition of an OCF account
@@ -91,8 +91,7 @@ Searching for all accounts created after a certain time:
 ### `ldapvi`
 
 `ldapvi` is a "text editor" for LDAP which can generate LDIF change records to
-pass to `ldapadd` (or modify directly if you have the proper [[permissions|doc
-staff/powers]]). The easiest way to edit a single record with `ldapvi` is to
+pass to `ldapadd` (or modify directly if you have the proper [permissions](/staff-docs/get-involved/staff-privileges/)). The easiest way to edit a single record with `ldapvi` is to
 just run `kinit [username]/admin ldapvi [record]`, which will authenticate with
 Kerberos and then run `ldapvi` all in one step.
 
@@ -130,7 +129,7 @@ file in your current directory, or `Q` to discard.
 ### `ldapadd`
 
 `ldapadd` is a utility to add entries to the LDAP directory if you have the
-proper [[permissions|doc staff/powers]].
+proper [permissions](/staff-docs/get-involved/staff-privileges/).
 
 To add an account, first create a file (we call it `user_file`):
 
@@ -146,7 +145,7 @@ To add an account, first create a file (we call it `user_file`):
     loginShell: /bin/bash
     calnetUid: 758472
 
-Then authenticate with [[Kerberos|doc staff/backend/kerberos]]:
+Then authenticate with [Kerberos](/staff-docs/infrastructure/kerberos/):
 
     $ kinit myusername/admin
 

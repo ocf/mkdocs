@@ -2,10 +2,10 @@
 title: Munin
 ---
 
-**NOTE:** We are currently in the process of migrating many of our monitoring services to Prometheus. For more information, visit the documentation page for Prometheus [[here|doc staff/backend/prometheus]].
+**NOTE:** We are currently in the process of migrating many of our monitoring services to Prometheus. For more information, visit the documentation page for Prometheus [here](/staff-docs/infrastructure/prometheus/).
 
 We use [Munin](https://munin.ocf.berkeley.edu) to provide real-time monitoring
-of our hardware. The master is [[dementors|doc staff/backend/servers]] which
+of our hardware. The master is [dementors](https://www.ocf.berkeley.edu/docs/staff/backend/servers/) which
 runs a cron job every five minutes to collect data from the node server running
 on each machine. A [custom script][gen-munin-nodes] periodically generates the
 list of available nodes from LDAP.

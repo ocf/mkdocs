@@ -14,7 +14,7 @@ for content posted by OCF members.
 The OCF maintains a strict policy not to remove or modify data
 hosted by members unless legally compelled to do so, or if such
 data is in violation of existing OCF
-[[account policies|doc services/account/account-policies]].
+[account policies](/user-docs/services/account/account-policy/).
 
 This means the OCF will not change or remove any text, pictures,
 information, or other data hosted by an OCF member. We do however
@@ -35,15 +35,15 @@ associated with their OCF account. If the website in question is
 <username>@ocf.berkeley.edu.
 
 If repeated attempts to contact the owner of the account have failed,
-you may [[contact us|doc contact]] and request the website be
+you may [contact us](/user-docs/contact/) and request the website be
 disabled due to inactivity. If we attempt to contact the website owner
 and fail to get a response, we may disable their account as per our
-[[account policies|doc services/account/account-policies]].
+[account policies](/user-docs/services/account/account-policy/).
 
 However, if the website owner responds and refuses your removal request,
 the OCF cannot take any further action on your behalf unless the website
 is in violation of our
-[[account policies|doc services/account/account-policies]]. If you believe
+[account policies](/user-docs/services/account/account-policy/). If you believe
 this is the case, you may notify us of the exact policy you believe to have
 been breached, and if we determine the complaint to be valid, we will take
 appropriate action on our end.

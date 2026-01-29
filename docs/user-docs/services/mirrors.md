@@ -13,7 +13,7 @@ We are also available at `mirrors.berkeley.edu` (HTTP only), as an alias for
 `mirrors.ocf.berkeley.edu`.
 
 To request for another project to be mirrored or to report a problem with our
-mirroring service, please [[contact us|doc contact]].
+mirroring service, please [contact us](/user-docs/contact/).
 
 ## Currently mirrored projects
 

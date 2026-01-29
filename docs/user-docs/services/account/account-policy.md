@@ -1,4 +1,6 @@
-# Account Policy
+---
+title: Account Policy
+---
 
 *As amended by the Board of Directors, November 13, 2017.*
 

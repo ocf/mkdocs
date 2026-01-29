@@ -4,12 +4,11 @@ title: Django
 
 **Note: These instructions are primarily intended for individual user accounts.
 If you are using a group account, you may wish to consider
-[[apphosting|doc services/webapps]] instead.**
+[apphosting](/user-docs/services/webapps/) instead.**
 
 Django is a popular web framework for Python applications. At the OCF, you can
 host it using our regular web hosting, though for groups with virtual hosting,
-we strongly recommend instead using our [[application hosting service|doc
-services/webapps]] instead, as it provides a first-class solution for webapps.
+we strongly recommend instead using our [application hosting service](/user-docs/services/webapps/) instead, as it provides a first-class solution for webapps.
 
 ## Running a Django app
 

@@ -43,7 +43,7 @@ Some labels used frequently are:
  - **host_type:** The type of device that is being queried. Valid types are `desktop`, `server`, and `staffvm`.
  - **job:** The name of the job/exporter that collected the data. Some examples are `node`, `printer`, and `slurm`.
 
-For example, if you would like to view the total RAM installed on each of the [[servers|doc staff/backend/servers]] you can query `node_memory_Active_bytes{host_type="server"}`.
+For example, if you would like to view the total RAM installed on each of the [servers](https://www.ocf.berkeley.edu/docs/staff/backend/servers/) you can query `node_memory_Active_bytes{host_type="server"}`.
 
 To view the per-second rate of a metric, use
 ```
@@ -63,7 +63,7 @@ The frontend for Prometheus is [Grafana][grafana], which displays statistics col
  - **[Desktops](https://ocf.io/desktopstats):** Displays usage information for lab computers (cyclone, acid, etc).
  - **[Printers](https://ocf.io/printerstats):** Displays printer usage and resource information.
  - **[Mirrors](https://ocf.io/mirrorstats):** Displays information about mirror staleness.
- - **[HPC](hhttps://ocf.io/hpcstats):** Displays usage information for the [[HPC cluster|doc services/hpc]].
+ - **[HPC](hhttps://ocf.io/hpcstats):** Displays usage information for the [HPC cluster](/user-docs/services/hpc/).
 
 There are more dashboards available, which can be accessed by clicking the dropdown arrow on the top left of the Grafana page.
 

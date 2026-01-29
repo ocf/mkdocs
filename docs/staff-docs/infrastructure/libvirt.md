@@ -81,7 +81,7 @@ then you would run `vncviewer -via jaws 127.0.0.1:10` (or `localhost:10`).
 
 ### How do I create a VM?
 
-See [[Creating new hosts|doc staff/procedures/new-host]].
+See [Creating new hosts](/staff-docs/procedures/new-host/).
 
 ### How do I delete a VM?
 
@@ -99,7 +99,7 @@ On the hypervisor:
 
 ### How do I move a VM from one host to another?
 
-Use the [[migrate-vm|doc staff/scripts/migrate-vm]] script.
+Use the [migrate-vm](/staff-docs/scripts/migrate-vm/) script.
 
 ### Oh no, I've got a VM with broken networking. How can I access it?
 
@@ -139,7 +139,7 @@ and for vCPUs:
 
 ### How do I edit my VM's disk size?
 
-There's [[a full guide for this in the docs|doc staff/procedures/live-resize]]
+There's [a full guide for this in the docs](/staff-docs/procedures/live-resize/)
 with step-by-step instructions for how to live-resize your VM to have _more_
 disk size. However, if you'd instead like to _shrink_ a partition on-line, see
 [this Unix SE answer](https://unix.stackexchange.com/a/227318). It's much more

@@ -18,7 +18,7 @@ use the resources at our disposal.
 
 In order to access the HPC cluster, please send an access request to
 [help@ocf.berkeley.edu](mailto:help@ocf.berkeley.edu). Make sure to include
-your OCF username or [[group account|doc membership#h2_group-accounts]] name
+your OCF username or [group account](/user-docs/membership/#group-accounts) name
 and a detailed technical description of the projects you plan to run on our
 HPC infrastructure. This would include information about the nature of the
 software being run, as well as the amount of computational resources that are
@@ -33,10 +33,10 @@ connect to our Slurm master node via SSH by running the following command:
 ssh my_ocf_username@hpcctl.ocf.berkeley.edu
 ```
 
-If you have trouble connecting please [[contact us|doc contact]] at
+If you have trouble connecting please [contact us](/user-docs/contact/) at
 [help@ocf.berkeley.edu](mailto:help@ocf.berkeley.edu), or come to
-[[staff hours|staff-hours]] when the lab is open and chat with us in person.
-We also have a `#hpc_users` channel on OCF chat and [[irc|doc contact/irc]]
+[staff hours](https://ocf.io/staffhours) when the lab is open and chat with us in person.
+We also have a `#hpc_users` channel on OCF chat and [irc](/user-docs/contact/irc/)
 where you can ask questions and talk to us about anything HPC.
 
 ## The Cluster
@@ -60,7 +60,7 @@ across an HPC cluster, where each computer in the cluster is referred to
 as a node.
 The only way to access our HPC nodes is through Slurm.
 
-Detailed documentation for how to access Slurm is [[here|doc services/hpc/slurm]].
+Detailed documentation for how to access Slurm is [here](/user-docs/services/hpc/slurm/).
 
 ## Dependencies
 For managing application dependencies, you currently have two options:

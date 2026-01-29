@@ -19,7 +19,7 @@ non-standard packages installed:
 * [ZIP](https://www.php.net/manual/en/book.zip.php) (compression library)
 
 For a full list of available modules, run `phpinfo()` from a PHP script.
-Plase [[contact us|doc contact]] if you are missing a module that you need
+Plase [contact us](/user-docs/contact/) if you are missing a module that you need
 installed to get your application running.
 
 ## Custom PHP settings

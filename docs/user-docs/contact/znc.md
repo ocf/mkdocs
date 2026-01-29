@@ -16,7 +16,7 @@ Ask a root staffer (or ping #rebuild) to create a ZNC username / password.
 
 ### Configuring ZNC
 
-Configuration is most easily done through the [ZNC web interface][webznc]. It
+Configuration is most easily done through the [ZNC web interface (deprecated lol)][webznc]. It
 requires you to login using your staff-created ZNC account.
 
 Once you've logged in, under `Your Settings` you should set the following
@@ -48,7 +48,7 @@ connect to IRC normally.
 
 ### Setting up NickServ to work with ZNC
 
-If you are [[using ZNC|doc staff/tips/staffvm/znc]], load the [NickServ
+If you are [using ZNC](../../../staff-docs/archive/znc), load the [NickServ
 module][nickserv] by running `/znc LoadMod nickserv` while connected to your
 ZNC server. Then, in your ZNC web admin interface, log in and go to `Your
 Settings` under either the global or user modules links. Under the Networks

@@ -9,7 +9,7 @@ static, it makes for very fast and simple websites.
 ## Set up your site
 
 1. Go to either our [web-based SSH client](https://ssh.ocf.berkeley.edu/) or a
-   terminal (using [[SSH|doc services/shell]] to connect to
+   terminal (using [SSH](/user-docs/services/shell/) to connect to
    `ssh.ocf.berkeley.edu`) and sign in with your OCF username and password.
 
 2. Create a new directory for your Jekyll project and name it whatever you

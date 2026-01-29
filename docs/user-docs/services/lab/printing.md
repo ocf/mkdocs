@@ -21,7 +21,7 @@ Please note:
 ## Remaining quota
 
 To see how many pages you have left for the day and semester, run the `paper`
-command [[over the web|commands]] or [[in the shell|doc services/shell]]. Print
+command [over the web](https://www.ocf.berkeley.edu/account/commands/) or [in the shell](/user-docs/services/shell/). Print
 quota is also displayed at the top of the screen when using a lab computer.
 Check your print balance regularly!
 

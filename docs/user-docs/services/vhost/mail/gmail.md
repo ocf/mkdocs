@@ -9,7 +9,7 @@ or Berkeley email for these steps.
 1. **Make sure you can receive mail.** This must be done before you can start
    sending mail.
 
-   From the [[mail hosting configuration page|vhost_mail]], create a new
+   From the [mail hosting configuration page](https://www.ocf.berkeley.edu/account/vhost/mail/), create a new
    mailing address for yourself. Make sure it forwards to your Gmail account:
 
    ![](https://i.fluffy.cc/zBz5DtjQbDpR7nGDrZXJnNDrtPDkxtmR.png)
@@ -75,10 +75,10 @@ If you use the Gmail app on your iPhone or Android device, you'll be able to
 select the From address there as well.
 
 **Having trouble with the above steps?** If you're stuck and can't figure out
-what's wrong, feel free to [[drop by our staff hours|staff-hours]] for
+what's wrong, feel free to [drop by our staff hours](https://ocf.io/staffhours) for
 in-person help!
 
-As a last resort, you can also [[email us|doc contact]] for assistance. If you
+As a last resort, you can also [email us](/user-docs/contact/) for assistance. If you
 do this, please provide as much detail as possible, including screenshots, the
 email you're trying to use, and the steps you took. (But please *do not* send
 us your password!)

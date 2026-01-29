@@ -4,16 +4,15 @@ title: Contact Us
 
 > ## Before contacting us
 > Please conserve our valuable volunteer manpower by **making sure your
-> question isn't already answered in our [[Frequently asked questions|doc
-> faq]]**.
+> question isn't already answered in our [Frequently asked questions](../faq.md)**.
 >
-> *Interested in [[joining staff|about-staff]]? Feel free to attend our
+> *Interested in [joining staff][staff]? Feel free to attend our
 > meetings or contact us by email!*
 
 There are several ways to contact the student volunteers who keep the OCF
 running (hereafter referred to as OCF staff). If your question cannot be
-answered by the **[[FAQ|doc faq]]**, we ask that you try coming to **[[staff
-hours|staff-hours]]** before contacting us by email.
+answered by the **[FAQ](../faq.md)**, we ask that you try coming to **[staff
+hours][staff-hours]** before contacting us by email.
 
 When contacting OCF staff, please reference
 
@@ -27,7 +26,7 @@ Lower Sproul), Room 171. You will need to show your student ID to the
 front desk staff when you enter the lab.
 
 OCF staff members are usually **not present** during lab open hours. To talk
-with an OCF volunteer staffer, check the [[posted staff hours|staff-hours]].
+with an OCF volunteer staffer, check the [posted staff hours][staff-hours].
 
 ## Email
 
@@ -87,9 +86,11 @@ Please note that any cease and desist notices may be forwarded to the [Lumen
 database][lumen] for publication and annotation.
 
 Please take note of our
-[[content removal policy|doc services/account/content-removal]] policy prior
+[content removal policy](../services/account/content-removal) prior
 to contacting us about taking down user content.
 
 [lumen]: https://lumendatabase.org/
 [dmca]: https://security.berkeley.edu/digital-millennium-copyright-act-dmca-uc-berkeley
 [usepolicy]: https://security.berkeley.edu/policy/usepolicy.html
+[staff]: https://www.ocf.berkeley.edu/about/staff
+[staff-hours]: https://ocf.io/staffhours

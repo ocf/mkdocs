@@ -22,7 +22,7 @@ actual alumnus to perform the search for you, if you are so inclined but
 unable to access the page on account of your youth.
 
 To perform the association, simply follow the steps outlined in the
-[[LDAP Association|doc staff/procedures/accounts/association]] documentation
+[LDAP Association](/staff-docs/procedures/accounts/association/) documentation
 with regards to adding the `calnetUid` record. However, don't delete it after
 you're done.
 
@@ -31,7 +31,7 @@ you're done.
 In 2011, we transitioned our password database to Kerberos. Anyone who
 logged into their OCF account during the transition had their credentials
 migrated, but alumni who didn't log in may be missing a
-[[Kerberos principal|doc staff/backend/kerberos]]. For them, it is necessary
+[Kerberos principal](/staff-docs/infrastructure/kerberos/). For them, it is necessary
 to manually add one.
 
 This error manifests itself as the following when a user attempts to reset
@@ -48,15 +48,15 @@ password and you can relay this to the alumni.
 
 #### Disabled Account    {sorried}
 
-If the account is [[sorried|doc staff/scripts/sorry]], refer to the documentation
-for [[unsorry|doc staff/scripts/unsorry]] to re-enable the account.
+If the account is [sorried](/staff-docs/scripts/sorry/), refer to the documentation
+for [unsorry](/staff-docs/scripts/unsorry/) to re-enable the account.
 
 #### Manual Verification of Alumni Identity    {verify}
 
 Before re-enabling access to an alumni's account, one should verify their identity.
 If they do not have a CalNet UID or are otherwise lacking a reasonable method of
 verifying their identity, it may be necessary to request manual verification of
-identity. Pursuant to the [[instructions for alumni| doc services/account]], if
+identity. Pursuant to the [instructions for alumni](/user-docs/services/account/), if
 you receive a reactivation request from an alum and need to manually verify their
 identity, direct them to send you the required documentation at a private address
 and destroy the documentation as soon as possible.

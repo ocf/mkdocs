@@ -5,7 +5,7 @@ title: Python (Django, Flask, etc.)
 **Note: This document only applies to student groups with virtual hosts who
 have applied for apphosting. For normal user accounts or for groups without
 apphosting, you'll want to host with FastCGI instead. See our instructions for
-[[Django|doc services/web/django]] or [[Flask|doc services/web/flask]].**
+[Django](/user-docs/services/web/django/) or [Flask](/user-docs/services/web/flask/).**
 
 You will want to deploy your application using a virtualenv so that you can
 easily install and manage dependencies and versions.
@@ -60,7 +60,7 @@ running it (or see any errors in your terminal).
 
 ## Supervise your app with systemd
 
-Cool, your app works. [[Set up systemd|doc services/webapps#supervise]] to
+Cool, your app works. [Set up systemd](/user-docs/services/webapps/#supervising-and-starting-your-app) to
 supervise your app (so that it starts and restarts automatically).
 
 ### Bonus Gunicorn tip: reloading your app
@@ -78,7 +78,6 @@ and then running `systemctl --user daemon-reload`. After that, you can use
 ## Suggestions/improvements?
 
 If you have a better way to host Python-based apps on the app server (or a
-suggestion for how we could improve this documentation), [[send us an email|doc
-contact]]!
+suggestion for how we could improve this documentation), [send us an email](/user-docs/contact/)!
 
 [lol-syntax]: https://stackoverflow.com/a/25611194

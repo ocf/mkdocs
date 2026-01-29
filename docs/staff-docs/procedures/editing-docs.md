@@ -40,7 +40,7 @@ commiting on master or making a pull request.
 
 For more complicated ones, the repository's readme file has instructions for
 testing and building the website so you can preview your edits before making
-the commit. Also see [[our page on Git|doc staff/backend/git]] for further info
+the commit. Also see [our page on Git](/staff-docs/infrastructure/git/) for further info
 on working with OCF repos.
 
 

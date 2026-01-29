@@ -25,8 +25,7 @@ replication, impose resource limits, and recover quickly from failures.
 
 A Kubernetes cluster consists of "master" nodes and "worker" nodes. In short,
 master nodes share state to manage the cluster and schedule jobs to run on
-workers. [[It is considered best practice to run an odd number of masters|doc
-staff/backend/kubernetes#h3_why-the-odd-number-of-masters]], and currently our
+workers. [It is considered best practice to run an odd number of masters](/staff-docs/infrastructure/kubernetes/#why-the-odd-number-of-masters), and currently our
 cluster has three masters.
 
 ### Masters

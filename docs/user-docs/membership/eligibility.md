@@ -4,7 +4,7 @@ title: Eligibility
 
 _As amended by the Board of Directors on April 17, 2017._
 
-The following individuals and groups are eligible for [[membership|doc membership]]:
+The following individuals and groups are eligible for [membership](/user-docs/membership/):
 
 The Open Computing Facility provides accounts and services to members. Members
 must meet at least one of the following eligibility criteria during account

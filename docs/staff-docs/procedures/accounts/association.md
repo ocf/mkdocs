@@ -3,9 +3,9 @@ title: LDAP Association
 ---
 
 New individual accounts have a `calnetUid` attribute in
-[[LDAP|doc staff/backend/ldap]] which is used for
-[[changing passwords online|change_password]], querying CalNet when running
-[[`check`|doc staff/scripts/check]], and producing aggregate counts of
+[LDAP](/staff-docs/infrastructure/ldap/) which is used for
+[changing passwords online](https://ocf.berkeley.edu/account/password/), querying CalNet when running
+[`check`](/staff-docs/scripts/check/), and producing aggregate counts of
 the number of members by university affiliation.
 
 Similarly, group accounts have a `callinkOid` attribute.
@@ -35,7 +35,7 @@ If the `mail` attribute is missing, but you know of a contact email address for
 the account, please add it as well.
 
 Save the file to update LDAP. Now, the user can
-[[change the account password online|change_password]].
+[change the account password online](https://ocf.berkeley.edu/account/password/).
 
 CalNet association is only meant to be temporary and must be reverted once the
 password has been reset by removing this line. It can cause problems with

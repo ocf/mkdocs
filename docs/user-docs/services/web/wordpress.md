@@ -4,17 +4,16 @@ title: WordPress
 
 WordPress is a popular CMS (content management system) on the Web.
 
-OCF's [[web hosting|doc services/web]] supports local WordPress installations,
-and groups using WordPress are eligible for [[virtual hosting|doc
-services/vhost]] (mygroup.studentorg.berkeley.edu names).
+OCF's [web hosting](/user-docs/services/web/) supports local WordPress installations,
+and groups using WordPress are eligible for [virtual hosting](/user-docs/services/vhost/) (mygroup.studentorg.berkeley.edu names).
 
-Instructions for using WordPress are provided below; you can also [[drop by
-during staff hours|staff-hours]] for in-person assistance.
+Instructions for using WordPress are provided below; you can also [drop by
+during staff hours](https://ocf.io/staffhours) for in-person assistance.
 
 
 ## Installing WordPress
 
-The easiest way to set up WordPress is via [[SSH|doc services/shell]]. Some
+The easiest way to set up WordPress is via [SSH](/user-docs/services/shell/). Some
 simple instructions:
 
 1. Go to our [web-based SSH client](https://ssh.ocf.berkeley.edu/) and sign in
@@ -56,8 +55,7 @@ password you created and start configuring your site.
 ## Migrating from WordPress.com to OCF
 
 If you already have a site hosted at WordPress.com and you'd like to move it to
-OCF web hosting, for example, to become eligible for [[virtual hosting|doc
-services/vhost]], you can move most of your website's functionality and content
+OCF web hosting, for example, to become eligible for [virtual hosting](/user-docs/services/vhost/), you can move most of your website's functionality and content
 to the OCF's servers. Generally, the process is simple and sites migrated from
 WordPress.com hosting to the OCF function quite well, apart from possible minor
 differences in the appearance of themes. However, if you're looking to create
@@ -68,7 +66,7 @@ over.
 
 If you have an old WordPress installation lying around -- if you are replacing
 an old student group website, for example -- you should archive it before
-proceeding. See the example on our [[backup page|doc services/web/backups]] to
+proceeding. See the example on our [backup page](/user-docs/services/web/backups/) to
 easily make a backup over SSH.
 
 The basic steps to migration are as follows:
@@ -105,8 +103,8 @@ link from the login page.
 
 If you're not able to recover your password via email, you can use
 [wp-cli][wp-cli] instead, using the instructions below. (If you're not
-comfortable following these instructions, consider coming in to [[staff
-hours|staff-hours]] instead.
+comfortable following these instructions, consider coming in to [staff
+hours](https://ocf.io/staffhours) instead.
 
 
 1. Go to our [web-based SSH client](https://ssh.ocf.berkeley.edu/) and sign in

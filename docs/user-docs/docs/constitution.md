@@ -5,18 +5,18 @@ title: Constitution
 This document records the **Constitution of the Open Computing Facility**, as
 established on November 14, 2016 and amended on:
 
-1. [March 6, 2017](#amended-2017-03-06)
-2. [November 20, 2017](#amended-2017-11-20)
-3. February 11, 2019 (Sections [4.7](#amended-2019-02-11-4-7),
-   [5.2.4](#amended-2019-02-11-5-2-4), and [5.3.1](#amended-2020-09-09-5-3-1))
-4. December 2, 2019 (Sections [3.4](#amended-2019-12-02-3-4),
-   [4.1](#amended-2019-12-02-4-1), [4.4](#amended-2019-12-02-4-4),
-   [4.5](#amended-2019-12-02-4-5), [4.11](#amended-2019-12-02-4-11),
-   [5.2.1](#amended-2019-12-02-5-2-1), and
-   [5.2.2](#amended-2019-12-02-5-2-2))
-5. September 9, 2020 (Section [5.3.1](#amended-2020-09-09-5-3-1))
-6. November 22, 2021 (Sections [4.9](#amended-2021-11-22-4-9),
-   [4.10](#amended-2021-11-22-4-10), and [4.12](#amended-2021-11-22-4-12))
+1. [March 6, 2017](#62-ocf-general-manager)
+2. [November 20, 2017](#33-quorum)
+3. February 11, 2019 (Sections [4.7](#47-vacancies),
+   [5.2.4](#524-nominations), and [5.3.1](#531-election-of-officers-amended))
+4. December 2, 2019 (Sections [3.4](#34-committees),
+   [4.1](#41-offices), [4.4](#44-elected),
+   [4.5](#45-term-of-office), [4.11](#411-committee-heads),
+   [5.2.1](#521-dates-of-elections-meeting), and
+   [5.2.2](#522-order-of-business))
+5. September 9, 2020 (Section [5.3.1](#531-election-of-officers))
+6. November 22, 2021 (Sections [4.9](#49-general-manager-duties),
+   [4.10](#410-site-manager-duties), and [4.12](#412-operations-manager-duties))
 
 
 ## Preamble
@@ -81,14 +81,14 @@ quorum.
 Other Directors shall be appointed and removed as provided for by bylaw.
 
 
-#### 3.3 Quorum {amended-2017-11-20}
+#### 3.3 Quorum
 Quorum consists of 1/2 of the Board of Directors. Quorum must be met at Board
 meetings for Board votes to be valid.
 
 _[Amended at the Board meeting of November 20, 2017]._
 
 
-#### 3.4 Committees {amended-2019-12-02-3-4}
+#### 3.4 Committees
 The Board of Directors includes committees, which sustain and promote specific
 functions within the Open Computing Facility.
 
@@ -108,7 +108,7 @@ Committees and their purposes are defined as provided by bylaw.
 ### 4 Elected Officers
 
 
-#### 4.1 Offices {amended-2019-12-02-4-1}
+#### 4.1 Offices
 The General Manager and Site Manager are elected offices. Committee heads may
 also be elected as provided by bylaw.
 
@@ -125,11 +125,11 @@ jointly held by more than two people.
 Only Board members may run for office.
 
 
-#### 4.4 Elected {amended-2019-12-02-4-4}
+#### 4.4 Elected
 _[Repealed at the Board meeting of December 2, 2019]._
 
 
-#### 4.5 Term Of Office {amended-2019-12-02-4-5}
+#### 4.5 Term Of Office
 The terms of General Managers or Site Managers elected at a regular elections
 meeting shall begin on the first day following the end of the semester in which
 they were elected. The terms of General Managers or Site Managers elected at a
@@ -150,7 +150,7 @@ members pass a vote of no confidence in them. An officer shall not be eligible
 to preside over a debate concerning a vote of no confidence in themself.
 
 
-#### 4.7 Vacancies {amended-2019-02-11-4-7}
+#### 4.7 Vacancies
 If an elected office becomes vacant, the [OCF Decision Making
 Process](#ocf_decision_making_process) shall designate a member to act in that
 position until the office can be filled by election or special election as
@@ -166,7 +166,7 @@ shall designate a member to act in their position for the duration of the
 incapacity.
 
 
-#### 4.9 General Manager Duties {amended-2021-11-22-4-9}
+#### 4.9 General Manager Duties
 The General Manager is the chief political and executive officer of the OCF and
 the chair of the Board of Directors. The General Manager shall manage and oversee
 committees pursuant to the wishes of the Board of Directors. The General Manager
@@ -174,20 +174,20 @@ is also responsible for matters relating to university affairs.
 
 _[Amended at the Board meeting of November 22, 2021]._
 
-#### 4.10 Site Manager Duties {amended-2021-11-22-4-10}
+#### 4.10 Site Manager Duties
 The Site Manager is the chief system manager of the OCF and is responsible for
 matters relating to lab space, user support and public service operations.
 
 _[Amended at the Board meeting of November 22, 2021]._
 
-#### 4.11 Committee Heads {amended-2019-12-02-4-11}
+#### 4.11 Committee Heads
 
 Committee heads are responsible for organizing their respective committees. Each
 established committee has at least one committee head.
 
 _[Added at the Board meeting of December 2, 2019]._
 
-#### 4.12 Operations Manager Duties {amended-2021-11-22-4-12}
+#### 4.12 Operations Manager Duties
 The Operations Manager is in charge of the Operations Staff. The Operations
 Manager reports to the Board of Directors, and acts as a liaison between
 Operations Staff and the Board of Directors, as well as overseeing and handling
@@ -203,10 +203,10 @@ The OCF is formally in session during the Fall Semester and the Spring
 Semester. The OCF is informally in session between the semesters.
 
 
-#### 5.2 Elections Meetings    {elections_meetings}
+#### 5.2 Elections Meetings
 
 
-##### 5.2.1 Dates of Elections Meeting {amended-2019-12-02-5-2-1}
+##### 5.2.1 Dates of Elections Meeting
 The Board of Directors shall meet to elect officers at its final or penultimate
 meeting of the Fall and Spring semesters. This meeting is the Manager Elections
 Meeting. The Board of Directors may select a meeting to elect committee heads as
@@ -215,7 +215,7 @@ provided by bylaw. Elections are exempt from the quorum requirement.
 _[Amended at the Board meeting of December 2, 2019]._
 
 
-##### 5.2.2 Order of Business {amended-2019-12-02-5-2-2}
+##### 5.2.2 Order of Business
 The Manager Elections Meeting shall, in this order,
 
 1. elect the General Manager
@@ -229,7 +229,7 @@ If an elected office becomes vacant, a special election shall be held at the
 next Board meeting to elect a replacement, unless a regular election is being
 held at the next Board meeting.
 
-##### 5.2.4 Nominations {amended-2019-02-11-5-2-4}
+##### 5.2.4 Nominations
 
 Nominations for elected offices can take place either at the Board meeting
 before the election, or two Board meetings before the election. Nominations
@@ -246,7 +246,7 @@ _[Added at the Board meeting of February 11, 2019]._
 #### 5.3 Voting
 
 
-##### 5.3.1 Election of Officers {amended-2020-09-09-5-3-1}
+##### 5.3.1 Election of Officers
 The election of officers shall be by secret ballot. Each ballot shall be a
 ranked list of candidate preferences. A candidate wins if there is a unique
 Condorcet Beatpath winner, otherwise the election will repeat. Write-in votes
@@ -263,14 +263,14 @@ All other votes require a simple majority to pass unless otherwise specified.
 Only Board members present at a meeting may vote.
 
 
-### 6 The OCF Decision Making Process    {ocf_decision_making_process}
+### 6 The OCF Decision Making Process
 
 
 #### 6.1 OCF Board of Directors
 The OCF Board of Directors shall have authority over any OCF actions.
 
 
-#### 6.2 OCF General Manager {amended-2017-03-06}
+#### 6.2 OCF General Manager
 The OCF General Manager shall have authority over any OCF actions except where
 such action conflicts with Article 6.1.
 

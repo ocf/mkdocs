@@ -23,11 +23,11 @@ direct them to an OCF officer.
 
 * For registered student groups, the OCF requires that a signatory authorize
   the approval of the account. If the account is not a registered student
-  group, check with the [[membership eligibility|doc membership/eligibility]]
+  group, check with the [membership eligibility](/user-docs/membership/eligibility/)
   to see what constitutes acceptable documentation.
 
 * If the group is a registered student group, you can look up the requester's
-  signatory status by name with [[signat|doc staff/scripts/signat]].
+  signatory status by name with [signat](/staff-docs/scripts/signat/).
 
   ```
   $ signat name matthew mcallister
@@ -76,6 +76,6 @@ group's public information on CalLink. If the group is not a student group,
 
 ### Post approval
 
-Explain to the requesters that they will need to apply for [[virtual
-hosting|doc services/vhost]] after they have set up their site if they wish to
+Explain to the requesters that they will need to apply for [virtual
+hosting](/user-docs/services/vhost/) after they have set up their site if they wish to
 do so. Point them to relevant wiki articles.

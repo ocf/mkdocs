@@ -2,7 +2,7 @@
 title: "chpass: reset a user's password"
 ---
 
-The preferred way of changing passwords is to [[do it online|change_password]].
+The preferred way of changing passwords is to [do it online](https://ocf.berkeley.edu/account/password/).
 This does not require a staffer to be present to change the user's password.
 Only use the command line chpass if this is not suitable. An example is, for
 group accounts or users that send notarized letters to the OCF.

@@ -25,21 +25,20 @@ websites, and provides support to these and other organizations on campus.
 
 To be able to do this, we are always aiming to secure more resources to fully
 meet the needs of everyone in the campus community.  Our primary resources are
-our GNU/Linux workstations and servers, entirely administered by [[student
-volunteers|doc staff]]. These resources are located within our computing lab on
+our GNU/Linux workstations and servers, entirely administered by [student
+volunteers](../../staff-docs). These resources are located within our computing lab on
 the ground floor of MLK Student Union.
 
 To help people explore the field of computing and educate them about the
 resources available, the OCF also provides a variety of educational services.
-We used to co-sponsor a series of Help Sessions, short classes taught
-throughout the semester on a wide range of computing topics (focusing on
-resources available to the Berkeley campus community), along with hosting the
-[UNIX SysAdmin DeCal][decal]. Additionally, the OCF used to conduct
-career fairs in the past with its sister organization, the
-[Computer Science Undergraduate Association][csua]. Now, we host regular [[Tech Talks|doc staff/techtalks]] that explore new technologies and how they might pertain to elements of the
-OCF infrastructure. We also offer e-mail and in-person with our volunteer
-staff members, as well as online sources of information about computing on the
-Berkeley campus and how to use the available resources.
+We host the [UNIX SysAdmin DeCal][decal] which is offered every semester, an
+introductory course on Linux Systems Administration taught by current OCF
+staff. We also host regular [Tech
+Talks](../../staff-docs/get-involved/techtalks) that explore new technologies,
+careers related to systems administration and open source, and anything else
+our alumni want to talk about. We also offer e-mail and in-person contact with
+our volunteer staff members, as well as online sources of information about
+computing on the Berkeley campus and how to use the available resources
 
 Policies for this cluster and decisions for the OCF organization are made by
 the OCF Board of Directors, an open body composed of OCF members who are
@@ -53,10 +52,9 @@ Board of Directors, and the general public is welcome to attend BoD Meetings.
 ## How to find us
 
 The OCF is located on the ground floor of MLK Student Union. For hours and a
-map, see [[here|doc services/lab]].
+map, see [here][hours].
 
-If you need to contact OCF staff members, you may [[send us an email|doc
-contact]]
+If you need to contact OCF staff members, you may [send us an email](../user-docs/contact)
 
 The Open Computing Facility is a student group acting independently of the
 University of California.  We take full responsibility for our organization and
@@ -66,4 +64,5 @@ this website.
 [berkeley]: https://www.berkeley.edu
 [decal]: https://decal.ocf.berkeley.edu
 [csua]: https://www.csua.berkeley.edu
+[hours]: https://www.ocf.berkeley.edu/docs/services/lab/
 [minutes]: ../../

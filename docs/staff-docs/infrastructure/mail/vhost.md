@@ -16,7 +16,7 @@ and send from those same addresses. It complements our web hosting nicely.
   password). If a user doesn't have a password set, then they can receive mail
   but not send it.
 
-* [[Simple admin panel|vhost_mail]] built into ocfweb for admins to set
+* [Simple admin panel](https://ocf.berkeley.edu/account/vhost/mail/) built into ocfweb for admins to set
   passwords for emails.  It might also be cool if you could change your own
   password (without having the group password), but that's not currently
   possible.
@@ -47,5 +47,5 @@ clients to send as a vhost address. (See `/etc/pam.d/smtp` and
 
 ## How do I add mail hosting to a group?
 
-See [[here|doc staff/procedures/vhost#mail]].
+See [here](/staff-docs/procedures/vhost/#mail).
 

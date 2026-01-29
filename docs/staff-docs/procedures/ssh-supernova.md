@@ -6,7 +6,7 @@ When contributing to the OCF codebase, you will need some way of running and
 testing your code. Most of our applications cannot be run on a personal
 machine--they need to be run on OCF infrastructure. For most projects we
 recommend doing all development from `supernova`, a server available to all
-staff. Our [[Kubernetes server|doc staff/backend/kubernetes]] is also
+staff. Our [Kubernetes server](/staff-docs/infrastructure/kubernetes/) is also
 accessible from `supernova`.
 
 ## Before you begin
@@ -21,7 +21,7 @@ To log in, open a terminal window and type in:
 ssh username@supernova.ocf.berkeley.edu
 ```
 
-For more instructions, see the [[SSH docs|doc services/shell]]. You should
+For more instructions, see the [SSH docs](/user-docs/services/shell/). You should
 replace `ssh.ocf.berkeley.edu` with `supernova.ocf.berkeley.edu`.
 
 ## Things you can do on `supernova`
@@ -30,7 +30,7 @@ replace `ssh.ocf.berkeley.edu` with `supernova.ocf.berkeley.edu`.
 
 Some scripts, such as ones used to create group accounts and refund printing
 quotas, are available on `supernova`. Learn more about these in the scripts
-section of [[staff documentation|doc staff]].
+section of [staff documentation](/staff-docs/).
 
 ### Development and Testing
 You can `git clone` OCF repositories and run them on `supernova`. An example

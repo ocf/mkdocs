@@ -59,13 +59,12 @@ running it (or see any errors in your terminal).
 
 ## Supervise your app with systemd
 
-Cool, your app works. [[Set up systemd|doc services/webapps#supervise]] to
+Cool, your app works. [Set up systemd](/user-docs/services/webapps/#supervising-and-starting-your-app) to
 supervise your app (so that it starts and restarts automatically).
 
 ## Suggestions/improvements?
 
 If you have a better way to host Node.js-based apps on the app server (or a
-suggestion for how we could improve this documentation), [[send us an email|doc
-contact]]!
+suggestion for how we could improve this documentation), [send us an email](/user-docs/contact/)!
 
 [nvm-github]: https://github.com/creationix/nvm

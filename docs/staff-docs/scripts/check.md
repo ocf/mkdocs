@@ -18,7 +18,7 @@ may only be accessible to privileged users or root, or depend on the server
 * Virtual host, apphost, and/or virtual mail configuration if applicable
 * DNS records for any of the above
 * Signatory of / signatories for
-* [[Notes|doc staff/scripts/note]] about the user in `~staff/User_Info`
+* [Notes](/staff-docs/scripts/note/) about the user in `~staff/User_Info`
 * Processes running on the current machine owned by that user
 * Recent login history on the current machine by that user
 

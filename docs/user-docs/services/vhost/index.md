@@ -29,34 +29,33 @@ of the virtual-hosted site (`yourgroup.studentorg.berkeley.edu`).
 
 ### Instructions
 
-1.   **Request an account.** [[Request an OCF account|doc membership]] (if you
+1.   **Request an account.** [Request an OCF account](/user-docs/membership/) (if you
      haven't already done so). Student and department groups need a group
      account; faculty and staff may use their personal account.
 2.   **Set up real site.** Set up your webspace and upload your website (if you
      haven't already done so). The website should be developed already, not a
      placeholder.
-3.   **Include OCF hosting banner.** Place a [[Hosted by OCF banner|doc
-     services/vhost/badges]] on your home page that links to the OCF front
+3.   **Include OCF hosting banner.** Place a [Hosted by OCF banner](/user-docs/services/vhost/hosting-badges/) on your home page that links to the OCF front
      page. If none of these images are appropriate for your site, you may
-     design one of your own and [[submit it|doc contact]] for approval.
+     design one of your own and [submit it](/user-docs/contact/) for approval.
 4.   **Include university's disclaimer (if applicable).** If you are a student
      group, place the university-mandated student group disclaimer on each page
      of your website (see the section below).
 5.   **Obtain a domain (faculty and staff only).** The OCF will not request
      personal domains for individuals, so faculty and staff must obtain their
      own. Your department may be able to assist you with this step.
-6.   **Complete request form.** Complete the [[virtual hosting request
-     form|request_vhost]] online. OCF staff will review your request and
+6.   **Complete request form.** Complete the [virtual hosting request
+     form](https://www.ocf.berkeley.edu/account/vhost/) online. OCF staff will review your request and
      contact the university hostmaster on your behalf if necessary.
 
-### Including the OCF banner {ocf_banner}
+### Including the OCF banner
 
-Place any of the [[Hosted by OCF banners|doc services/vhost/badges]] on your
+Place any of the [Hosted by OCF banners](/user-docs/services/vhost/hosting-badges/) on your
 site by copying the code onto your page. The banner need only be placed on the
 home page of your site. You can also create your own OCF banner with approval
 from the OCF (see instructions above).
 
-### Including the University Student Group Disclaimer    {disclaimer}
+### Including the University Student Group Disclaimer
 
 The university [requires][rso-domains] that all student group websites on a
 subdomain of berkeley.edu (other than those of university-sponsored student
@@ -65,15 +64,15 @@ groups) contain the following text on each page:
 > We are a student group acting independently of the University of California.
 > We take full responsibility for our organization and this web site.
 
-## Email Forwarding    {email}
+## Email Forwarding
 
 Want to send and receive email from `@mygroup.studentorg.berkeley.edu` addresses? You can
 do that!
 
-We call this *mail virtual hosting*. To learn more, [[check out our page about
-that|doc services/vhost/mail]].
+We call this *mail virtual hosting*. To learn more, [check out our page about
+that](/user-docs/services/vhost/mail/).
 
-## Policies    {policies}
+## Policies
 
 <!-- As amended by the Board of Directors on April 10, 2017. -->
 
@@ -82,7 +81,7 @@ that|doc services/vhost/mail]].
 The OCF only performs virtual hosting for OCF group accounts and individual
 accounts belonging to UC Berkeley faculty, and the faculty and academic staff
 of associated institutions which are listed in our
-[[eligibility policy | doc membership/eligibility]]. Each account may have at
+[eligibility policy](/user-docs/membership/eligibility/). Each account may have at
 most one virtual host, but you are free to set up external domains which redirect
 to it. Faculty and academic staff are not eligible for mail hosting for their
 individual accounts, as mail hosting is intended for mailing lists or group
@@ -153,9 +152,8 @@ group or University department or resource.
 
 ### Hosting badge
 
-All virtual hosts on the OCF must include an [[OCF banner|doc
-services/vhost/badges]] on the front page that links to the [[OCF home
-page|home]]. The banner must be noticeable without undue effort.  The hosting
+All virtual hosts on the OCF must include an [OCF banner](/user-docs/services/vhost/hosting-badges/) on the front page that links to the [OCF home
+page](https://www.ocf.berkeley.edu/). The banner must be noticeable without undue effort.  The hosting
 badge not only attributes the OCF but also distinguishes it from sites hosted
 by University departments.
 
@@ -180,7 +178,7 @@ will not be able to reclaim it unless it becomes available again.  If the
 virtual host has been disabled by the explicit request of the account holder,
 or if the account has lost eligibility for virtual hosting, then the virtual
 host may be reclaimed immediately.  Finally, if the virtual host was disabled
-for violating [[account|doc services/account/account-policies]] or vhost
+for violating [account](/user-docs/services/account/account-policy/) or vhost
 policy, before reclaiming the vhost, OCF staff will make an effort to contact
 the group which holds it. If, in two weeks, we receive no response or OCF staff
 have determined that there has not been sufficient progress towards resolving

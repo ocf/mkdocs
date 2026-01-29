@@ -5,7 +5,7 @@ title: DMCA
 DMCA safe harbor provisions help "Online Service Providers" such as us
 avoid liability from copyright infringement by our users.
 
-As specified in our [[contact|doc contact]] page, we are required to act upon a
+As specified in our [contact](/user-docs/contact/) page, we are required to act upon a
 valid DMCA takedown notice sent to our DMCA designated agent (in the
 University). If we receive notices directly from outside the University, ask the
 complaining party to send a valid DMCA takedown notice to the designated agent.

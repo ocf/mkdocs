@@ -4,15 +4,13 @@ title: Account
 
 ## Introduction
 
-Your OCF account is both proof of your [[membership|doc membership]] and the
-means by which you authenticate to the variety of [[services|doc services]]
-operated by OCF [[staff|doc staff]]. Your OCF account is independent from
+Your OCF account is both proof of your [membership](/user-docs/membership/) and the
+means by which you authenticate to the variety of [services](/user-docs/services/)
+operated by OCF [staff](/staff-docs/). Your OCF account is independent from
 CalNet. (Technical info: public account information and salted password hashes
-are stored in [[LDAP|doc staff/backend/ldap]] and [[Kerberos|doc
-staff/backend/kerberos]] databases, respectively.)
+are stored in [LDAP](/staff-docs/infrastructure/ldap/) and [Kerberos](/staff-docs/infrastructure/kerberos/) databases, respectively.)
 
-Accounts are not normally deactivated after your membership [[eligibility|doc
-membership/eligibility]] expires (e.g., graduation). In fact, we have active
+Accounts are not normally deactivated after your membership [eligibility](/user-docs/membership/eligibility/) expires (e.g., graduation). In fact, we have active
 accounts dating back to at least 1995.
 
 ## Passwords
@@ -30,19 +28,19 @@ us!
 
 #### Using CalNet
 
-You can [[find your username or reset your password online|change_password]]
+You can [find your username or reset your password online](https://www.ocf.berkeley.edu/account/password/)
 using CalNet (assuming you have CalNet access).
 
 To reset the password for a group account, you need to be a registered
 signatory for the group. If your group isn't registered with the LEAD Center
 (e.g. if it's a department-sponsored group), you will need to come in during
-[[staff hours|staff-hours]] instead to reset the password.
+[staff hours](https://www.ocf.berkeley.edu/staffhours/) instead to reset the password.
 
 #### Over SSH
 
 You can change your password over SSH if you know your current password.
 
-Use [[SSH|doc services/shell]] to run the command `passwd` and follow the
+Use [SSH](/user-docs/services/shell/) to run the command `passwd` and follow the
 prompts as shown below. No text will appear when you are entering in a
 password, just press enter when done after each prompt.
 
@@ -54,17 +52,17 @@ Verifying - New password: <my new password>
 Success : Password changed
 ```
 
-#### In person    {in-person-reset}
+#### In person
 
 If you are not able to use CalNet or SSH, or if you are a group and forgot your
-current password, you can meet a staff member in person during [[staff
-hours|staff-hours]].
+current password, you can meet a staff member in person during [staff
+hours](https://ocf.io/staffhours).
 
-Please bring sufficient documentation as listed on the [[membership
-eligibility|doc membership/eligibility]] page to demonstrate that you are
+Please bring sufficient documentation as listed on the [membership
+eligibility](/user-docs/membership/eligibility/) page to demonstrate that you are
 authorized to reset the account password.
 
-#### Manual verification of identity (typically for alumni with old accounts)    {manual-reset}
+#### Manual verification of identity (typically for alumni with old accounts)
 
 If you have forgotten your individual account password and are unable to use
 CalNet or meet a staff member in person, you may reset your password through
@@ -82,8 +80,8 @@ You have two choices:
     email). We'll provide a separate email for you to use instead to send in
     your documentation.
 
-  * **Option 2 (postal mail).** Mail your documentation to our [[mailing
-    address|doc contact#index6h2]]. Expect a delay of at least 2-3 weeks,
+  * **Option 2 (postal mail).** Mail your documentation to our [mailing
+    address](/user-docs/contact/#mailing-address). Expect a delay of at least 2-3 weeks,
     possibly longer over summer.
 
 For security purposes, please include the following with your request:
@@ -107,7 +105,7 @@ destroyed once we have verified your identity.
 
 ### MySQL
 
-Access to your [[MySQL database|doc services/mysql]], if you have one, is
+Access to your [MySQL database](/user-docs/services/mysql/), if you have one, is
 protected by a separate password.
 
 ## After graduation
@@ -128,10 +126,10 @@ Some common reasons accounts are disabled:
 Accounts may also be disabled if OCF staff need to contact you but cannot do
 so.
 
-To re-enable your account, you will need to see a Manager during [[staff
-hours|staff-hours]].
+To re-enable your account, you will need to see a Manager during [staff
+hours](https://ocf.io/staffhours).
 
-If you want to disable your OCF account, please [[contact us|doc contact]] and
+If you want to disable your OCF account, please [contact us](/user-docs/contact/) and
 provide your OCF username. If your account appears to still be active, we may
 ask for some evidence that you are the account owner. Currently, disabled
 accounts are stored or archived and can be *re-enabled* by request at a later

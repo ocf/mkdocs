@@ -13,8 +13,7 @@ or rejected; nothing is stored.
 Received virtual host mail is forwarded to the address stored in a MySQL
 table. Outgoing virtual host mail is also via anthrax, which uses SMTP
 authentication (passwords checked against `crypt(3)`'d passwords in a MySQL
-table). [[There's a whole page with more details about vhost mail.|doc
-staff/backend/mail/vhost]]
+table). [There's a whole page with more details about vhost mail.](/staff-docs/infrastructure/mail/vhost/)
 
 Mail originating anywhere inside the OCF relays through anthrax.
 

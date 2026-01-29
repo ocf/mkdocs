@@ -4,7 +4,7 @@ title: Flask
 
 **Note: These instructions are primarily intended for individual user accounts.
 If you are using a group account, you may wish to consider
-[[apphosting|doc services/webapps]] instead.**
+[apphosting](/user-docs/services/webapps/) instead.**
 
 [Flask](https://palletsprojects.com/p/flask/) is a popular microframework for
 Python web development. Using it on the OCF servers requires only just a little

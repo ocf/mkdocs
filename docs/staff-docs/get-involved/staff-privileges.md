@@ -30,7 +30,7 @@ virtually all Directors are staffers.
   day on public servers)
 * can directly edit the OCF website and commit to some other repositories,
   such as templates and utils, and are expected to maintain them
-* must hold [[staff hours|staff-hours]], alongside other staffers
+* must hold [staff hours](https://ocf.io/staffhours), alongside other staffers
 * must join a staffer family
 
 
