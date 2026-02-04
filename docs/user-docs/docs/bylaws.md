@@ -89,9 +89,10 @@ amended at the Board meeting of May 7, 2025.
     Board member will not be able to fulfill their duties (e.g. due to medical or
     other concerns).
 
-17. Any director who is banned from the OCF or has their account disabled due
-    to misuse will be removed from the board and is not eligible for
-    membership on the Board of Directors.
+17. Any director who is formally or temporarily banned from the OCF will be removed
+    from the board and is not eligible for membership on the Board of Directors.
+    Directorship is not automatically reinstated upon this ban being overturned, and 
+    they must follow the official nomination process to be re-added.
 
 18. Committees
 
