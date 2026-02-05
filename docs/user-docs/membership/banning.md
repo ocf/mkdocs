@@ -2,7 +2,7 @@
 title: Banning Policy
 ---
 
-_As amended by the Board of Directors, December 3, 2018._ # TODO date
+_As amended by the Board of Directors, February 4, 2026._
 
 Any member of the OCF staff may propose to ban a user from the OCF for willful
 violation of OCF policies. Banned users may not enter the OCF lab or use any

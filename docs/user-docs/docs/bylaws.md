@@ -3,7 +3,7 @@ title: Bylaws
 ---
 
 These are the official **Bylaws of the Open Computing Facility**, as last
-amended at the Board meeting of May 7, 2025.
+amended at the Board meeting of February 4, 2026.
 
 1. [Repealed]
 
@@ -208,4 +208,5 @@ meeting of December 2, 2019. Bylaw 12.2 amended and bylaws 18.1.7, 18.3.3,
 and 19 added at the Board meeting of September 9, 2020. Bylaws 18.1.8 and
 18.3.2 added at the Board meeting of April 13, 2021. Bylaw 5 and 18 amended
 at the Board meeting of November 17, 2021. Bylaws 3, 7, 14, and 16 amended,
-and bylaws 20 and 21 added at the Board meeting of May 7, 2025.
+and bylaws 20 and 21 added at the Board meeting of May 7, 2025. Bylaw 17
+amended at the Board meeting of February 4, 2026.
