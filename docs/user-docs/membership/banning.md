@@ -40,4 +40,6 @@ uphold the ban; if the ban is not upheld, it shall be rescinded.
 
 In order to ensure the safety and comfort of any affected persons, users may 
 not be physically or digitally present at the Board of Directors meeting while 
-any details of their proposed ban are being discussed or voted on.
+any details of their proposed ban are being discussed or voted on. However,
+they may present a written statement to be read out by a General Manager
+before deliberations.
