@@ -67,10 +67,7 @@ check.
    sure how to use the `signat` command, try running `signat --help`. This trick
    works with most commands. OCF scripts also have [documentation on this
    website](../../scripts/signat.md).
-3. Find the source code for this script on GitHub. Hint: if you’re not sure
-   which repository something is in, you can use [OCF Sourcegraph][sourcegraph]
-   to search across all repositories!
-
+3. Find the source code for this script on GitHub. 
 ## Play with your webspace
 Every OCF account has [web hosting](../../../user-docs/services/web/index.md) enabled at
 https://www.ocf.berkeley.edu/~yourusername. As an example, check out [ckuehl's
@@ -103,10 +100,9 @@ host. For this exercise, you won’t need to make modifications to ocflib.
    3. Find the hours the OCF was open on your most recent birthday.
 
    If you get stuck, don't forget that you can search the [GitHub repo][ocflib]
-   or [Sourcegraph][sourcegraph] to find more info.
+   to find more info.
 
 [ocflib]: https://github.com/ocf/ocflib
-[sourcegraph]: https://sourcegraph.ocf.berkeley.edu
 
 ## Make a pull request!\*
 Whenever a technical change to the OCF is made, we use [a pull
