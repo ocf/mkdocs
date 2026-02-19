@@ -29,10 +29,10 @@ There are multiple reasons as to why a print wouldn't go through.
 <br><b> Before trying anything, </b> check your <u>Berkeley email</u> as an error email may have been sent to it that would outline the issue. 
 <br>
 Otherwise,
-1. Check how many sides of paper you have left. If your print goes over your daily limit it will not print! (Sides are NOT pages, a double sided print counts as 2 sides)
+<br>1. Check how many sides of paper you have left. If your print goes over your daily limit it will not print! (Sides are NOT pages, a double sided print counts as 2 sides)
   <br> <b>a.</b> Additionally, you only get 10 sides of color printer <b>per semester</b> not day.
-2. Try printing again, sometimes the printer likes to eat pages.
-3. If all else fails, ask a front desk member for help or, [click here](services/lab/printing.md) for a more exhuastive troubleshooting guide.
+<br>2. Try printing again, sometimes the printer likes to eat pages.
+<br>3. If all else fails, ask a front desk member for help or, [click here](services/lab/printing.md) for a more exhuastive troubleshooting guide.
 <hr>
 
 ### Where is the Stapler!?
@@ -47,8 +47,8 @@ additional approval by staff, it may take a few days (usually less) to be
 manually approved. If this was the case, you will have been informed during
 account creation.
 
-Otherwise, check your email's spam folder or try to [reset your
-password](https://www.ocf.berkeley.edu/account/password/) to see if your account has been created. Otherwise let a front desk staff member know to redirect you to proper resources.
+Check your email's spam folder or try to [reset your
+password](https://www.ocf.berkeley.edu/account/password/) to see if your account has been created. Otherwise, let a front desk staff member know to redirect you to proper resources.
 <hr>
 
 ### I forgot my username or password.
