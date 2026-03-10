@@ -22,6 +22,7 @@ Attendance:
 - [ ] michaelzls
 - [ ] blakeh
 - [ ] ncostello
+- [ ] ericgu
 
 Guests:
 
