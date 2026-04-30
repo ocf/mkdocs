@@ -3,7 +3,7 @@ title: Private Docs
 ---
 
 Additional documentation not published publicly can be found at
-`~staff` on supernova.
+`~staff` (`/home/s/st/staff`) on supernova.
 
 Generally, staff documentation should be placed on this website whenever
 possible. However, sometimes there are things which should be documented, but
