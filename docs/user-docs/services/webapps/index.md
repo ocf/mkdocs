@@ -74,7 +74,7 @@ We provide some example setups below.
 ### Supervising and starting your app
 
 **Make sure you do these steps on the application server.** If you start your
-app on tsunami, the public login server, it won't work.
+app on carp, the public login server, it won't work.
 
 We may restart the application server as part of regular maintenance, and
 you'll want your app to start again when we do. You'll also want your app to

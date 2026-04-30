@@ -17,8 +17,8 @@ extra configuration.
    this whatever you want, but we'll assume you named the directory `app`:
 
    ```shell
-   user@tsunami:~$ mkdir app
-   user@tsunami:~$ cd app
+   user@carp:~$ mkdir app
+   user@carp:~$ cd app
    ```
 
 2. Make a virtualenv.  This will allow you to run `pip install` to install any
@@ -27,8 +27,8 @@ extra configuration.
    want, without being tied to the OCF defaults:
 
    ```shell
-   user@tsunami:~/app$ virtualenv -p python3 venv
-   user@tsunami:~/app$ venv/bin/pip install flask flup6
+   user@carp:~/app$ virtualenv -p python3 venv
+   user@carp:~/app$ venv/bin/pip install flask flup6
    ```
 
    Feel free to install any other packages you need for your flask app at this
@@ -60,7 +60,7 @@ extra configuration.
    `https://www.ocf.berkeley.edu/~user` and you don't have any other sites:
 
    ```shell
-   user@tsunami:~$ mkdir ~/public_html/flask
+   user@carp:~$ mkdir ~/public_html/flask
    ```
 
    For example, this path above will make your site available at
@@ -104,7 +104,7 @@ extra configuration.
 7. Make the `run.fcgi` file you just created executable with:
 
    ```bash
-   user@tsunami:~$ chmod +x ~/public_html/flask/run.fcgi
+   user@carp:~$ chmod +x ~/public_html/flask/run.fcgi
    ```
 
 8. Once your app has started running, changes you make to the Python code or
@@ -114,7 +114,7 @@ extra configuration.
    with the command:
 
    ```bash
-   user@tsunami:~$ touch ~/public_html/flask/run.fcgi
+   user@carp:~$ touch ~/public_html/flask/run.fcgi
    ```
 
 ### Debugging

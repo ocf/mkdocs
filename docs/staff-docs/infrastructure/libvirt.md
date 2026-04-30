@@ -29,7 +29,7 @@ SSH into the hypervisor, then run `sudo virsh list --all`:
      5     dev-flood                      running
      11    dev-whiteout                   running
      15    dev-death                      running
-     18    dev-tsunami                    running
+     18    dev-carp                    running
      -     dev-anthrax                    shut off
      -     dev-pestilence                 shut off
      -     dev-werewolves                 shut off
@@ -44,7 +44,7 @@ On the hypervisor, run `sudo virsh start <vm-name>`.
 You can SSH into the VM and run the `shutdown` command, or you can run
 `sudo virsh shutdown <vm-name>` on the hypervisor which hosts it.
 
-If it's a public-facing VM (e.g. tsunami), remember to give a positive amount
+If it's a public-facing VM (e.g. carp), remember to give a positive amount
 of time to the shutdown command, so users have adequate warning.
 
 ### How do I make a VM automatically turn on when the hypervisor boots?

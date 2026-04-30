@@ -94,7 +94,7 @@ Backups currently include:
 
 * Everything on NFS
   * User home and web directories
-  * Cronjobs on supported servers (tsunami, koi, biohazard, etc.)
+  * Cronjobs on supported servers (carp, koi, biohazard, etc.)
 * MySQL databases (including user databases, stats, RT, print quotas, IRC data)
 * Everything on GitHub (probably very unnecessary)
 * LDAP and Kerberos data

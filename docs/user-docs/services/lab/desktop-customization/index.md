@@ -12,7 +12,7 @@ you log into any OCF desktop.
 
 Lines that start with `$` are commands to enter into a terminal emulator such as `kitty` or `Konsole`.
 
->`~/remote` is an sshfs mount from `tsunami`, the OCF's public login server
+>`~/remote` is an sshfs mount from `carp`, the OCF's public login server
 
 To create a `.desktoprc` file, open a text editor of your choice and create a new file at `~/remote/.desktoprc`.
 

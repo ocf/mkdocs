@@ -21,6 +21,6 @@ infrastructure.
 
     $ sudo unsorry username
 
-It may also be necessary to run `nscd -i passwd` on **`tsunami`**.
+It may also be necessary to run `nscd -i passwd` on **`carp`**.
 
 Make sure to document all `sorry`ing and `unsorry`ing using [note](note.md)
