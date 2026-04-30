@@ -1,2 +1,0 @@
-# Waste Disposal
-

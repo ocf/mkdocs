@@ -1,5 +1,5 @@
 ---
-title: Managing Chat
+title: Managing OCF Chat
 ---
 
 config on host stored in `/etc/ergo.yaml`. should pull from github

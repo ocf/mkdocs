@@ -1,12 +1,20 @@
 ---
-title: Deploy
+title: Github Actions CI/CD
 ---
+
+## adding a runner
+
+1. edit `spike.nix` in `hosts/servers`, add new entry in `runners`. pattern match, look at `options.nix` for github-actions module
+2. generate github personal access token, as per description in `options.nix` of github-actions for OCF org
+[TODO insert docs for github personal access token here]
+3. in the repo of the service, create the `github/workflows/build.yml` file
+
+
+## if SSH is necessary for deploy:
 
 TODO: make this fancy with generators (see https://github.com/oddlama/agenix-rekey), privkey goes into secrets dir, pubkey automatically generated and placed on host by nix.
 
 we need the runner(s) to have permission to place files & make changes on the host which will run the service!
-
-## if SSH is necessary for deploy:
 
 ### client (workflow) to server (amethyst)
 
