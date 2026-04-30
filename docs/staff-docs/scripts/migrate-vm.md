@@ -10,10 +10,10 @@ the following format. The first hostname specified in the command is what
 physical host to move the virtual machine from, and the second one is the name
 of the virtual machine to move.
 
-For example, the following command moves `supernova` from `jaws` to whatever
+For example, the following command moves `koi` from `jaws` to whatever
 KVM host the command is run on:
 
-    sudo migrate-vm jaws:supernova
+    sudo migrate-vm jaws:koi
 
 [kvm]: https://wiki.debian.org/KVM
 

@@ -10,7 +10,7 @@ important information about a user, for example, if they've been sorried
 performed on their account, e.g. renaming the account, or for myriad other
 reasons where some documentation should be made about an OCF account.
 
-`note` should be run on supernova.
+`note` should be run on koi.
 
 ## Usage/Example
 

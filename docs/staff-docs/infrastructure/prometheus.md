@@ -39,7 +39,7 @@ metric{label="value", label2="value2", ...}
 ```
 
 Some labels used frequently are:
- - **instance:** The name of the device that the data was collected from. Some examples are `papercut`, `avalanche`, or `supernova`.
+ - **instance:** The name of the device that the data was collected from. Some examples are `papercut`, `avalanche`, or `koi`.
  - **host_type:** The type of device that is being queried. Valid types are `desktop`, `server`, and `staffvm`.
  - **job:** The name of the job/exporter that collected the data. Some examples are `node`, `printer`, and `slurm`.
 

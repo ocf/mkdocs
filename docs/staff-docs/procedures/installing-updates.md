@@ -22,7 +22,7 @@ To install updates:
    the desktops auto-suspend. See [lab-wakeup](../scripts/lab-wakeup.md) to
    wake up the desktops prior to updating.
 
-2. From `supernova`, run:
+2. From `koi`, run:
 
        sudo apt-dater-ocf
 

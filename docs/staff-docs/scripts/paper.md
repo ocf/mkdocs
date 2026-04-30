@@ -12,7 +12,7 @@ the `paper` script, which internally uses `ocflib` to access the database.
 
 The `paper` script can be used from anywhere to list pages remaining per day
 and per semester, but can currently only be used to change print quotas by
-issuing refunds from `supernova`.
+issuing refunds from `koi`.
 
 ## Usage Scenarios
 

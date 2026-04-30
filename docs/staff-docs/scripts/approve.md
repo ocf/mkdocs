@@ -15,11 +15,11 @@ direct them to an OCF officer.
 
 ## Approving a request
 
-**The approve program can only be run from supernova.**
+**The approve program can only be run from koi.**
 
 ### Before approve
 
-* SSH into supernova.ocf.berkeley.edu
+* SSH into koi.ocf.berkeley.edu
 
 * For registered student groups, the OCF requires that a signatory authorize
   the approval of the account. If the account is not a registered student

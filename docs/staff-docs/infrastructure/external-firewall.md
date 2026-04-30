@@ -19,7 +19,7 @@ to specify https when loading the firewall admin page**, as it does not have a
 redirect from http to https. If you are having connection issues with the
 firewall admin page loading indefinitely, it is likely because you are trying
 to use http or trying to access it from an off-campus IP. To quickly set up a
-SOCKS proxy, run `ssh -D 8000 -N supernova` from any off-campus host and then
+SOCKS proxy, run `ssh -D 8000 -N koi` from any off-campus host and then
 set up the SOCKS proxy (through your OS or through your browser's settings) to
 use the proxy on `localhost` and port `8000`.
 

@@ -8,7 +8,7 @@ title: 'check: get details about an OCF user'
 may only be accessible to privileged users or root, or depend on the server
 `check` is being run on, so output may differ accordingly.
 
-`check` is best run on `supernova`.
+`check` is best run on `koi`.
 
 `check` currently returns:
 

@@ -6,7 +6,7 @@
 1. Have RSO's signatory come in for staff hours, and verify that person is a signatory.
 
    
-   1. SSH into supernova, run:
+   1. SSH into koi, run:
 
 ```bash
 check $GROUP_NAME

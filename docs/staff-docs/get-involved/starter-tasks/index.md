@@ -61,7 +61,7 @@ group. Staff members use the
 [`signat`](https://ocf.io/docs/staff/scripts/signat) command to perform this
 check.
 
-1. [Log into supernova](../../procedures/ssh-supernova.md).
+1. [Log into koi](../../procedures/ssh-koi.md).
 2. Use the `signat` command to list the signatories for the Open Computing
    Facility or another student organization of your choice. Hint: if you are not
    sure how to use the `signat` command, try running `signat --help`. This trick
@@ -81,7 +81,7 @@ website](https://www.ocf.berkeley.edu/~ckuehl/).
 [ocflib][ocflib] is a Python library we maintain which is installed on every OCF
 host. For this exercise, you won’t need to make modifications to ocflib.
 
-1. [Log into supernova](../../procedures/ssh-supernova.md) and start an
+1. [Log into koi](../../procedures/ssh-koi.md) and start an
    IPython3 shell (the `ipython3` command).
 2. To make sure things are working:
    1. Run `import ocflib.lab.staff_hours` to import utilities relating to
@@ -116,7 +116,7 @@ add your name to [the list of everyone who's completed this task](completed.md).
 1. Log into [GitHub](https://github.com). If your [OCF email](../../../user-docs/services/mail.md) (`<OCF username>@ocf.berkeley.edu`) is not connected to your
    account, [add it to your account emails](https://github.com/settings/emails).
 2. Create your personal [fork][github-fork] of [ocfweb][ocfweb].
-3. [Log into supernova](../../procedures/ssh-supernova.md).
+3. [Log into koi](../../procedures/ssh-koi.md).
 4. Optional: For easier authentication to GitHub, [generate an SSH
    key][github-ssh-keygen] and [add it to your GitHub account][github-add-key].
    Note: the `xclip` commands will probably not work. Instead, just run `cat
@@ -143,7 +143,7 @@ pull requests to ocfweb will use this same clone.
    - If you are familiar with a console text editor like `vim` or `emacs`, you
      can use that to edit the file.
    - If you are using a desktop in the OCF lab, you can use the `~/remote`
-     folder on the desktop, which is synced to your home directory on supernova.
+     folder on the desktop, which is synced to your home directory on koi.
    - Other editors may have plugins to let you edit files over SSH, such as [VS
      Code][vscode-remote].
 3. Now that you've made the change, check out the README to see how to run
@@ -168,7 +168,7 @@ because you thought of something new or because another staffer suggested a
 change. In this case, you'll update your pull request so that your username on
 the list links to the pull request you made.
 
-1. If you have disconnected, log back into supernova and navigate to your ocfweb
+1. If you have disconnected, log back into koi and navigate to your ocfweb
    folder.
 2. Copy the URL to the GitHub pull request you opened in the last part. Edit the
    list file again, and replace your username with
