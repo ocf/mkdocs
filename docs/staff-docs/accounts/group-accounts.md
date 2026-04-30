@@ -1,7 +1,6 @@
-# Group Accounts
-
-## Change group account password
-
+---
+title: Group Accounts
+---
 
 1. Have RSO's signatory come in for staff hours, and verify that person is a signatory.
 
