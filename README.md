@@ -8,6 +8,10 @@ ocf mkdocs real?
 1. `mkdocs serve`
 1. `rm -rf docs/'Board of Directors Minutes'` so it builds faster lol
 
+### Why isn't Board of Directors visible in development?
+
+We have a lot of BoD notes, which makes mkdocs rebuild very slowly (20-30 seconds). The shell hook for `nix develop` runs `mkdocs serve -f mkdocs-dev.yml` which ignores the `bod` directory. Run `mkdocs serve -f mkdocs-dev` if you need to see BoD notes on localhost.
+
 ## TODO
 
 - fix constitution links

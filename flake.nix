@@ -16,7 +16,7 @@
       devShells = forAllSystems (pkgs: {
         default = pkgs.mkShell {
           inputsFrom = [ self.packages.${pkgs.system}.default ];
-          shellHook = "mkdocs serve";
+          shellHook = "mkdocs serve -f mkdocs-dev.yml";
         };
         deploy = pkgs.mkShell {
 	  packages = with pkgs; [
