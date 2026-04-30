@@ -60,7 +60,7 @@ logs there over TLS, so currently it is failing.
 
 We use Fail2Ban as part of our effort to prevent brute-force attacks or other malicious activities. Mainly, it blocks IP addresses with too many access attempts and add them to “jail“ for set amount of time.
 
-Fail2Ban runs on death.ocf.berkeley.edu, where our main web proxy runs.
+Fail2Ban runs on death.ocf.berkeley.edu, where our main web proxy runs. It also runs on `koi.ocf.berkeley.edu` and `carp.ocf.berkeley.edu` to prevent SSH spam.
 
 To whitelist IPs, add IPs to `ignoreip` in `/etc/fail2ban/jail.conf`. Example:
 
