@@ -106,15 +106,15 @@ would permanently change your password.
 Suppose your OCF account name is `johndoe` and you have WordPress installed
 directly in `~/public_html`. A typical backup might look like this:
 
-    johndoe@tsunami:~$ mysqldump johndoe | gzip -c > ~/mysql-backup-7-26-15.sql.gz
+    johndoe@carp:~$ mysqldump johndoe | gzip -c > ~/mysql-backup-7-26-15.sql.gz
     Enter password:
-    johndoe@tsunami:~$ tar czhf ~/site-backup-7-26-15.tar.gz -C ~/ public_html
+    johndoe@carp:~$ tar czhf ~/site-backup-7-26-15.tar.gz -C ~/ public_html
 
 while a restore would look like this:
 
-    johndoe@tsunami:~$ gzip -dc ~/mysql-backup-7-26-15.sql.gz | mysql -D johndoe
+    johndoe@carp:~$ gzip -dc ~/mysql-backup-7-26-15.sql.gz | mysql -D johndoe
     Enter password:
-    johndoe@tsunami:~$ tar xzhf ~/site-backup-7-26-15.tar.gz -C ~/ public_html
+    johndoe@carp:~$ tar xzhf ~/site-backup-7-26-15.tar.gz -C ~/ public_html
 
 If you were using `.my.cnf`, you wouldn't even have to enter your database
 password.

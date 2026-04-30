@@ -15,7 +15,7 @@ example, to create an application called `foo` in your home directory, run the
 command:
 
 ```bash
-user@tsunami:~$ rails new foo
+user@carp:~$ rails new foo
 ```
 
 This may take some time.
@@ -82,7 +82,7 @@ Be sure to adjust the path to your application near the top of the file
 Once you've added the `dispatch.fcgi` file, mark it as executable:
 
 ```bash
-user@tsunami:~/public_html$ chmod +x dispatch.fcgi
+user@carp:~/public_html$ chmod +x dispatch.fcgi
 ```
 
 ### Rewrite requests to the FastCGI wrapper
@@ -159,5 +159,5 @@ templates won't take effect for a few hours. To apply changes immediately, you
 can touch the dispatch.fcgi file with the command:
 
 ```bash
-user@tsunami:~/public_html$ touch dispatch.fcgi
+user@carp:~/public_html$ touch dispatch.fcgi
 ```

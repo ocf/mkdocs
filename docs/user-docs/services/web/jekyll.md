@@ -16,8 +16,8 @@ static, it makes for very fast and simple websites.
    want, then enter that directory:
 
    ```shell
-   user@tsunami:~$ mkdir jekyll
-   user@tsunami:~$ cd jekyll
+   user@carp:~$ mkdir jekyll
+   user@carp:~$ cd jekyll
    ```
 
 3. Install the Jekyll gem and set up your site. Note that the specific jekyll
@@ -26,15 +26,15 @@ static, it makes for very fast and simple websites.
    jekyll-related commands to get them to work:
 
    ```shell
-   user@tsunami:~/jekyll$ gem install --user jekyll
+   user@carp:~/jekyll$ gem install --user jekyll
 
    # The path used for jekyll below should be printed out as a warning when you
    # install jekyll using the above command, it'll be something like
    # "/home/u/us/username/.local/share/gem/ruby/2.7.0/bin/jekyll" but can vary
    # by Ruby version. Use `gem environment` to find the appropriate path.
-   user@tsunami:~/jekyll$ ~/.local/share/gem/ruby/2.7.0/bin/jekyll new --skip-bundle .
-   user@tsunami:~/jekyll$ bundle config set --local path 'vendor/bundle'
-   user@tsunami:~/jekyll$ bundle install
+   user@carp:~/jekyll$ ~/.local/share/gem/ruby/2.7.0/bin/jekyll new --skip-bundle .
+   user@carp:~/jekyll$ bundle config set --local path 'vendor/bundle'
+   user@carp:~/jekyll$ bundle install
    ```
 
 ## Deploy your new site
@@ -50,7 +50,7 @@ static, it makes for very fast and simple websites.
    use `~/public_html/blog` here instead:
 
    ```shell
-   user@tsunami:~/jekyll$ bundle exec jekyll build -d ~/public_html
+   user@carp:~/jekyll$ bundle exec jekyll build -d ~/public_html
    ```
 
 3. Your site should now be up at `https://www.ocf.berkeley.edu/~username` (or

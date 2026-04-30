@@ -78,10 +78,10 @@ Here are two easy ways to re-create the symlink:
 1. Login to your account via [SSH](../shell.md).
 2. After you go past all system messages, you will see a command prompt:
 
-        user@tsunami:~$
+        user@carp:~$
 
     At this prompt, type `makehttp`. This command will create your web
     directory. Here's a sample command output:
 
-        user@tsunami:~$ makehttp
+        user@carp:~$ makehttp
         Your public_html directory is ready to use!

@@ -22,7 +22,7 @@ Each server filters input traffic as follows:
  * All servers allow traffic from internal servers, which are considered
    trusted. For instance, all servers will accept traffic from koi.
  * All servers disallow traffic from the DMZ by default, as those hosts are
-   considered untrusted. For instance, hal will not accept traffic from tsunami
+   considered untrusted. For instance, hal will not accept traffic from carp
    without a special exception. (DMZ servers can't even talk to other DMZ
    servers by default.)
  * Some servers allow certain traffic from DMZ servers. The precise rules can be

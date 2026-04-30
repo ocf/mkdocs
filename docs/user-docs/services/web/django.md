@@ -27,8 +27,8 @@ that.
    dependencies. For example, to create a Python 3 virtualenv, try:
 
    ```bash
-   user@tsunami:~/app$ virtualenv -p python3 venv
-   user@tsunami:~/app$ venv/bin/pip install django
+   user@carp:~/app$ virtualenv -p python3 venv
+   user@carp:~/app$ venv/bin/pip install django
    ```
 
    You'll want to install at least `django` to start with. If you're using
@@ -41,7 +41,7 @@ that.
    copy-and-paste the below snippet:
 
    ```bash
-   user@tsunami:~/app$ venv/bin/pip install flup6
+   user@carp:~/app$ venv/bin/pip install flup6
    ```
 
    If you're using a `requirements.txt` file, you might want to add it there as
@@ -126,7 +126,7 @@ the modification time of the `run.fcgi` file to trigger a restart with the
 command:
 
 ```bash
-user@tsunami:~$ touch ~/public_html/django/run.fcgi
+user@carp:~$ touch ~/public_html/django/run.fcgi
 ```
 
 
