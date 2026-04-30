@@ -1,4 +1,6 @@
-# How to Learn Nix
+---
+title: njha's Guide to Learning Nix
+---
 
 This document contains many of the resources that `~njha` used to learn Nix and NixOS.
 

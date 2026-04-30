@@ -1,5 +1,5 @@
 ---
-title: Creating New Nix Hosts
+title: Creating Nix Hosts
 ---
 
 ## Overview

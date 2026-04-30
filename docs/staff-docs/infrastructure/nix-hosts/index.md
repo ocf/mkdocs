@@ -1,8 +1,6 @@
 ---
-title: NixOS (Linux Systems)
+title: Nix Hosts
 ---
-
-# NixOS (Linux Systems)
 
 [NixOS](https://nixos.org) is the Linux distribution created from the [nixpkgs](https://github.com/NixOS/nixpkgs) package repository, which is written in the [Nix](https://nixos.wiki/wiki/Overview_of_the_Nix_Language) language. Although our services are based on Kubernetes, there still needs to be some component actually installing packages on servers, and NixOS fulfills this role.
 
@@ -24,6 +22,14 @@ Normally, when you're running an Operating System, say, Windows (eww), you have 
 * **Easy rollbacks** - Made a change that breaks things? Just roll your configuration files back to before that change and you're good to go! Think about how hard this might be on a Windows machine…
 
 NixOS is built for 1 core function: ***reproducibility****.* A certain config file will build NixOS a certain way, and that assurance is why we use NixOS.
+
+## Development
+
+You might want to use Nix on your computer to easily get a development environment for various OCF systems. If the repository has a file called flake.nix in it, you can get a development environment for it as simply as nix shell github.com:ocf/<reponame>. For example, to get transpire, you can do nix shell github.com:ocf/transpire.
+
+`nix shell` is really cool because you can use it install and work with any packages you want in a new shell. You can use `nix shell -p pkg1 pkg2` to open a new shell with those packages installed.
+
+To install Nix, follow the instructions at https://zero-to-nix.com/start/install
 
 ## Old Linux Systems (Puppet)
 
