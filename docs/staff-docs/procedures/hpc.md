@@ -8,7 +8,7 @@ meets the basic access criteria, namely that they have specified what they
 want to use the cluster for, simply run the following commands to add the user
 to the LDAP group:
 
-    abizer@supernova $ kinit abizer/admin ldapvi cn=ocfhpc
+    abizer@koi $ kinit abizer/admin ldapvi cn=ocfhpc
     ...
     memberUid: guser
     ...

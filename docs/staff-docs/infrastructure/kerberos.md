@@ -75,7 +75,7 @@ mean:
     `mattmcal/root`. Used for user logins or for user privileges such as
     editing LDAP or running commands with `sudo`.
 
-  - **Host**: `host/[hostname]` e.g. `host/supernova.ocf.berkeley.edu`. Used by
+  - **Host**: `host/[hostname]` e.g. `host/koi.ocf.berkeley.edu`. Used by
     Kerberos to allow clients to verify they are communicating with the correct
     host. For instance, when using SSH to connect to a host, that hosts's
     principal is looked up to make sure that you are connecting to the right

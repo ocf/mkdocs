@@ -1,6 +1,6 @@
-# SSHing into Supernova
+# SSHing into Koi
 
-As an OCF staff member, a lot of what you may need to do may need to happen on an OCF machine. The machine set aside for this is `supernova`. You can login to it like normal `ssh $USER@supernova.ocf.berkeley.edu` with your username and password, but should seriously consider creating and uploading an SSH key so that you don't need to type a password when logging in anymore.
+As an OCF staff member, a lot of what you may need to do may need to happen on an OCF machine. The machine set aside for this is `koi`. You can login to it like normal `ssh $USER@koi.ocf.berkeley.edu` with your username and password, but should seriously consider creating and uploading an SSH key so that you don't need to type a password when logging in anymore.
 
 ## Setting up SSH Keys
 
@@ -11,10 +11,10 @@ First, check if you have an SSH key. You can do this by checking `~/.ssh` on you
 ssh-keygen -t ed25519 -C "$USER@ocf.berkeley.edu"
 ```
 
-Then, to upload your public key to a server (e.x. supernova), do…
+Then, to upload your public key to a server (e.x. koi), do…
 
 ```bash
-ssh-copy-id supernova.ocf.berkeley.edu
+ssh-copy-id koi.ocf.berkeley.edu
 ```
 
 ## Configuring your SSH Config
@@ -22,17 +22,17 @@ ssh-copy-id supernova.ocf.berkeley.edu
 Paste this into `~/.ssh/config`, and you'll be able to ssh into any OCF host with just `ssh $HOSTNAME.ocf`.
 
 ```bash
-Host supernova.ocf
+Host koi.ocf
   ProxyJump none
   Port 22
-  # This will allow supernova to sign things with your *private* key!
+  # This will allow koi to sign things with your *private* key!
   # Only uncomment this if you understand the risks and/or have an SSH agent 
   # that will interactively prompt you about when your key is being used.
   # ForwardAgent yes
 
 Host *.ocf
     Hostname %h.berkeley.edu
-    ProxyJump supernova.ocf
+    ProxyJump koi.ocf
 ```
 
 ## Troubleshooting

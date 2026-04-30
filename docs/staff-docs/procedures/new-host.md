@@ -34,7 +34,7 @@ Unfortunately, these steps tend to change a lot as our infrastructure evolves.
 
 ### Step 1.1. Add the LDAP entry
 
-On supernova, `kinit $USER/admin ldap-add-host <hostname> <ip-last-octet>`.
+On koi, `kinit $USER/admin ldap-add-host <hostname> <ip-last-octet>`.
 `<ip-last-octet>` is the part after the last `.` in the IP address, like `42`
 for the address `169.229.226.42`. If setting up a desktop, add a final argument
 `desktop`, which will set the `type` to `desktop`. If doing a staff VM, add to

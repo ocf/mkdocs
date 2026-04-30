@@ -20,7 +20,7 @@ consists of all other machines, including:
 Each server filters input traffic as follows:
 
  * All servers allow traffic from internal servers, which are considered
-   trusted. For instance, all servers will accept traffic from supernova.
+   trusted. For instance, all servers will accept traffic from koi.
  * All servers disallow traffic from the DMZ by default, as those hosts are
    considered untrusted. For instance, hal will not accept traffic from tsunami
    without a special exception. (DMZ servers can't even talk to other DMZ
@@ -37,7 +37,7 @@ In addition to input rules, it's necessary to have some output rules as well to
 protect devices that we don't trust to have reliable firewalls, such as printers
 and IPMI devices. The rules for those devices work a little differently:
 
- * A handful of "uber-trusted" servers, such as supernova and hypervisors, are
+ * A handful of "uber-trusted" servers, such as koi and hypervisors, are
    allowed to talk to all of these special devices. This allows us to use these
    servers for the purposes of configuring or debugging those devices.
  * Some other servers can talk to certain special devices. For example, the

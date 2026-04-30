@@ -12,7 +12,7 @@ suspended. For example, if you try to SSH into `volcano.ocf.berkeley.edu`
 
     ssh: connect to host $host port 22: No route to host
 
-you can try `lab-wakeup volcano` on supernova or your staff VM to wake it,
+you can try `lab-wakeup volcano` on koi or your staff VM to wake it,
 after which you should be able to log in without issue. You may need to
 install `wakeonlan` if it's not there already.
 

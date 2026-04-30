@@ -22,7 +22,7 @@ emailing them with the reason they were sorried. If a sorried user attempts to
 log in, they will be rebuffed.
 
 You will need an admin and root principal (or, atleast, ocfroot membership) in
-order to run this command, which should preferably be run on supernova in order
+order to run this command, which should preferably be run on koi in order
 to find all the appropriate files.
 
 All sorry files are stored in [ocf/utils](//github.com/ocf/utils) under

@@ -15,7 +15,7 @@ and generally allow them to use their account again. Occasionally more
 than simply `unsorry` may be necessary depending on changes in the
 infrastructure.
 
-`unsorry` should be run on supernova.
+`unsorry` should be run on koi.
 
 ## Usage/Example
 

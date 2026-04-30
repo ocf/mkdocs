@@ -44,7 +44,7 @@ Anyone in `ocfroot` can call `sudo shutdown` without providing a password.
 `ocfroot` can't run passwordless `apt-get`, so you need to use the `apt-dater`
 keytab.
 
-From supernova:
+From koi:
 
     sudo kinit -k -t /root/apt-dater.keytab 'apt-dater@OCF.BERKELEY.EDU' \
         ssh-list desktop -l apt-dater -i 'sudo apt-get update'

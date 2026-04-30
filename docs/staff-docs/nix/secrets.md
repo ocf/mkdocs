@@ -10,7 +10,7 @@ ssh public keys
 
 for hosts that we know
 
-`ssh-keyscan hostname | grep ed25519` to see public key of an ocf host from supernova/ocf desktops
+`ssh-keyscan hostname | grep ed25519` to see public key of an ocf host from koi/ocf desktops
 - run this cmd after re-installing / newly installing a host.
 - then, place pubkey in this dir. `ssh-keyscan hostname | grep -o ssh-ed25519.* > spike.pub`
 
