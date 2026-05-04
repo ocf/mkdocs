@@ -10,4 +10,4 @@ title: ocfweb (ocf.io)
 
 If you have another branch for `ocflib` or another dependency, you can use that version in your dev environment by editing `requirements.txt` in the root directory of `ocfweb` and doing something like the following:
 
-`ocflib @ git+https://github.com/ocf/ocflib.git@BRANCHNAMEONOCFLIB`
+`ocflib @ git+https://github.com/ocf/ocflib.git@DEVBRANCHCOMMITHASH`
