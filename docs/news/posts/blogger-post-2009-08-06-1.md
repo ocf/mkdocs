@@ -1,0 +1,6 @@
+---
+date: 2009-08-06
+---
+
+# Continuing Downtime
+The downtime that began on 7/28 is expected to continue for a few more days as campus electricians procure parts to complete the electrical work. If there are no other unanticipated delays, we should be back up in the coming days.<br /><br />We apologize for the downtime and inconvenience.<br /><br /><span style="font-weight:bold;">UPDATE:</span> The electrical work will be completed by Friday, August 14, at 4 PM. Unfortunately, we have very limited staff presence in the Berkeley area due to the summer vacation, so it may take some time to get everything up and running.<br /><br /><span style="font-weight:bold;">SECOND UPDATE (14-Aug-2009, 3 PM):</span> The electrical work is mostly complete, and power has been restored to our server room. Unfortunately, something happened to our network uplink during the downtime (maybe someone forgot to turn a switch back on), so we have no Internet access. We're looking into it.<br /><br /><span style="font-weight:bold;">THIRD UPDATE (18-Aug-2009, 4 PM):</span> A campus network technician is working on restoring connectivity to the OCF. The cause of the problem is still undetermined, but we're pressuring them to get things fixed ASAP.

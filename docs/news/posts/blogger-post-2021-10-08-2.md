@@ -1,0 +1,6 @@
+---
+date: 2021-10-08
+---
+
+#  Tanglu, Hyperbola decommissioning
+<p><b>Update: Maintenance was completed during Friday's downtime. No service interruptions expected today. </b>Tanglu and Hyperbola mirrors have been decommissioned.</p><p><br /></p><p>We are planning to take the mirrors server down for disk array migration from 10am-6pm this Saturday. HTTP, HTTPS, FTP, and Rsync will be unavailable during the maintenance window. The server may come up before 6pm, but please expect degraded performance and/or service interruption throughout the maintenance window.</p><p><b>We are planning to decommission tanglu and tanglu-releases as the project has been defunct for over 2 years. We strongly recommend against the continued use of Tanglu, but if you are still using Tanglu, please change your source.list to another archive mirror.  As of Oct 7, 2021, http://ftp-stud.fht-esslingen.de/Mirrors/archive.tanglu.org/tanglu/ is available.</b></p><p><b>We are also planning to decommission Hyperbola. Our Hyperbola mirror has been out of date for quite a while now (almost 3 years!), but please change your configuration accordingly if you are using Hyperbola and still have us as an entry.</b></p><p>We apologize for the inconvenience.</p><p>OCF staff</p>

@@ -1,0 +1,6 @@
+---
+date: 2010-02-13
+---
+
+# Patch Day
+The OCF's patch day is set to begin in about half an hour, and is scheduled to run for 24 hours (6 PM Friday to 6 PM Saturday).  Various services will drop in and out during that time, including mail, web, and SSH access.  We'll post status updates here and will let you know about any unforseen events which would prolong the outage.<div><br /></div><div>8 PM: The mail servers have been updated successfully, with no outage required thus far.  We will need to shut down mail delivery, POP, and IMAP when we take the fileserver down later tonight, however.  The login server and documentation server are taking longer than expected to patch; we'll hold of on the fileserver until those two are resolved.</div><div><br /></div><div>10:45 PM: The final updates for the login and documentation servers have been applied, apparently with no adverse effects.  We've just taken mail down in preparation for patching our main fileserver.  We will be bringing down web next before commencing the patching.</div><div><br /></div><div>1:45 AM: Looks like the bulk of the patching work is done.  There might be a few more short outages throughout the day as we tweak settings and ferret out bugs, but there should be no more prolonged outages (cross your fingers).</div>
