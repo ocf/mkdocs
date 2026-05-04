@@ -2,13 +2,13 @@
 title: Computer Lab
 ---
 
-The OCF computer lab consists of 29 workstations running NixOS. They are maintained by OCF volunteer staff who operate the servers, workstations, and networking gear that helps the lab run.
+The OCF computer lab consists of 29 workstations running [NixOS](https://nixos.org/). They are maintained by [OCF volunteer staff](https://ocf.io/about/staff) who operate the servers, workstations, and networking gear that helps the lab run.
 
 The computer lab contains 3 scanners, 3 standing desks, and a Blu-ray/DVD/CD reader/writer.
 
-OCF computers include free and open-source software such as LibreOffice (similar to Microsoft Office), GIMP (similar to Adobe Photoshop), and more.
+OCF computers include free and open-source software such as [LibreOffice](https://www.libreoffice.org/) (similar to Microsoft Office), [GIMP](https://www.gimp.org/) (similar to Adobe Photoshop), and more.
 
-for details about printing in the lab, see Printing.
+for details about printing in the lab, see [Printing](/printing).
 
 ## Location
 
@@ -27,4 +27,4 @@ Here's how to get there, starting from Upper Sproul:
 
 OCF staff are student volunteers who are usually not present in the lab.
 
-The front desk staff can help with basic troubleshooting, but for technical or organization-related questions, it would be better to either chat with an OCF volunteer staffer during staff hours or contact us via email.
+The front desk staff can help with basic troubleshooting, but for technical or organization-related questions, it would be better to either chat with an OCF volunteer staffer during [staff hours](https://ocf.io/staff-hours) or contact us [via email](../../contact).
