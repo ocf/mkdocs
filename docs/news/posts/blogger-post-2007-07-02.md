@@ -1,0 +1,6 @@
+---
+date: 2007-07-02
+---
+
+# System Status 2.0
+<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWX2WTfbCnRnI7BBsVmqrer70EI8liOdtkVHgID73CwU_cW2C3CGHtRNE-npEGIpOPl4uhc8dSnPNJ7MvjxQ8T1F5TFFQpMf8rm3CN7WeGPd6G85jQbxSxV9Du1QT0J3-7iDLP9g/s1600-h/System+Status+Sampler.png"><img style="border:0;display:block; margin:0px 0px 10px 0px;cursor:pointer; cursor:hand;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWX2WTfbCnRnI7BBsVmqrer70EI8liOdtkVHgID73CwU_cW2C3CGHtRNE-npEGIpOPl4uhc8dSnPNJ7MvjxQ8T1F5TFFQpMf8rm3CN7WeGPd6G85jQbxSxV9Du1QT0J3-7iDLP9g/s400/System+Status+Sampler.png" border="0" alt=""id="BLOGGER_PHOTO_ID_5254335887963103906" /></a><br />The "<a href="http://www.ocf.berkeley.edu/cgi-bin/ruptime2.pl">System Status</a>" page, linked from the front page, has been updated with improved accuracy of which OCF computers are on, as well as details such as uptime, names, and user numbers.  (Thanks, Aaron).  In addition to that, the graphics have been entirely redone to make them more recognizable.  We hope you find it that much more useful, and don't forget that the <a href="http://webcam.ocf.berkeley.edu">lab webcam</a> is broadcasting again.

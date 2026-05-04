@@ -1,0 +1,6 @@
+---
+date: 2008-03-15
+---
+
+# Print Queue Online and In Real Life
+<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggzLMBvkInTfE_sktvHcnNHRuVt0iDDy5FMA4N8Yf0laMQN1wbfhJqwsHmVHgQusWGh0ihmdA8yxTfUCoIzpL6lu-aSJ7fi7AN321ATvA_VR_NXacP4ASiwsxENzm5aakATMBARw/s1600-h/OCF+Print+Queue.jpg"><img style="float:right; margin:0 0 10px 10px;cursor:pointer; cursor:hand;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggzLMBvkInTfE_sktvHcnNHRuVt0iDDy5FMA4N8Yf0laMQN1wbfhJqwsHmVHgQusWGh0ihmdA8yxTfUCoIzpL6lu-aSJ7fi7AN321ATvA_VR_NXacP4ASiwsxENzm5aakATMBARw/s320/OCF+Print+Queue.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5177870545948743282" title="A few hours before it went gold..." /></a>We've talked about it, and now it's here!  The print queue is now available on display in lab on a dedicated machine and monitor by the printer, as well as <a href="http://www.ocf.berkeley.edu/cgi-bin/print_queue.cgi#queue">online</a> at your convenience. It was formerly accessible only via command line (lpq -s) and printing status windows in Windows, neither of which were visible enough for the majority of our users to notice.  Thank you Aaron Oaks, Genevieve Wong, and Mike Gasidlo for working on making this happen.

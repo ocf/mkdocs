@@ -1,0 +1,6 @@
+---
+date: 2007-11-03
+---
+
+# Harder Better Faster Stronger Webmail and Documentation
+We just installed a caching module that'll greatly speed up our <a href="http://webmail.ocf.berkeley.edu">webmail</a> and <a href="http://docs.ocf.berkeley.edu/wiki/">documentation pages</a>. In some cases, you'll notice a speedup of about 2-3x!<br /><br />While you're giving our enhanced documentation a test drive, take a look at our recently updated <a href="http://docs.ocf.berkeley.edu/wiki/Website_support">web hosting documentation</a>. We've added a bunch of information, updated a lot of the existing documentation, and tried to clarify any confusing information.<br /><br />We're also building up a list of <a href="http://docs.ocf.berkeley.edu/wiki/Suggested_web_applications">suggested web applications</a> that have been reported to work with our web server, along with any special customizations that might help them run better on the OCF.<br /><br />This documentation refresh is an ongoing process, so keep checking back!<br /><br />Oh, last but not least, we've added an auto-save feature to our webmail. Now, whenever you're writing an email, our webmail interface will automatically save the message every few seconds. No longer will you lose an email to a web browser crash or errant click!

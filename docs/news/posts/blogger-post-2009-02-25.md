@@ -1,0 +1,6 @@
+---
+date: 2009-02-25
+---
+
+# Yes We Can Upgrade Quotas
+<div>Good news: we're providing storage <span class="Apple-style-span" style="font-style: italic;"><span class="Apple-style-span" style="font-weight: bold;">stimulus</span></span> by upgrading all user disk space quotas to 2 GB.</div><div><br /></div><div>Bad news: to enact this <span class="Apple-style-span" style="font-style: italic;"><span class="Apple-style-span" style="font-weight: bold;">change</span></span>, the OCF will be unavailable between 12 AM, Friday, February 27 and 8 AM, Monday, March 2 (just over 72 hours).</div><div><br /></div><div>We know three days is a long time, but the prolonged downtime is necessary to ensure the safety of user data while we perform our upgrades. Delivering data reliability <span class="Apple-style-span" style="font-style: italic;"><span class="Apple-style-span" style="font-weight: bold;">you can believe in</span></span> is important to us.</div><div><br /></div><div>We're <span class="Apple-style-span" style="font-style: italic;"><span class="Apple-style-span" style="font-weight: bold;">hoping</span></span> this will be the first of many upgrades for our users. Who knows? With the new lab, this could signal <span class="Apple-style-span" style="font-style: italic;"><span class="Apple-style-span" style="font-weight: bold;">a new beginning</span></span>. </div>
