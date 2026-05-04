@@ -1,0 +1,6 @@
+---
+date: 2010-05-27
+---
+
+# First Update on Rebuild
+Update 1 on OCF Rebuild<br /><br />-Set up a new nat server and a new printhost<br />-Each one is a separate esxi guest<br />-Testing to see if I allocated enough memory, I think I may want to bump  the printserver up to 512 MB of virtual ram (any thoughts?)<br />-New Lab IP ranges (formalized)<br />- So lab networking is being cleaned up, mostly wiring, I'm hoping to  axe the windows vlan altogether since if you include the random shit we  have acquired over the past year thats way more ports than what we  traditionally allocated for the lab nat. (motivation for cleaning those  IP's up)<br />-haven't set up any printers yet, one of them is possibly broken (or  jammed)<br />-Hopefully next week we will start rolling out machine images...will  start with linux<br />-8 pages of documentation so far, ask me if you want to read it. I'm  doing them on word documents for now (not leaving any details out).  traditionally we tend to leave stuff out like iptables and stuff out of  staff wiki documentation, but staffers have messed stuff like that up  before, so i'm not leaving even "trivial" stuff out...<br />-^perhaps we can make an ocf staff handbook or something basically  command by command how to rebuild the ocf?

@@ -1,0 +1,6 @@
+---
+date: 2006-10-14
+---
+
+# Status Update
+We're almost done backing up all user data. While the backup was going on, we were able to assemble a simple 1 TB ZFS array using our newly acquired 500 GB Seagate SATA drives from Frys. Once the backup finishes, we'll do a raw dump of the disk array (where user data was stored) to our ZFS array (which we just built yesterday night). This will provide a secondary backup, just in case things go wrong -- we want to be extra careful with user data. Once that completes, we'll perform a fsck of the disk array, and, if everything goes well, most or all user data should be safe and accessible, and we'll start bringing OCF services back up. In other words, if everything does go well, some OCF services should be back up by the end of the weekend.<br /><br />Now, if things go wrong, and the disk array starts spitting out errors, we're going to attempt to recover data from our ZFS array (it's basically our backup-backup). If that'll result in too much downtime, we'll dump our first backup onto the disk array (that is, the copy where we have 99% of user data or so) and work on bringing the OCF back up as quickly as possible. That way, users will have access to their data as soon as possible, and we'll work on restoring the extra 1% of data as we can from our secondary backup, without too much pressure on time.

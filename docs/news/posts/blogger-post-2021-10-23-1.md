@@ -1,0 +1,6 @@
+---
+date: 2021-10-23
+---
+
+# centos-debuginfo mirror decommissioning
+<p>For years, we have been mirroring the centos-debuginfo project, which hosts the *-debuginfo packages for CentOS. However, our centos-debuginfo mirror is an unofficial one, and is not listed on the CentOS website. </p><p>Our traffic statistics show that the mirror has no to negligible actual usage, with tens to hundreds of megabytes of data transferred daily (almost entirely by bots). </p><p>The project currently occupies 2.7 TiB of disk space, which is the highest of all the projects we mirror, and yet no user is actually using it. As a result, we will decommission the centos-debuginfo mirror on Saturday, October 30, 2021 at around 1200 PDT. The project will continue to be synced in the meantime.</p><p>If you are currently using our centos-debuginfo mirror, or if you have any concerns or questions, please email us as soon as possible at help@ocf.berkeley.edu.</p><p>We expect to have 3 TiB of usable disk space on the mirrors server following the removal of centos-debuginfo, so if you have any suggestions for open source projects to mirror, please also email us at help@ocf.berkeley.edu :) We are currently discussing adding ubuntu-ports. </p><p>rjz</p><p>OCF Staff</p>

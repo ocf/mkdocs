@@ -1,0 +1,6 @@
+---
+date: 2021-11-02
+---
+
+# [RESOLVED] Scheduled downtime on 11/13
+<p> We are planning on having some scheduled downtime on Saturday 11/13 starting around 12:00pm PST. We expect to be done before 4pm. We will be rebooting our main hypervisor as well as some other machines. Our website, student group websites, and other OCF services will be unavailable for the duration of this downtime.</p><p>If you have any questions about the downtime please <a href="https://www.ocf.berkeley.edu/docs/contact/">contact us</a>.</p><p><br /></p><p>Update 3:57PM 2021-11-13: We have experienced some issues updating our main production server, so we expect to take at least another hour. We apologize for the inconvenience.</p><p>Update 7:14PM 2021-11-13: We have been told to leave the build which hosts our servers by the Student Union staff, therefore we likely will not be able to bring things back up until Monday.<br /></p><p>Update 4:49AM 2021-11-14: Most services are now up. We are working on bringing scurvy (staff VM, Berkeleytime etc.) up.</p><p>Update 5:28AM 2021-11-14: Scurvy is up, berkeleytime is up, hellfire is up, marking this as RESOLVED?</p><p>Update 5:40AM 2021-11-14: Marking this as RESOLVED</p>
