@@ -4,6 +4,17 @@ title: Proxmox Cluster
 
 TODO: integrate with LDAP, access control
 
+---
+title: Login Servers
+---
+
+## Proxmox
+
+To access the proxmox hosts remotely, you can set up a SOCKS proxy. Run ssh -D 8000 -N koi from any off-campus host and then set up the SOCKS proxy
+(through your OS or through your browser's settings) to use the proxy on localhost and port 8000.
+
+Doorplug: [doorplug.ocf.io:8006](doorplug.ocf.io:8006)
+
 ## installation
 proxmox on usb, graphical installer in server room
 on host doorplug
