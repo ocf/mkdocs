@@ -31,7 +31,7 @@ you're done.
 In 2011, we transitioned our password database to Kerberos. Anyone who
 logged into their OCF account during the transition had their credentials
 migrated, but alumni who didn't log in may be missing a
-[Kerberos principal](../../infrastructure/kerberos.md). For them, it is necessary
+[Kerberos principal](../infrastructure/kerberos.md). For them, it is necessary
 to manually add one.
 
 This error manifests itself as the following when a user attempts to reset
@@ -48,15 +48,15 @@ password and you can relay this to the alumni.
 
 #### Disabled Account    {sorried}
 
-If the account is [sorried](../../scripts/sorry.md), refer to the documentation
-for [unsorry](../../scripts/unsorry.md) to re-enable the account.
+If the account is [sorried](../scripts/sorry.md), refer to the documentation
+for [unsorry](../scripts/unsorry.md) to re-enable the account.
 
 #### Manual Verification of Alumni Identity    {verify}
 
 Before re-enabling access to an alumni's account, one should verify their identity.
 If they do not have a CalNet UID or are otherwise lacking a reasonable method of
 verifying their identity, it may be necessary to request manual verification of
-identity. Pursuant to the [instructions for alumni](../../../user-docs/services/account/index.md), if
+identity. Pursuant to the [instructions for alumni](../../user-docs/services/account/index.md), if
 you receive a reactivation request from an alum and need to manually verify their
 identity, direct them to send you the required documentation at a private address
 and destroy the documentation as soon as possible.
