@@ -16,12 +16,15 @@ Interested in [joining staff](https://www.ocf.berkeley.edu/about/staff)? Feel fr
 2. Log into the desktop with your newly created username and password!
 3. Open your document as a PDF in Firefox or print directly from your application (eg. Google docs, Word, etc)
 4. Click on the print icon and change the printer option depending on what you're looking to print
-  <br><b> single </b> - Single Sided
-  <br><b> double </b> - Double Sided
-  <br><b> color-single </b> - Colored Print, Single Sided (note that color double sided printing is not currently available)
-5. Go collect your print!
-  <br><b> single </b> and <b> double </b> prints will print at the 3 large printers 
-  <br><b>color-single</b> will print at the color printer near the supply table
+  <br><b> OCF-BW </b> - Black-and-white print
+  <br><b> OCF-Color </b> - Colored print
+5. Change the Two-sided printing option
+  <br><b> Flip on long side </b> - Double sided, usually for portrait
+  <br><b> Flip on short side </b> - Double sided, usually for landscape
+  <br><b> Off </b> - Single sided
+6. Go collect your print!
+  <br><b> OCF-BW </b> prints will print at the 3 large black printers 
+  <br><b> OCF-Color </b> will print at the white color printer near the supply table
 <hr>
 
 ### My print isn't printing!
