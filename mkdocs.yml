@@ -22,8 +22,8 @@ theme:
     - content.action.edit
     - content.action.view
   font:
-    text: Roboto
-    code: Meslo
+    text: IBM Plex Sans
+    code: IBM Plex Mono
   palette:
     # Palette toggle for automatic mode
     #- media: "(prefers-color-scheme)"
