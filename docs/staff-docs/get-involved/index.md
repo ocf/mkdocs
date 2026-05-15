@@ -21,7 +21,7 @@ Staff often communicate on our bridged [OCF Chat](../../user-docs/contact/chat.m
 - `#announcements`: events and important information
 - `#rebuild` - technical discussion
 - `#administrivia` - general discussion
-- `#ocf` - off-topic discussion
+- `#off-topic` - off-topic discussion
 
 These channels are typically very active, and you shouldn’t feel the need to
 read every line to stay updated. You also aren’t required to understand all the
@@ -34,7 +34,7 @@ We hold two meetings each week during the fall and spring semesters. If you're
 new to the OCF, we recommend you attend our [General
 Meetings](staff-meetings.md). If you're curious about the larger technical and
 administrative decisions we make, you can also listen in on our [Board of
-Directors](../bod/index.md) meetings.
+Directors](/bod/) meetings.
 
 ### Linux SysAdmin DeCal
 
@@ -48,7 +48,7 @@ say you’re interested in joining staff and we’ll let you in.
 
 ### Starter Tasks
 
-The [Starter Tasks](startertasks.md) page in our documentation contains a variety of intermediate-difficulty exercises that are another great way to get some practice working with OCF infrastructure.
+The [Starter Tasks](starter-tasks) page in our documentation contains a variety of intermediate-difficulty exercises that are another great way to get some practice working with OCF infrastructure.
 
 ### Contribute
 
@@ -61,7 +61,7 @@ contribute, just start by doing something that gets you excited.
 All of our code is on GitHub ([github.com/ocf][ocf-github]). Our Github issues are a bit out-of-date, and you're currently better off checking the README of any given repository or diving straight into its code.
 
 If you’re feeling particularly adventurous, you could also [search for the string
-“TODO” across our entire codebase][sourcegraph-todo].
+“TODO” across our entire codebase][github-todo].
 
 #### Help Tickets
 
@@ -105,7 +105,7 @@ attending staff hours can serve multiple purposes:
 **I wasn’t able to make the first/second/nth meeting of the semester, can I
 still join?**
 
-Yes! You can join at any meeting at any time. If you’re worried about what you’ve missed, you can ask a veteran staffer to bring you up to speed or review the [BoD minutes](../bod/index.md) for that week.
+Yes! You can join at any meeting at any time. If you’re worried about what you’ve missed, you can ask a veteran staffer to bring you up to speed or review the [BoD minutes](/bod/) for that week.
 
 **What if I can’t physically be present at weekly meetings?**
 
@@ -122,6 +122,7 @@ suggestions on this page are useful for getting started. You can always stay act
 [decal-web]: https://github.com/ocf/decal-web
 [docs-src]: https://github.com/ocf/ocfweb/tree/master/ocfweb/docs/docs
 [getinvolved-src]: https://github.com/ocf/ocfweb/blob/master/ocfweb/docs/docs/staff/getinvolved.md
+[github-todo]: https://github.com/search?q=org%3Aocf%20TODO&type=code
 [ircbot/issues]: https://github.com/ocf/ircbot/issues
 [ircbot]: https://github.com/ocf/ircbot
 [mirror-healthcheck-puppet]: ️https://github.com/ocf/puppet/blob/master/modules/ocf_mirrors/manifests/monitoring.pp
@@ -152,7 +153,6 @@ suggestions on this page are useful for getting started. You can always stay act
 [puppet/issues]: https://github.com/ocf/puppet/issues
 [puppet]: https://github.com/ocf/puppet
 [rt]: https://rt.ocf.berkeley.edu/
-[sourcegraph-todo]: https://sourcegraph.ocf.berkeley.edu/search?q=TODO+case:yes
 [staffhours]: https://ocf.io/staffhours
 [utils-acct]: https://github.com/ocf/utils/tree/master/acct
 [utils-lab-wakeup]: https://github.com/ocf/utils/blob/master/staff/lab/lab-wakeup
