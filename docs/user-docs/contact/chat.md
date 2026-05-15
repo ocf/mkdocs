@@ -101,21 +101,7 @@ messages in this channel!
 
 *#administrivia*: Administrative discussion
 
-*#henlo*: Memes and off-topic social chat with current staff
-
-*#ocf*: General alumni/staff off-topic hangout channel and non-OCF tech
+*#off-topic*: General alumni/staff off-topic hangout channel and non-OCF tech
 discussion
 
-*#rebuild-spam*: Information on Github changes/PRs (spammy)
-
-*#test*: Actual spam
-
-### List of Minor OCF channels
-
-*#decal-general*: DeCal student chat
-
-_#\*-comm_: Channels for committee discussion
-
-*#cs162-fa19*, *cs170-fa19*, and others: Per-class discussions
-
-*#xcf*: XCF discussion
+*#decal*: DeCal student chat

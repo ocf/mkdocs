@@ -24,13 +24,11 @@ All of [our servers](https://www.ocf.berkeley.edu/docs/staff/backend/servers/) r
 them over the command line. There are a lot of online resources about using the
 Linux command line, so if you're confused about something, try Googling it!
 
-If you haven't used the command line before, you can go to our [command
-reference](../../../user-docs/services/shell/commands.md) page and try running some commands. You
-can also connect to [our ssh server](../../../user-docs/services/shell/index.md)
+You can also connect to [our ssh server](../../../user-docs/services/shell/)
 (`ssh.ocf.berkeley.edu`) using your own SSH client.
 
 If you want to get more comfortable, try completing [lab
-1](https://decal.ocf.berkeley.edu/labs/b1) from the OCF/XCF Linux System
+1](https://decal.ocf.berkeley.edu/labs/1) from the OCF/XCF Linux System
 Administration DeCal.
 
 ## Run the IRC bot in development mode\* (requires being on IRC)
