@@ -9,7 +9,7 @@ All accounts include hosting with a web address at:
 
 where `user` is the account name.
 
-Groups, faculty, and staff may also request a [virtual host](../vhost/index.md) for another domain (e.g., group.studentorg.berkeley.edu).
+Groups, faculty, and staff may also request a [virtual host](../vhost/index.md) for another domain (e.g., group.studentorg.berkeley.edu), which additionally allows for [web application hosting](../webapps/index.md).
 
 ## Uploading Files
 

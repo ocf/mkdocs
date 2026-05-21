@@ -3,9 +3,9 @@ title: LDAP Association
 ---
 
 New individual accounts have a `calnetUid` attribute in
-[LDAP](../../infrastructure/ldap.md) which is used for
+[LDAP](../infrastructure/ldap.md) which is used for
 [changing passwords online](https://ocf.berkeley.edu/account/password/), querying CalNet when running
-[`check`](../../scripts/check.md), and producing aggregate counts of
+[`check`](../scripts/check.md), and producing aggregate counts of
 the number of members by university affiliation.
 
 Similarly, group accounts have a `callinkOid` attribute.
