@@ -21,8 +21,8 @@ To be eligible for keycard access, you must fulfill the following criteria:
 Keycard access, once given, can be revoked at the discretion of SMs or GMs.
 
 
-## After hours policy
-See Staff Docs -> Procedures -> SUFMO Access -> MOU
+## Access Agreement with SUFMO & Afterhours 
+See ~staff/runbook/gm-runbook/sufmo-agreements
 
 ## Abuse of privileges
 
