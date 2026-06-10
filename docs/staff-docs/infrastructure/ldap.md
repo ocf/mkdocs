@@ -91,7 +91,7 @@ Searching for all accounts created after a certain time:
 ### `ldapvi`
 
 `ldapvi` is a "text editor" for LDAP which can generate LDIF change records to
-pass to `ldapadd` (or modify directly if you have the proper [permissions](../get-involved/staff-privileges.md)). The easiest way to edit a single record with `ldapvi` is to
+pass to `ldapadd` (or modify directly if you have the proper [permissions](../get-involved/staff-privileges/index.md)). The easiest way to edit a single record with `ldapvi` is to
 just run `kinit [username]/admin ldapvi [record]`, which will authenticate with
 Kerberos and then run `ldapvi` all in one step.
 
@@ -129,7 +129,7 @@ file in your current directory, or `Q` to discard.
 ### `ldapadd`
 
 `ldapadd` is a utility to add entries to the LDAP directory if you have the
-proper [permissions](../get-involved/staff-privileges.md).
+proper [permissions](../get-involved/staff-privileges/index.md).
 
 To add an account, first create a file (we call it `user_file`):
 
