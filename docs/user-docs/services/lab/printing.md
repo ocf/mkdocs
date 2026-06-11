@@ -39,6 +39,7 @@ Here are some other places you can print on and around campus:
 The nearest [print stations](https://studenttech.berkeley.edu/printing) are located on the 2nd floor of MLK (upstairs, next to the help desk), on the 1st floor of Eshleman Hall, and on the 1st floor of Sproul Hall. They require a Wepa Print account, which can be accessed for students through [CalNet](https://wepanow.com/login/berkeley). Venmo, PayPal, and contactless payments (e.g. Apple Pay) are supported.
 
 Printing rates per sheet:
+
  * $0.07 b/w single-sided
  * $0.13 b/w double-sided
  * $0.35 color single-sided
@@ -48,6 +49,7 @@ Printing rates per sheet:
 Printing is available at Moffitt Library, Doe Library, Main Stacks, and [most other](https://www.lib.berkeley.edu/visit/print-scan) libraries on campus. The Moffitt Copy Center offers more extensive printing support. You will need to deposit money into your [Cal 1 Card](https://cal1card.berkeley.edu/) debit account to pay for printing.
 
 Printing rates per sheet:
+
  * $0.08 b/w single-sided
  * $0.11 b/w double-sided
  * $0.60 color single-sided
