@@ -50,6 +50,7 @@ Some of the places OCF staffers have gone on to work at:
 * [Carnegie Mellon University School of Computer Science](https://www.cs.cmu.edu/)
 * [Cisco Systems, Inc.](https://www.cisco.com/)
 * [Code for America](https://www.codeforamerica.org/)
+* [Cognition](https://www.cognition.com/)
 * Compaq
 * CRL Network Services
 * Digital Equipment Corporation (acquired by Compaq)
@@ -106,6 +107,7 @@ Some of the places OCF staffers have gone on to work at:
 * [Walmart.com](https://www.walmart.com/)
 * [Wells Fargo Bank](https://www.wellsfargo.com/)
 * [The White House](https://www.whitehouse.gov)
+* [SpaceX](https://x.com)
 * [Yahoo!](https://www.yahoo.com/)
 * [Yelp](https://www.yelp.com/)
 * Yggdrasil Computing, Inc.
