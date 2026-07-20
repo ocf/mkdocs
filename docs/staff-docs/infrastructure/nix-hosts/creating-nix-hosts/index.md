@@ -148,8 +148,7 @@ if command does not initially succeed, nix-collect-garbage before trying to run 
 6. Place the `NEWHOSTNAME.keytab` file in your home directory on the machine with the repo.
     - for moving files between hosts, try `sftp`.
 7. Go into the repo and enter the devshell: `cd nix && nix develop`
-8. `age --encrypt $(grep -h "^# public key:" secrets/master-identities/*.pub | sed 's/# public key: //' | xargs -I{} echo '-r {}') -o secrets/master-keyed/keytabs/amethyst.age ~/amethyst.keytab`
-    - pasting the secret into the text editor opened from `agenix edit` wont work for a binary file like this
+8. `agenix edit -i ~/amethyst.keytab secrets/master-keyed/keytabs/amethyst.age`
 9. `git add secrets/master-keyed/keytabs/amethyst.age` so nix can pick up the file
 10. `agenix rekey`
 11. add the new file under `rekeyed`, commit, and push!
