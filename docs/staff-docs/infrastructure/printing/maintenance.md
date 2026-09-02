@@ -4,37 +4,31 @@ title: Printing Maintenance
 
 ## Removing printers from service
 
-Ideally, printers shouldn't ever be turned off. Instead, they should be removed
-from the CUPS classes:
+Ideally, printers shouldn't ever be turned off. Instead, they should be paused
+in the CUPS web interface:
 
 1. Go to https://printhost.ocf.berkeley.edu/ (works only in lab)
-2. Go to Classes > `double` > Modify Class
-3. Remove the offending printer from the list of selected printers
-4. GOTO 2, repeat for the `single` class
-
-Alternatively, this can be done using the `utils` command `mod-printer` with proper authentication.
-
-    mod-printer remove [printer]
+2. Go to Printers > `printer` > Maintenance > Pause Printer
 
 The `printer` is the name of the physical printer (currently: `logjam`,
-`papercut`, or `pagefault`). This will prompt you to enter your password
-twice, once for `single` and again for `double`.
-
-**Note**: this command must be used from [`whiteout`](https://www.ocf.berkeley.edu/docs/staff/backend/servers/#whiteout).
-
-(In theory pausing printers should have the same effect, but the current CUPS
-version still queues jobs for them for some unknown reason, causing half of
-user jobs to not print.)
+`papercut`, `pagefault`, or `OCF-Color (fishpaper)`). This will prompt you to enter your password.
 
 ## Restoring printer service
 
-Perform the reverse of the above (add the printers back to the classes), then
-double-check that the printers are not paused. This can also be done by
-replacing `remove` in the above `mod-printer` command with `add` (again only if called from `whiteout`).
-Even if staff don't pause them,
-CUPS will pause them automatically if they fail.
+Go to Printers > `printer` > Maintenance > Resume Printer
 
-## Replacing toner
+
+## Stats
+
+ * [Printer status Grafana dashboard (ocf.io/printers)][printer-dashboard]
+ * Toner and Maintenance Kit [status][printer-summary]
+ * [How many pages has each printer printed][pages-printed]? (expressed as total
+   pages printed over time)
+
+
+## History
+
+### Replacing toner (pre-2020's)
 
 Toner replacement takes only a few seconds. Don't bother recording toner
 replacement, there is no point.
@@ -57,7 +51,7 @@ between the ASUC and the University. The LEAD center has requested we keep our
 use of the passthrough account to a miminum, so we've agreed to buy toner in
 annual intervals.
 
-## Recycling used toner
+### Recycling used toner (pre-2020's)
 
 OCF goes through toners quite fast, due to the heavy volume of printing from our
 users. In the past, we've let it accumulate inside the storage room which
@@ -67,7 +61,7 @@ to recycle the toners in hope of encouraging rapid removal of the toners from OC
 OCF staffers should keep an eye out for the accumulation of the toners, and proactively
 recycle the used toners as soon as possible.
 
-### Options to dispose the toners
+#### Options to dispose the toners
 
 * We can dispose the toners by returning them to
 [Staples](https://www.staples.com/sbd/cre/marketing/sustainability-center/recycling-
@@ -83,7 +77,7 @@ building - would accept our toners that are individually sealed in a garbage bag
 l?mode=recycling&XOGlang=en_US&referer=xrx) toner return box kit with a free return
 label. Once the kit arrives, put the used toners in the box and schedule a UPS pick up.
 
-## Performing maintenance on the printers
+### Performing maintenance on the printers (pre-2020's)
 
 Our contract with PMP entitles us to free service for our printers, with a
 short turn-around time. As a result, we should not longer attempt maintenance
@@ -101,14 +95,6 @@ The following is a list of our printers and their IDs, from left to right:
 | papercut      | 1782 |
 | logjam        | 1786 |
 | pagefault     | 1781 |
-
-## Stats
-
- * [Printer status Grafana dashboard (ocf.io/printers)][printer-dashboard]
- * Toner and Maintenance Kit [status][printer-summary]
- * [How many pages has each printer printed][pages-printed]? (expressed as total
-   pages printed over time)
-
 
 [toner]: https://www.staples.com/HP-64X-Black-Toner-Cartridge-CC364XD-High-Yield-Twin-Pack/product_821762
 [pmp]: https://campuslifeservices.ucsf.edu/documentsmedia/services/print_management

@@ -9,55 +9,25 @@ standard UNIX print server, and a custom print accounting system contained in
 the ocflib API. CUPS is responsible for receiving print jobs over the network,
 converting documents to a printer-friendly format, and delivering processed
 jobs to one of the available printers. The OCF's print accounting system,
-nicknamed enforcer after one of the scripts, plugs into CUPS as a hook that
-looks at jobs before and after going to the printer. It records jobs in a
+nicknamed enforcer after one of the scripts, plugs into CUPS as a driver that
+intercepts jobs before and after going to the printer. It records jobs in a
 database that keeps track of how many pages each user has printed, rejecting
 jobs that go over quota. The high level flow of data through the print system
 looks like this:
 
-```
-   [Application]
-         +
-         | PDF or PS document
-         v
-[Print spool (CUPS)]
-         +
-         | Raw document
-         v
-[Filter(s) (ocfps)]
-         +
-         | Converted PS document
-         v
-[Backend (Tea4CUPS)]
-         +
-         |  Accept or reject
-         +<------------------+[Page counter (enforcer)]
-         |                               ^
-         v                               |
-     [Printer]                           |                 Remaining quota
-         +                               +-------+/      \<---------------+/             \
-         | Status/completion time                 |ocflib|                 |Jobs database|
-         v                               +------->\      /+--------------->\             /
-     [Backend]                           |                 Job table entry
-         +                               |
-         |                               +
-         +---------------------->[Enforcer (again)]
-         |  Log success/failure
-         v
-[Print spool logger]
-```
+## Printing Pipeline
+![Printing Pipeline](printing-pipeline.svg)
 
-[cups]: https://www.cups.org/documentation.html
+[cups]: https://openprinting.github.io/cups/
 
 
 ## CUPS pipeline overview
 
 The first stage of printing is handled by the application that sends the print
-job, such as Evince. The application opens up a system print dialog, which gets
-a list of available printers and options from the local CUPS client, which in
-turn gets it from the printhost. The application renders the desired pages to a
-PostScript, PDF, or other CUPS-compatible format, then sends it to the
-printhost.
+job, such as Firefox. The application opens up a system print dialog, which gets
+a list of available printers and options from printhost. The application renders
+the desired pages to a PostScript, PDF, or other CUPS-compatible format, then sends
+it to the printhost.
 
 The CUPS server on the printhost receives the job and print options and queues
 the job for printing. The actual document, plus metadata including user-set
@@ -91,29 +61,94 @@ duplexing, then, finally, a device-specific filter such as `hpcups`. Each
 filter is associated with an internal "cost", and CUPS picks the path with the
 least total cost to print the document.
 
-At the OCF, print jobs are all processed by a single filter, [ocfps][ocfps],
-which converts raw PDFs to rasterized, printable PostScript. It calls on a
-command-line converter to render the PDF as pixels (rasterization), then passes
-the result and the rest of the arguments to standard CUPS filters. So far, this
-has given us the fewest headaches in terms of malformatted output and printer
-errors.
-
-[ocfps]: https://github.com/ocf/puppet/blob/master/modules/ocf_printhost/files/ocfps
+We used to use ocfps as the filter for all documents. We use the stock
+HP PPD drivers which use a combo of multiple filters, such as `hpps` and `pdftops`.
 
 
 ### Drivers
 
 In order to know what job options are available for a particular printer and
 how to convert documents to a printable format, CUPS requires large config
-files called PostScript Printer Drivers (PPDs). The OCF uses a modified HP PPD
-for the [M806][m806]. There are two versions of it: one which only allows
-double-sided printing and one which only allows single-sided. This is how we
-implement the "double" and "single" classes. The PPDs tell CUPS to use `ocfps`
-to convert documents to PostScript, plus they turn on economode so we can
-afford the toner.
+files called PostScript Printer Drivers (PPDs). The OCF uses the stock HP PPD's
+for our printers and we have the user select double/single-sided on the client
+print dialog. (as opposed to the double/single classes we used to have)
 
-[m806]: https://github.com/ocf/puppet/blob/master/modules/ocf_printhost/templates/cups/ppd/m806.ppd.epp
 
+## Print accounting
+
+The OCF used to use a virtual CUPS printer backend called [Tea4CUPS][Tea4CUPS] to
+install a page accounting hook that runs before and after each job is actually
+sent to the printer. Tea4CUPS is no longer maintained so we wrote a script that
+implements the same api called [ocf-cups-backend][ocf-cups-backend]. The
+[enforcer][enforcer] script actually holds the pre and post-hook logic, as well
+as in the [ocflib printing package][ocflib.printing]. All jobs
+are logged in the `ocfprinting` SQL database, including the username, print
+queue, and number of pages. Several views count up the number of pages printed
+by each user per day and per semester. Sensitive data like document titles are
+removed from the database after 2 weeks. (see [enforcer][enforcer] for more details)
+
+Page counting is actually done when the document is converted to PostScript,
+since CUPS-processed PostScript includes the page count as a comment near the
+top or bottom of the file. When enforcer receives a job that would put the user
+over daily or semesterly quota, it emails the user and returns an error code
+that cancels the job. Otherwise, it logs successful print jobs in the database
+and emails users in the case a job fails.
+
+[Tea4CUPS]: https://wiki.debian.org/Tea4CUPS
+[enforcer]: https://github.com/ocf/nix/blob/main/modules/printhost/scripts/enforcer.py
+[ocflib.printing]: https://github.com/ocf/ocflib/tree/master/ocflib/printing
+[ocf-cups-backend]: https://github.com/ocf/nix/blob/main/modules/printhost/scripts/ocf-cups-backend
+
+
+### Desktop notifications
+
+After printing a document from a desktop, lab visitors are notified when their
+print is sent to a printer (and which printer it was sent to) by a desktop
+notification. The enforcer script sends a request for [wayout][wayout] to
+notify the user.
+
+[wayout]: https://github.com/ocf/wayout
+
+## More Details
+
+Please see the [printhost migration PR][printhost-pr] for more details on this new printing system.
+
+[printhost-pr]: https://github.com/ocf/nix/pull/240
+
+## History
+
+### Old Pipeline
+```
+   [Application]
+         +
+         | PDF or PS document
+         v
+[Print spool (CUPS)]
+         +
+         | Raw document
+         v
+[Filter(s) (ocfps)]
+         +
+         | Converted PS document
+         v
+[Backend (Tea4CUPS)]
+         +
+         |  Accept or reject
+         +<------------------+[Page counter (enforcer)]
+         |                               ^
+         v                               |
+     [Printer]                           |                 Remaining quota
+         +                               +-------+/      \<---------------+/             \
+         | Status/completion time                 |ocflib|                 |Jobs database|
+         v                               +------->\      /+--------------->\             /
+     [Backend]                           |                 Job table entry
+         +                               |
+         |                               +
+         +---------------------->[Enforcer (again)]
+         |  Log success/failure
+         v
+[Print spool logger]
+```
 
 ## Print accounting
 
@@ -160,7 +195,7 @@ current user.
 ## See also
 
 - [Printing maintenance](../procedures/printing.md)
-- The [ocf\_printhost][ocf_printhost] Puppet class
+- The [ocf\_printhost][ocf_printhost] Puppet class                      # TODO update
 - The [paper](../scripts/paper.md) command
 - [CUPS documentation at Samba][cups-samba] (for Windows users, but has general
   CUPS info as well)
