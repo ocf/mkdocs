@@ -11,12 +11,12 @@ Attendance:
 - [ ] lafer
 - [ ] erdaifu
 - [ ] finwan
-- [ ] lafer
+- [ ] lukegon
 
 - [ ] racheyangg
 - [ ] rschuetz
 - [ ] lukepeters
-- [ ] vqpc
+- [ ] vqbc
 - [ ] michaelzls
 
 Guests:
