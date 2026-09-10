@@ -20,7 +20,6 @@ We have a lot of BoD notes, which makes mkdocs rebuild very slowly (20-30 second
 
 - migrate https://decal.ocf.io/resources to startertasks.md and remove from decal-web
 - BoD notetaking procedure
-- fix officers.md
 - fix relative links
 - add hosting badges images
 
