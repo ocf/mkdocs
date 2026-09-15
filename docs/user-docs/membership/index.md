@@ -47,8 +47,6 @@ Follow this procedure to get a group account:
 **[Request a group account online](https://www.ocf.berkeley.edu/account/register/)**
 
 1. **If you are a registered student organization, have a signatory sign up using the link above.**
-   While campus remains online due to the effects of COVID-19, you can
-   create a group account online by having a signatory register using the link above.
 
 2. **Otherwise, email help@ocf.berkeley.edu.**
    Please include the following information in your request:
