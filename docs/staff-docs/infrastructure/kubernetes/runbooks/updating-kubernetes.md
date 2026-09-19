@@ -20,5 +20,5 @@ Read the Kubernetes docs for [kubeadm upgrade](https://kubernetes.io/docs/tasks/
     - Reboot the node.
     - Make sure all systemd services (especially cri-o and kubelet) are running.
 6. Uncordon the node and repeat for the other control plane nodes.
-7. Repeat the steps 3-6 for worker nodes.
+7. Repeat steps 5 and 6 for the worker nodes.
 8. If all nodes are Ready and report the new version, you're all done.
