@@ -14,7 +14,7 @@ Read the Kubernetes docs for [kubeadm upgrade](https://kubernetes.io/docs/tasks/
 3. Repeat for the other control plane nodes, but with `kubeadm upgrade node` instead.
 4. Get kubectl access via SSH to a node you *aren't* upgrading.
 5. Upgrade kubelet on a control plane node.
-    - Drain the node with `kubectl drain cytosine --ignore-daemonsets --delete-emptydir-data`/
+    - Drain the node with `kubectl drain cytosine --ignore-daemonsets --delete-emptydir-data`.
     - FIXME: If pod eviction budgets are poorly configured, you may need to add `--disable-eviction`.
     - Deploy to the node with `colmena apply boot` (NOT switch).
     - Reboot the node.
