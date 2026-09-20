@@ -11,7 +11,7 @@ find you need a backup history of your own when you need to:
 * Regress to a previous state due to a bug
 * Recover from a security breach
 
-You can make easy-to-restore backups over [SSH](../shell.md) by
+You can make easy-to-restore backups over [SSH](../shell/index.md) by
 following the examples on this page. You could alternatively use SFTP, but this
 wouldn't allow you to back up a database.
 

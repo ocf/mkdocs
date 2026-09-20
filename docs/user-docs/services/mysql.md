@@ -30,7 +30,7 @@ If you are looking for a familiar phpMyAdmin interface, visit
 
 ## Creating a MySQL database
 
-Log into the OCF via [SSH](shell.md), at the terminal prompt enter
+Log into the OCF via [SSH](shell/index.md), at the terminal prompt enter
 the command `makemysql`. Hit yes to confirm the operation. Note your password
 in a safe place.
 

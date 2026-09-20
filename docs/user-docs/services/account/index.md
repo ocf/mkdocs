@@ -40,7 +40,7 @@ signatory for the group. If your group isn't registered with the LEAD Center
 
 You can change your password over SSH if you know your current password.
 
-Use [SSH](../shell.md) to run the command `passwd` and follow the
+Use [SSH](../shell/index.md) to run the command `passwd` and follow the
 prompts as shown below. No text will appear when you are entering in a
 password, just press enter when done after each prompt.
 

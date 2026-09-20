@@ -14,8 +14,8 @@ These are the current policies of the Open Computing Facility:
  * The printing quotas as documented on the
    [Printing](../services/lab/printing.md) page
  * [Database policy](../services/mysql.md#policies)
- * [Disk quota policy](../services/shell.md#disk-quotas)
- * [Unattended processes policy](../services/shell.md#unattended-processes)
+ * [Disk quota policy](../services/shell/index.md#disk-quotas)
+ * [Unattended processes policy](../services/shell/index.md#unattended-processes)
  * [Virtual hosting policy](../services/vhost/index.md#policies)
 
 There are also OCF policies which apply only to staff. These policies can
