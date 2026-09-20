@@ -18,6 +18,8 @@ OCF ArgoCD URL: [https://argo.ocf.io](https://argo.ocf.io)
 
 There is a web dashboard available at [tele.ocf.io](https://tele.ocf.io) that also contains similar instructions. Be sure to use OCF OIDC to log in (at the bottom of the options).
 
+even better (only on the staging cluster for now), get the oidc kubeconfig from ~staff/staging-kubeconfig and put it in your ~/.kube/config (or point the KUBECONFIG env var at it), then `kubectl config use-context gravitywell`
+
 ## k9s
 
 You can continue using kubectl to interact with the cluster, but k9s is also a nice tui option. Run `k9s` to open it.
