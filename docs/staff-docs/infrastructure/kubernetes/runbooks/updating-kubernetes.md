@@ -6,6 +6,7 @@ Read the Kubernetes docs for [kubeadm upgrade](https://kubernetes.io/docs/tasks/
 
 1. Update the git ref in the ocf/nix Kubernetes module to point to the new version.
     - Build once with an empty hash to get the correct hash before you commit.
+    - Make sure to update kubeadm.yaml to reflect the new version and any other changes.
 2. SSH into a control plane node and use kubeadm to upgrade the cluster.
     - You'll likely need to use a nix shell to get a newer kubeadm version without also updating the kubelet.
     - For example: `nix shell github:NixOS/nixpkgs/nixos-unstable#kubernetes`.
