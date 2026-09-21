@@ -14,14 +14,14 @@ Groups, faculty, and staff may also request a [virtual host](../vhost/index.md) 
 ## Uploading Files
 
 Upload files to your web space the same way you [upload files to your OCF
-account](../shell.md) (typically SFTP if used remotely). The only
+account](../shell/index.md) (typically SFTP if used remotely). The only
 difference is that files for your web space are placed in your `public_html`
 directory.
 
 ## Additional details
 
 The web server runs Apache 2.4 with FastCGI (mod_fcgid) and suEXEC.
-Access and error logs are accessible in `var/log/apache2/vhost_error.log` at death@ocf.berkeley.edu using [SSH](../shell.md).
+Access and error logs are accessible in `var/log/apache2/vhost_error.log` at death@ocf.berkeley.edu using [SSH](../shell/index.md).
 
 The web server itself runs as a dedicated user. If your .htaccess file is not
 world-readable (e.g., `chmod 644`), the web server will return the error "401
@@ -75,7 +75,7 @@ Here are two easy ways to re-create the symlink:
 
 #### via SSH
 
-1. Login to your account via [SSH](../shell.md).
+1. Login to your account via [SSH](../shell/index.md).
 2. After you go past all system messages, you will see a command prompt:
 
         user@carp:~$

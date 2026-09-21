@@ -10,7 +10,7 @@ When contributing to the OCF codebase, you will need some way of running and
 testing your code. Most of our applications cannot be run on a personal
 machine--they need to be run on OCF infrastructure. For most projects we
 recommend doing all development from `koi`, a server available to all
-staff. Our [Kubernetes server](../infrastructure/kubernetes/index.md) is also
+staff. Our [Kubernetes server](../kubernetes/index.md) is also
 accessible from `koi`.
 
 ## Before you begin
@@ -25,7 +25,7 @@ To log in, open a terminal window and type in:
 ssh username@koi.ocf.berkeley.edu
 ```
 
-For more instructions, see the [SSH docs](../../user-docs/services/shell/index.md). You should
+For more instructions, see the [SSH docs](../../../user-docs/services/shell/index.md). You should
 replace `ssh.ocf.berkeley.edu` with `koi.ocf.berkeley.edu`.
 
 ## Setting up SSH Keys
