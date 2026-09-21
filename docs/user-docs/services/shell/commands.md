@@ -15,7 +15,7 @@ These commands help you manage your OCF account.
 |---------|-------------|
 | `how SCRIPT` | Shows the source code for a script |
 | [`makehttp`](../web/index.md#via-ssh) | Puts a shortcut to your web directory in your home folder |
-| [`makemysql-real`](../mysql.md#creating-a-mysql-database) | Generates a new random password for your database, creating the database if it does not exist |
+| [`makemysql`](../mysql.md#creating-a-mysql-database) | Generates a new random password for your database, creating the database if it does not exist |
 | `paper` | Shows how many pages you can currently print |
 | `update-email` | Prompts you to set a contact email address for your OCF account |
 
