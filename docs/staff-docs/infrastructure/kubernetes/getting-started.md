@@ -11,6 +11,8 @@ This is a guide on getting set up with the OCF's Kubernetes cluster. It will be 
 
 (Currently only ocfroot can interact with the cluster, but we're working on a staging environment)
 
+If your command hangs, you likely need a Kerberos ticket (i.e. run `kinit`). Alternatively, you could copy the contents of the `$KUBECONFIG` file to your `~/.kube/config` and add the `--no-browser` flag. If you want to connect from your own device, just copy our configuration and it should work as is. For more information on configuring auth, please see the [kubelogin documentation](https://github.com/int128/kubelogin/).
+
 ## kubectl
 
 `kubectl` is the primary tool for a user to call the Kubernetes API. It is fairly extensive, but here are some basic commands that may be useful:
