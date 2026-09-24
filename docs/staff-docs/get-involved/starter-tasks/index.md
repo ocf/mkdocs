@@ -107,25 +107,24 @@ Whenever a technical change to the OCF is made, we use [a pull
 request][github-pull-request] on GitHub. Pull requests allow staffers to propose
 changes in discrete chunks and get feedback before the code goes live.
 
-You're going to make a pull request to [ocfweb][ocfweb]. Specifically, you'll
+You're going to make a pull request to [mkdocs][mkdocs]. Specifically, you'll
 add your name to [the list of everyone who's completed this task](completed.md).
 
 ### Set up
 1. Log into [GitHub](https://github.com). If your [OCF email](../../../user-docs/services/mail.md) (`<OCF username>@ocf.berkeley.edu`) is not connected to your
    account, [add it to your account emails](https://github.com/settings/emails).
-2. Create your personal [fork][github-fork] of [ocfweb][ocfweb].
-3. [Log into koi](../../procedures/ssh-koi.md).
-4. Optional: For easier authentication to GitHub, [generate an SSH
+2. Create your personal [fork][github-fork] of [mkdocs][mkdocs].
+3. Optional: For easier authentication to GitHub, [generate an SSH
    key][github-ssh-keygen] and [add it to your GitHub account][github-add-key].
    Note: the `xclip` commands will probably not work. Instead, just run `cat
    ~/.ssh/id_rsa.pub` and manually copy it to your clipboard.
-5. Return to **your new fork** of ocfweb and [clone the
-   repository][github-clone]. Enter your clone with `cd ocfweb`.
-6. Take a look at the README. It will tell you to run a few commands to finish
+4. Return to **your new fork** of mkdocs and [clone the
+   repository][github-clone]. Enter your clone with `cd mkdocs`.
+5ww. Take a look at the README. It will tell you to run a few commands to finish
    setting up.
 
 You only have to do this part once. Now that your fork is set up, all future
-pull requests to ocfweb will use this same clone.
+pull requests to mkdocs will use this same clone.
 
 ### Make your change
 1. First, you want to create a [new branch][git-branch] to separate this change
@@ -145,7 +144,7 @@ pull requests to ocfweb will use this same clone.
    - Other editors may have plugins to let you edit files over SSH, such as [VS
      Code][vscode-remote].
 3. Now that you've made the change, check out the README to see how to run
-   ocfweb in development mode. Once you're running in dev-mode, navigate to the
+   mkdocs in development mode. Once you're running in dev-mode, navigate to the
    page in your browser and visually check it.
 4. Run tests! The instructions for running the tests are also in the README. We
    didn't make any drastic changes, so the tests should hopefully pass without
@@ -166,15 +165,13 @@ because you thought of something new or because another staffer suggested a
 change. In this case, you'll update your pull request so that your username on
 the list links to the pull request you made.
 
-1. If you have disconnected, log back into koi and navigate to your ocfweb
-   folder.
-2. Copy the URL to the GitHub pull request you opened in the last part. Edit the
+1. Copy the URL to the GitHub pull request you opened in the last part. Edit the
    list file again, and replace your username with
    `[username](https://link.to/pull/request)`. The brackets and parentheses
    indicate that this is a [link in Markdown][markdown-link], which is the
    markup language we use for the docs.
-4. As before, stage your changes and commit them.
-5. Optional: Squash your changes. A pull request often will accumulate lots of
+2. As before, stage your changes and commit them.
+3. Optional: Squash your changes. A pull request often will accumulate lots of
    little commits that are not very important. You can "squash" all these
    commits together to make things cleaner.
    1. Run `git rebase -i HEAD~2` (`~2` is the number of commits to rebase) to do an
@@ -187,7 +184,7 @@ the list links to the pull request you made.
       to delete the second message. Save and exit.
    4. You did it! You can run `git log` to check: you should only see one commit
       at the top that is authored by you, instead of two.
-6. Push your new changes as before. If you did the optional step, you will have
+4. Push your new changes as before. If you did the optional step, you will have
    to add the argument `--force-with-lease` after `push`.
 
 After pushing, the pull request on GitHub will automatically update with the new
@@ -197,7 +194,7 @@ Congrats on making your PR! If you want to learn more about what you can do with
 git, check out our [documentation on git](../../infrastructure/git.md).
 
 [github-pull-request]: https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests
-[ocfweb]: https://github.com/ocf/ocfweb
+[mkdocs]: https://github.com/ocf/mkdocs
 [github-fork]: https://help.github.com/en/github/getting-started-with-github/fork-a-repo
 [github-ssh-keygen]: https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key
 [github-add-key]: https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
