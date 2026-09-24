@@ -6,7 +6,7 @@ Email sent to your username @ocf.berkeley.edu (e.g.
 `username@ocf.berkeley.edu`) will be forwarded to a contact email address of
 your choosing.
 
-To configure a forwarding address, log in via [SSH](shell.md) and
+To configure a forwarding address, log in via [SSH](shell/index.md) and
 enter the `update-email` command to view or update your contact email address.
 
 Note that you are required to keep your contact address up-to-date for as long

@@ -23,7 +23,7 @@ stanzas to `/etc/network/interfaces` or `/etc/network/interfaces.d/<iface>`.
 
 We use bond-mode 4, or 802.3ad. Other types are available, like active-fallback or load balancing,
 but we use 802.3ad. Link aggregation needs to be configured on the switch as well to work. Instructions
-for doing so can be found in the [documentation for the switch](../infrastructure/switch.md).
+for doing so can be found in the [documentation for the switch](../switch.md).
 
 Configuring the bonding interface is relatively simple. One must first install `ifenslave`, and
 identify the physical interfaces that will be slaved to the bond virtual interface. Then, write

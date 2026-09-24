@@ -104,4 +104,4 @@ If you're trying to run a webapp or other kind of server process on the SSH
 login server (`ssh.ocf.berkeley.edu`), please note that the SSH login server is
 firewalled and what you're trying to do unfortunately won't work. If you're a
 group and you're trying to run a webapp, you may want to consider
-[apphosting](webapps/index.md) instead.
+[apphosting](../webapps/index.md) instead.

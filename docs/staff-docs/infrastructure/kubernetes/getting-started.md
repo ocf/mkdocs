@@ -2,34 +2,41 @@
 title: Getting Started
 ---
 
-OCF's kubernetes setup can be intimidating to newcomers, but it's important to learn because a good amount of our infra is on there!
+This is a guide on getting set up with the OCF's Kubernetes cluster. It will be updated as we develop a staging environment and more accessible workflows for staff.
 
-OCF ArgoCD URL: [https://argo.ocf.io](https://argo.ocf.io)
+## Accessing the Cluster:
+1. Connect to an OCF machine (desktop or login server)
+2. Run `kubectl auth whoami`
+3. :D
 
-## Accessing the k8s cluster:
+By default this targets the staging cluster, but you can pass `--context=dna` to target production if you have access.
 
-1. SSH into the [staff login server (koi)](../../nix-hosts/login-servers/)
-2. Run `tsh login --proxy tele.ocf.io:443 --bind-addr=127.0.0.1:4242 --browser=none --auth=ocfauth tele.ocf.io` on koi.
-3. Then, run `ssh -L 4242:localhost:4242 -N koi` on your local host that can open a browser.
-4. Open the URL which tsh login had outputted on `koi` in your local browser, which should log you into Teleport. You can now close the ssh tunnel on local host.
-3. Now, back on koi from now on: `export KUBECONFIG=${HOME?}/teleport-kubeconfig.yaml`
-4. `tsh kube login dna.ocf.io`
-5. If running `kubectl get pods` shows `No resources found in default namespace.`, you're good to go!
+(Currently only ocfroot can interact with the cluster, but we're working on a staging environment)
 
-There is a web dashboard available at [tele.ocf.io](https://tele.ocf.io) that also contains similar instructions. Be sure to use OCF OIDC to log in (at the bottom of the options).
+If your command hangs, you likely need a Kerberos ticket (i.e. run `kinit`). Alternatively, you could copy the contents of the `$KUBECONFIG` file to your `~/.kube/config` and add the `--no-browser` flag. If you want to connect from your own device, just copy our configuration and it should work as is. For more information on configuring auth, please see the [kubelogin documentation](https://github.com/int128/kubelogin/).
+
+## kubectl
+
+`kubectl` is the primary tool for a user to call the Kubernetes API. It is fairly extensive, but here are some basic commands that may be useful:
+
+- `kubectl get nodes` - List all nodes in the cluster, useful to see if any nodes are NotReady or SchedulingDisabled (cordoned).
+- `kubectl get ns` - List namespaces. Almost all resources should be in a namespace, which needs to be specified with `-n [namespace]` when appropriate.
+- `kubectl get [resource]` - List all of the given resource in a namespace. Some common resource types are `deploy`, `pod`, `svc`, `ing`, `cm`.
+- `kubectl api-resources` - List all resource types. This will be very overwhelming due to the number of CRDs, and probably not helpful.
+- `kubectl get [resource]/[name]` - Get information on the named resource. Specify output type with `-o`, such as `-o yaml` for the object's manifest.
+- `kubectl describe [resource]/[name]` - Get details on the current state of the named resource.
+- `kubectl logs [pod|deployment]/[name]` - Get logs for the container running in a pod. You can specify a container with `-c` and follow the logs with `-f`.
+
+There are a lot of other commands and flags, which you can learn about in [the docs](https://kubernetes.io/docs/reference/kubectl/). Some useful flags are `-A` to list all namespaces, and `--watch` to watch for changes in output. Flux should manage almost all resources during normal cluster operation, so directly mutating state with `kubectl` should be reserved for when it is absolutely needed for debugging purposes.
 
 ## k9s
 
-You can continue using kubectl to interact with the cluster, but k9s is also a nice tui option. Run `k9s` to open it.
+If you'd prefer a tui wrapper with `vim`-like keybinds, `k9s` is installed on our machines:
 
-`k9s` has vim-like keybinds:
-
-- `:q` to quit
-- `:ns` to view available [namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
-- scroll with `j` and `k` down to the `ocfweb` namespace (you can also scroll with your mouse). Press enter.
+- `:q` to quit.
+- `:ns` to view available [namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/).
+- Scroll with `j` and `k` down to the `ocfweb` namespace (you can also scroll with your mouse). Press enter.
 - You are now viewing the pods for `ocfweb`; press enter on one to see its containers. Press `esc` (maybe twice) to go back to the previous page.
 - Press `l` to see the logs for that pod. Use `j` and `k` to scroll through them.
 - Press `d` on the pod to get additional information about it.
-- see more keybinds: [k9scli.io/topics/commands](https://k9scli.io/topics/commands/)
-
-If you kill a pod, argocd **should** recreate it according to the cluster state defined in [ocf/kubernetes](https://github.com/ocf/kubernetes). Don't go around restarting or deleting pods unless you have time to fix them, in case it isn't restarted properly!!
+- See more keybinds: [k9scli.io/topics/commands](https://k9scli.io/topics/commands/).

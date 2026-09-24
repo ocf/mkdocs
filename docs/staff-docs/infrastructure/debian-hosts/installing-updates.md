@@ -19,7 +19,7 @@ To install updates:
 1. Make sure the desktops are not
    [suspended](https://github.com/ocf/puppet/blob/master/modules/ocf_desktop/files/suspend/ocf-suspend),
    and that you aren't trying to install updates near a 15-minute boundary when
-   the desktops auto-suspend. See [lab-wakeup](../scripts/lab-wakeup.md) to
+   the desktops auto-suspend. See [lab-wakeup](../../scripts/lab-wakeup.md) to
    wake up the desktops prior to updating.
 
 2. From `koi`, run:

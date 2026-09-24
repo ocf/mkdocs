@@ -13,7 +13,7 @@ during staff hours](https://ocf.io/staffhours) for in-person assistance.
 
 ## Installing WordPress
 
-The easiest way to set up WordPress is via [SSH](../shell.md). Some
+The easiest way to set up WordPress is via [SSH](../shell/index.md). Some
 simple instructions:
 
 1. Go to our [web-based SSH client](https://ssh.ocf.berkeley.edu/) and sign in
