@@ -27,7 +27,7 @@ OCF's convention is to put the contents of the `V1Secret` in Vault at the path  
 }
 ```
 
-The easier way to do this is to create a `V1Secret`, and let [transpire](/doc/configuration-transpire-uJ5GHrW9cg) automatically transform it into a `VaultSecret`. If the secret can be automatically generated (i.e. it's a random string) you can write some Python to generate it, and then push the generated secret to Vault with `transpire secret push <module>`.
+The easier way to do this is to create a `V1Secret`, and let [transpire](../configuration-transpire/index.md) automatically transform it into a `VaultSecret`. If the secret can be automatically generated (i.e. it's a random string) you can write some Python to generate it, and then push the generated secret to Vault with `transpire secret push <module>`.
 
 ```python
 from transpire.resources import Secret
@@ -57,7 +57,7 @@ The annotations to use are [documented on the Hashicorp website](https://develop
 
 Vault may have an engine that specifically supports your use-case (e.x. databases). If this is the case, configure Vault via OCF Terraform to support your use case. Instructions are provided in the [Vault documentation](https://developer.hashicorp.com/vault).
 
-Generic secret provisioning to non-Kubernetes infrastructure is currently out of scope, and is explicitly not recommended for anything that sits underneath Kubernetes because it will create dependency loops. For example, [NixOS](/doc/nixos-linux-systems-Mh8Ugu5kdY) should use a different secret management solution.
+Generic secret provisioning to non-Kubernetes infrastructure is currently out of scope, and is explicitly not recommended for anything that sits underneath Kubernetes because it will create dependency loops. For example, [NixOS](../../nix-hosts/index.md) should use a different secret management solution.
 
 ## Configuration
 

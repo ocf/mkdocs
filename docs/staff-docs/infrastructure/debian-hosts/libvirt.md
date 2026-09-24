@@ -139,7 +139,7 @@ and for vCPUs:
 
 ### How do I edit my VM's disk size?
 
-There's [a full guide for this in the docs](../procedures/live-resize.md)
+There's [a full guide for this in the docs](live-resize.md)
 with step-by-step instructions for how to live-resize your VM to have _more_
 disk size. However, if you'd instead like to _shrink_ a partition on-line, see
 [this Unix SE answer](https://unix.stackexchange.com/a/227318). It's much more
