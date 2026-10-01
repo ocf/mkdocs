@@ -47,5 +47,5 @@ clients to send as a vhost address. (See `/etc/pam.d/smtp` and
 
 ## How do I add mail hosting to a group?
 
-See [here](../config-vhost/).
+See [here](config-vhost.md).
 

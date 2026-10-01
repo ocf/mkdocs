@@ -81,7 +81,7 @@ You have two choices:
     your documentation.
 
   * **Option 2 (postal mail).** Mail your documentation to our [mailing
-    address](../../contact/index.md#mailing-address). Expect a delay of at least 2-3 weeks,
+    address](../../contact/index.md#snail-mail). Expect a delay of at least 2-3 weeks,
     possibly longer over summer.
 
 For security purposes, please include the following with your request:

@@ -5,7 +5,7 @@ title: "economode: turn economode on/off on the printers"
 By default our printers print with the Economode setting off. If you need to save toner, you can use the `economode` script to turn Economode on.
 
 You'll need the printer password, whose location can be found in the
-[private docs](../private/index.md).
+[private docs](../private.md).
 
 ## Usage
 

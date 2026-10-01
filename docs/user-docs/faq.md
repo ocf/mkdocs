@@ -5,7 +5,7 @@ title: Frequently Asked Questions
 
 The OCF, otherwise known as the Open Computing Facility, is the largest(\*) student organization on campus (\*by membership count). OCF is
 completely administered and operated by student volunteers ("staff"). [About
-the OCF](about.md). We provide access to computing services for students by students the list of which you can find [here](services/index.md).
+the OCF](index.md). We provide access to computing services for students by students the list of which you can find [here](services/index.md).
 
 
 Interested in [joining staff](https://www.ocf.berkeley.edu/about/staff)? Feel free to attend our meetings, [contact us](contact/index.md) by email or join the [Discord](https://ocf.io/discord)!
