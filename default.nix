@@ -13,10 +13,14 @@ stdenvNoCC.mkDerivation {
   ];
 
   buildPhase = ''
+    runHook preBuild
     mkdocs build
+    runHook postBuild
   '';
 
   installPhase = ''
+    runHook preInstall
     mv site $out
+    runHook postInstall
   '';
 }
