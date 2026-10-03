@@ -35,13 +35,12 @@
               pid /dev/null;
               events {}
               http {
+                include ${pkgs.nginx}/conf/mime.types;
+                default_type application/octet-stream;
                 access_log /dev/stdout;
                 server {
                   listen ${nginxPort};
-                  index index.html;
-                  location / {
-                    root ${docsPath};
-                  }
+                  root ${docsPath};
                 }
               }
             '';
