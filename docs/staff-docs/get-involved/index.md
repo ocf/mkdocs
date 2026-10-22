@@ -34,7 +34,7 @@ We hold two meetings each week during the fall and spring semesters. If you're
 new to the OCF, we recommend you attend our [General
 Meetings](staff-meetings.md). If you're curious about the larger technical and
 administrative decisions we make, you can also listen in on our [Board of
-Directors](/bod/) meetings.
+Directors](../../bod/index.md) meetings.
 
 ### Linux SysAdmin DeCal
 
@@ -48,7 +48,7 @@ say you’re interested in joining staff and we’ll let you in.
 
 ### Starter Tasks
 
-The [Starter Tasks](starter-tasks) page in our documentation contains a variety of intermediate-difficulty exercises that are another great way to get some practice working with OCF infrastructure.
+The [Starter Tasks](starter-tasks/index.md) page in our documentation contains a variety of intermediate-difficulty exercises that are another great way to get some practice working with OCF infrastructure.
 
 ### Contribute
 
@@ -105,7 +105,7 @@ attending staff hours can serve multiple purposes:
 **I wasn’t able to make the first/second/nth meeting of the semester, can I
 still join?**
 
-Yes! You can join at any meeting at any time. If you’re worried about what you’ve missed, you can ask a veteran staffer to bring you up to speed or review the [BoD minutes](/bod/) for that week.
+Yes! You can join at any meeting at any time. If you’re worried about what you’ve missed, you can ask a veteran staffer to bring you up to speed or review the [BoD minutes](../../bod/index.md) for that week.
 
 **What if I can’t physically be present at weekly meetings?**
 

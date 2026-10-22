@@ -3,13 +3,13 @@ Board of Directors Meeting
 Attendance:
 - [ ] msonmez
 - [ ] rsang
-- [ ] blakeh
+- [ ] elenah
 - [ ] sbwilliams
 
 - [ ] ericgu
 - [ ] joiew
 - [ ] lafer
-- [ ] erdaifu
+- [ ] erdaifuu
 - [ ] finwan
 - [ ] lukegon
 

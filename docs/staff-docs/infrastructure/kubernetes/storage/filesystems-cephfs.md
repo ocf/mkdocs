@@ -31,4 +31,4 @@ We have not tried to optimize CephFS for performance. There is likely a lot of h
 
 ## Data Durability
 
-All Persistent Volumes are backed up to the OCF backup server unless they have the label `velero.io/exclude-from-backup: true`. These backups are then periodically replicated offsite in Fremont, CA. For more details on the backup strategy, see [Backups (Velero)](/doc/backups-velero-xVMmUZgO2s).
+All Persistent Volumes are backed up to the OCF backup server unless they have the label `velero.io/exclude-from-backup: true`. These backups are then periodically replicated offsite in Fremont, CA. For more details on the backup strategy, see [Backups (Velero)](../backups-velero.md).

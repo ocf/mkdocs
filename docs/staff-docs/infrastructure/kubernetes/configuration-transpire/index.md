@@ -1,6 +1,6 @@
 # Configuration (Transpire)
 
-[Transpire](https://github.com/ocf/transpire) (/tɹænˈspaɪ̯ɚ/) is a Kubernetes config generation tool designed by and for the Open Computing Facility. If you're wondering why we wanted to build our own thing, check out the [History](/doc/history-wxYwTlBgfS) document.
+[Transpire](https://github.com/ocf/transpire) (/tɹænˈspaɪ̯ɚ/) is a Kubernetes config generation tool designed by and for the Open Computing Facility. If you're wondering why we wanted to build our own thing, check out the [History](transpire-history.md) document.
 
 ## Design Goals
 

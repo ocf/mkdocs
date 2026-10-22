@@ -17,7 +17,7 @@ it also gives all the information needed to create group accounts with
 up UIDs and OIDs in OCF [LDAP](../infrastructure/ldap.md) and names in the
 university's [LDAP directory service][berkeleyldap].
 
-[ocflib]: github.com/ocf/ocflib
+[ocflib]: https://github.com/ocf/ocflib
 [callinkapi]: https://studentgroupservice.sait-west.berkeley.edu/service.asmx
 [berkeleyldap]: https://wikihub.berkeley.edu/display/calnet/LDAP+Directory+Service
 

@@ -33,4 +33,4 @@ To install Nix, follow the instructions at https://zero-to-nix.com/start/install
 
 ## Old Linux Systems (Puppet)
 
-We used to use [Puppet](/doc/puppet-4chWqU6Eqx). Actually we still do use puppet, and most of our legacy infrastructure is on it. See the link in the first sentence for more information!
+We used to use [Puppet](../debian-hosts/puppet.md). Actually we still do use puppet, and most of our legacy infrastructure is on it. See the link in the first sentence for more information!

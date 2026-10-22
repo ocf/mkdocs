@@ -12,7 +12,7 @@ to connect to the bouncer from your desktop client, irssi, phone, etc.
 It's handy to avoid constantly disconnecting/reconnecting from IRC. It will
 also store messages you've missed and replay them when you log in.
 
-It's useful along with [OCF's IRC server](../../user-docs/contact/irc.md).
+It's useful along with [OCF's IRC server](../../user-docs/contact/chat.md).
 
 ## Installing ZNC on your staff VM
 

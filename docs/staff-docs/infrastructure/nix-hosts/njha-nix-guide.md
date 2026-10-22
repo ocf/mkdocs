@@ -23,7 +23,7 @@ Next you should install a copy of the OS. If you have spare hardware lying aroun
 * NixOS Options: <https://search.nixos.org/options>
 * NixOS Packages: [https://search.nixos.org/packages](https://search.nixos.org/packages?)
 
-It's a good idea to either install Nix locally (see [Nix on your Computer](/doc/nix-on-your-computer-r7pLkYWNML) for installation instructions) or use your NixOS install to play around with Nix more.
+It's a good idea to either [install Nix locally](https://zero-to-nix.com/start/install) or use your NixOS install to play around with Nix more.
 
 ## Step 3. Nix Course
 
