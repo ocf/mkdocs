@@ -18,6 +18,8 @@ Attendance:
 - [ ] lukepeters
 - [ ] vqbc
 - [ ] michaelzls
+- [ ] angelawuuski
+- [ ] studentkrisk
 
 Guests:
 
