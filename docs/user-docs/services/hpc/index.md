@@ -49,8 +49,7 @@ following specifications:
 * 256GB ECC DDR4-3200 RAM
 
 The current hardware were funded with our ASUC budget and the GPUs were
-gifted by NVIDIA through the [NVIDIA Academic Hardware Grant Program]
-(https://developer.nvidia.com/higher-education-and-research).
+gifted by NVIDIA through the [NVIDIA Academic Hardware Grant Program](https://developer.nvidia.com/higher-education-and-research).
 
 ## Slurm
 
