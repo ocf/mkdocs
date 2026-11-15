@@ -2,6 +2,8 @@
 title: 'approve: record an OCF group account request'
 ---
 
+**The approve program can only be run by rootstaff.**
+
 This page explains the OCF account approval procedure and the usage of the
 `approve` script.
 
