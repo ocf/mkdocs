@@ -12,6 +12,7 @@ Attendance:
 - [ ] erdaifuu
 - [ ] finwan
 - [ ] lukegon
+- [ ] jingwen
 
 - [ ] racheyangg
 - [ ] rschuetz
@@ -20,6 +21,7 @@ Attendance:
 - [ ] michaelzls
 - [ ] angelawuuski
 - [ ] studentkrisk
+- [ ] quasar
 
 Guests:
 
