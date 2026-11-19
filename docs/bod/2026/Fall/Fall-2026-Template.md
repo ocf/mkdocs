@@ -23,7 +23,7 @@ Attendance:
 
 Guests:
 
-Quorum for this meeting is ${quorum}
+Minimum attendance required for quorum is 9
 
 Meeting Started at ${start_time}
 
